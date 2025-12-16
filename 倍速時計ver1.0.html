@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>倍速時計</title>
+    <title>倍速時計ver1.0</title>
     <style>
         body {
             background-color: #000000;
@@ -43,7 +43,7 @@
         
         #patternTextDisplay {
             margin-top: 20px;
-            font-size: 2.5em;
+            font-size: 3.5em;
             font-weight: bold;
             min-height: 1.5em;
             text-align: center;
@@ -200,25 +200,25 @@
         <div id="settingsContainer">
             
             <div class="setting-group">
-                <h3>倍速率</h3>
+                <h3>スケール</h3>
                 <div class="radio-group">
                     <input type="radio" id="val12" name="value" value="12" checked>
-                    <label for="val12">12</label>
+                    <label for="val12">×12</label>
                     <input type="radio" id="val15" name="value" value="15">
-                    <label for="val15">15</label>
+                    <label for="val15">×15</label>
                     <input type="radio" id="val20" name="value" value="20">
-                    <label for="val20">20</label>
+                    <label for="val20">×20</label>
                     <input type="radio" id="val30" name="value" value="30">
-                    <label for="val30">30</label>
+                    <label for="val30">×30</label>
                     <input type="radio" id="val60" name="value" value="60">
-                    <label for="val60">60</label>
+                    <label for="val60">×60</label>
                 </div>
             </div>
             
             <div class="setting-group">
-                <h3>目標時刻</h3>
+                <h3>開始時刻</h3>
                 <input type="time" id="targetTime" name="targetTime" value="00:00">
-                <button type="button" id="setNowButton">現在時刻を入力</button>
+                <button type="button" id="setNowButton">現在時刻</button>
             </div>
             
             <div class="setting-group">
@@ -428,4 +428,5 @@
     <small>&copy; 電気通信大学 鉄道研究会</small>
 </footer>
 </body>
+
 </html>
