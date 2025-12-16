@@ -1,66 +1,68 @@
 {
   "S": [
     {
+      "time_seconds": 0,
+      "parts": [
+        { "text": "0:00", "style": {} },
+        { "text": " 各 停 ", "style": { "color": "#ffffff", "backgroundColor": "#3b3a7f" } },
+        { "text": "相模大野", "style": {} }
+      ]
+    },
+    {
+      "time_seconds": 3600,
+      "parts": [
+        { "text": "01:00", "style": {} },
+        { "text": " 準 急 ", "style": { "color": "#ffffff", "backgroundColor": "#00ee00" } },
+        { "text": "向ヶ丘遊園", "style": {} }
+      ]
+    },
+    {
+      "time_seconds": 7200,
+      "parts": [
+        { "text": "02:00", "style": {} },
+        { "text": " 通勤準急 ", "style": { "color": "#00ee00", "backgroundColor": "#eeeeee" } },
+        { "text": "唐木田", "style": {} }
+      ]
+    },
+    {
       "time_seconds": 10800,
       "parts": [
         { "text": "03:00", "style": {} },
-        { "text": "通常運行", "style": {} },
-        { "text": "異常なし", "style": {} }
+        { "text": " 急 行 ", "style": { "color": "#ffffff", "backgroundColor": "#ff0000" } },
+        { "text": "相模大野", "style": {} }
+      ]
+    },
+    {
+      "time_seconds": 14400,
+      "parts": [
+        { "text": "04:00", "style": {} },
+        { "text": " 通勤急行 ", "style": { "color": "#ff0000", "backgroundColor": "#eeeeee" } },
+        { "text": "相模大野", "style": {} }
       ]
     },
     {
       "time_seconds": 18000,
       "parts": [
         { "text": "05:00", "style": {} },
-        { "text": "緊急", "style": { "color": "#ffffff", "backgroundColor": "#ff0000" } },
-        { "text": "会議室Bへ集合", "style": {} }
-      ]
-    }
-  ],
-  "G": [
-    {
-      "time_seconds": 28800,
-      "parts": [
-        { "text": "08:00", "style": { "color": "#ffff00", "backgroundColor": "#0000ff" } },
-        { "text": "点検", "style": {} },
-        { "text": "メインシステム", "style": {} }
+        { "text": " 快速急行 ", "style": { "color": "#ffffff", "backgroundColor": "#ff8000" } },
+        { "text": "相模大野", "style": {} }
       ]
     },
     {
-      "time_seconds": 32400,
+      "time_seconds": 21600,
       "parts": [
-        { "text": "09:00", "style": {} },
-        { "text": "休憩", "style": { "color": "#000000", "backgroundColor": "#00ff00" } },
-        { "text": "カフェテリア", "style": {} }
+        { "text": "06:00", "style": {} },
+        { "text": " はこね ", "style": { "color": "#ffffff", "backgroundColor": "#ff00ff" } },
+        { "text": "相模大野", "style": {} }
       ]
-    }
-  ],
-  "O": [
+    },
     {
-      "time_seconds": 46800,
+      "time_seconds": 25200,
       "parts": [
-        { "text": "13:00", "style": {} },
-        { "text": "Cパターン", "style": {} },
-        { "text": "開始", "style": {} }
+        { "text": "07:00", "style": {} },
+        { "text": " モーニングウェイ ", "style": { "color": "#ffffff", "backgroundColor": "#8000ff" } },
+        { "text": "相模大野", "style": {} }
       ]
     }
-  ],
-  "K": [
-        {
-            "time_seconds": 72000, 
-            "parts": [
-                { "text": "20:00", "style": {} },
-                { "text": "Dパターン", "style": { "color": "#000000", "backgroundColor": "#FFD700" } },
-                { "text": "夜間警備開始", "style": {} }
-            ]
-        },
-        {
-            "time_seconds": 81000, 
-            "parts": [
-                { "text": "22:30", "style": {} },
-                { "text": "Dパターン", "style": {} },
-                { "text": "終了待ち", "style": {} }
-            ]
-        }
-    ]
+  ]
 }
