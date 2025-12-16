@@ -1,0 +1,66 @@
+{
+  "A": [
+    {
+      "time_seconds": 10800,
+      "parts": [
+        { "text": "03:00", "style": {} },
+        { "text": "通常運行", "style": {} },
+        { "text": "異常なし", "style": {} }
+      ]
+    },
+    {
+      "time_seconds": 18000,
+      "parts": [
+        { "text": "05:00", "style": {} },
+        { "text": "緊急", "style": { "color": "#ffffff", "backgroundColor": "#ff0000" } },
+        { "text": "会議室Bへ集合", "style": {} }
+      ]
+    }
+  ],
+  "B": [
+    {
+      "time_seconds": 28800,
+      "parts": [
+        { "text": "08:00", "style": { "color": "#ffff00", "backgroundColor": "#0000ff" } },
+        { "text": "点検", "style": {} },
+        { "text": "メインシステム", "style": {} }
+      ]
+    },
+    {
+      "time_seconds": 32400,
+      "parts": [
+        { "text": "09:00", "style": {} },
+        { "text": "休憩", "style": { "color": "#000000", "backgroundColor": "#00ff00" } },
+        { "text": "カフェテリア", "style": {} }
+      ]
+    }
+  ],
+  "C": [
+    {
+      "time_seconds": 46800,
+      "parts": [
+        { "text": "13:00", "style": {} },
+        { "text": "Cパターン", "style": {} },
+        { "text": "開始", "style": {} }
+      ]
+    }
+  ]
+  "D": [
+        {
+            "time_seconds": 72000, 
+            "parts": [
+                { "text": "20:00", "style": {} },
+                { "text": "Dパターン", "style": { "color": "#000000", "backgroundColor": "#FFD700" } }, // 金色背景
+                { "text": "夜間警備開始", "style": {} }
+            ]
+        },
+        {
+            "time_seconds": 81000, 
+            "parts": [
+                { "text": "22:30", "style": {} },
+                { "text": "Dパターン", "style": {} },
+                { "text": "終了待ち", "style": {} }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小田急ダイヤ運転会　倍速時計</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            padding: 10px;
+            box-sizing: border-box;
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+        body.light-mode {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        
+        #timeContainer {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        #currentTime {
+            font-size: 20vw;
+            text-align: center;
+            max-width: 90vw;
+            line-height: 1;
+        }
+        
+        #patternTextDisplay {
+            margin-top: 20px;
+            font-size: 3.5em;
+            font-weight: bold;
+            min-height: 1.5em;
+            text-align: center;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .pattern-part {
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: color 0.5s, background-color 0.5s;
+            font-size: 1em;
+        }
+
+        #settingsContainer {
+            width: 95%;
+            max-width: 800px;
+            background-color: #1a1a1a;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 10px;
+            transition: background-color 0.5s;
+        }
+        body.light-mode #settingsContainer {
+            background-color: #f0f0f0;
+        }
+
+        .setting-group {
+            flex: 1;
+            min-width: 140px;
+            padding: 5px;
+            margin-bottom: 0;
+        }
+
+        h3 {
+            margin: 0 0 5px 0;
+            color: inherit;
+            font-size: 0.9em;
+            text-align: center;
+        }
+
+        .radio-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .radio-group label {
+            display: block;
+            background-color: #333;
+            color: #fff;
+            padding: 5px 8px;
+            margin: 3px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .radio-group input[type="radio"]:checked + label {
+            background-color: #007bff;
+            color: #fff;
+        }
+        body.light-mode .radio-group label {
+            background-color: #ccc;
+            color: #333;
+        }
+        body.light-mode .radio-group input[type="radio"]:checked + label {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .radio-group input[type="radio"] {
+            display: none;
+        }
+        
+        #targetTime {
+            font-size: 1.1em;
+            padding: 8px;
+            border-radius: 4px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 5px;
+            text-align: center;
+            transition: background-color 0.5s, color 0.5s;
+        }
+        body.light-mode #targetTime {
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #ccc;
+        }
+        
+        #setNowButton {
+            width: 100%;
+            padding: 5px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.8em;
+        }
+        #setNowButton:hover {
+            background-color: #218838;
+        }
+        
+        /* 背景切替ボタン用スタイル */
+        #toggleBackgroundButton {
+            width: 100%;
+            height: 100%;
+            padding: 5px 8px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 0.8em;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s;
+            box-sizing: border-box;
+        }
+        #toggleBackgroundButton:hover {
+            background-color: #444;
+        }
+        body.light-mode #toggleBackgroundButton {
+            background-color: #ccc;
+            color: #333;
+        }
+        body.light-mode #toggleBackgroundButton:hover {
+            background-color: #ddd;
+        }
+        .theme-group {
+             flex: 1;
+             min-width: 140px;
+             padding: 5px;
+             margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="timeContainer">
+        <div id="currentTime">00:00:00</div>
+        <div id="patternTextDisplay"></div>
+    </div>
+
+    <form id="settingForm">
+        <div id="settingsContainer">
+            
+            <div class="setting-group">
+                <h3>倍速率</h3>
+                <div class="radio-group">
+                    <input type="radio" id="val12" name="value" value="12" checked>
+                    <label for="val12">12</label>
+                    <input type="radio" id="val15" name="value" value="15">
+                    <label for="val15">15</label>
+                    <input type="radio" id="val20" name="value" value="20">
+                    <label for="val20">20</label>
+                    <input type="radio" id="val30" name="value" value="30">
+                    <label for="val30">30</label>
+                    <input type="radio" id="val60" name="value" value="60">
+                    <label for="val60">60</label>
+                </div>
+            </div>
+            
+            <div class="setting-group">
+                <h3>開始時刻</h3>
+                <input type="time" id="targetTime" name="targetTime" value="00:00">
+                <button type="button" id="setNowButton">現在時刻</button>
+            </div>
+            
+            <div class="setting-group">
+                <h3>パターン選択</h3>
+                <div class="radio-group">
+                    <input type="radio" id="patA" name="pattern" value="A" checked>
+                    <label for="patA">パターン A</label>
+                    <input type="radio" id="patB" name="pattern" value="B">
+                    <label for="patB">パターン B</label>
+                    <input type="radio" id="patC" name="pattern" value="C">
+                    <label for="patC">パターン C</label>
+                    <input type="radio" id="patD" name="pattern" value="D">
+                    <label for="patD">パターン D</label>
+                </div>
+            </div>
+            
+            <div class="theme-group">
+                <h3>背景</h3>
+                <div class="radio-group">
+                    <button type="button" id="toggleBackgroundButton">切替</button>
+                </div>
+            </div>
+            
+        </div>
+    </form>
+
+    <script>
+    const settingForm = document.getElementById('settingForm');
+    const targetTimeInput = document.getElementById('targetTime');
+    const patternDisplay = document.getElementById('patternTextDisplay');
+    const LOCAL_STORAGE_KEY_THEME = 'themeMode';
+    let clockInterval;
+    
+    // [外部から読み込まれる変数として初期化]
+    let allPatterns = {}; 
+
+    // [JSONデータの読み込み関数]
+    async function loadPatterns() {
+        try {
+            const response = await fetch('patterns.json?' + new Date().getTime());
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            allPatterns = await response.json();
+            
+            // データ読み込み後、初期設定と時計の開始を行う
+            initializeSettings();
+            
+        } catch (error) {
+            console.error("Could not load patterns.json.", error);
+            patternDisplay.textContent = "データを読み込めません。ローカルサーバーの起動を確認してください。";
+            if (clockInterval) clearInterval(clockInterval);
+        }
+    }
+
+    function formatSeconds(totalSeconds) {
+        const absSeconds = Math.abs(totalSeconds);
+        const hours = Math.floor(absSeconds / 3600);
+        const minutes = Math.floor((absSeconds % 3600) / 60);
+        const seconds = Math.floor(absSeconds % 60);
+        const sign = totalSeconds < 0 ? "-" : "";
+        return sign + String(hours).padStart(2, '0') + ":" + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0');
+    }
+
+    function updateSpeedyClock() {
+        if (Object.keys(allPatterns).length === 0) return; 
+
+        const selectedValue = parseInt(settingForm.elements.value.value, 10);
+        const targetTimeString = targetTimeInput.value;
+        const selectedPatternKey = settingForm.elements.pattern.value;
+
+        if (!targetTimeString) return;
+
+        const now = new Date();
+        const [targetHours, targetMinutes] = targetTimeString.split(':').map(Number);
+        const targetDate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), targetHours, targetMinutes, 0, 0);
+
+        let timeElapsedSeconds = Math.round((now.getTime() - targetDate.getTime()) / 1000);
+        
+        const cycleDurationMinutes = 1800 / selectedValue;
+        const cycleDurationSeconds = cycleDurationMinutes * 60;
+
+        let cycledTimeSeconds = timeElapsedSeconds % cycleDurationSeconds;
+        if (cycledTimeSeconds < 0) cycledTimeSeconds += cycleDurationSeconds;
+
+        const displayedTotalSeconds = cycledTimeSeconds * selectedValue;
+        
+        document.getElementById('currentTime').textContent = formatSeconds(displayedTotalSeconds);
+        updatePatternDisplay(displayedTotalSeconds, selectedPatternKey);
+    }
+
+    function updatePatternDisplay(currentTotalSeconds, patternKey) {
+        const currentPattern = allPatterns[patternKey];
+        
+        if (!currentPattern) {
+            patternDisplay.innerHTML = "";
+            return;
+        }
+
+        let bestMatchParts = null;
+        let bestMatchSeconds = -1;
+
+        for (const item of currentPattern) {
+            const triggerSeconds = item.time_seconds; 
+
+            if (triggerSeconds <= currentTotalSeconds) {
+                if (triggerSeconds > bestMatchSeconds) {
+                    bestMatchSeconds = triggerSeconds;
+                    bestMatchParts = item.parts;
+                }
+            }
+        }
+        
+        if (!bestMatchParts) {
+            const lastItem = currentPattern[currentPattern.length - 1];
+            if (lastItem) {
+                bestMatchParts = lastItem.parts;
+            }
+        }
+
+        patternDisplay.innerHTML = '';
+
+        if (bestMatchParts) {
+            bestMatchParts.forEach(part => {
+                const span = document.createElement('span');
+                span.className = 'pattern-part';
+                span.textContent = part.text;
+
+                if (part.style) {
+                    if (part.style.color) span.style.color = part.style.color;
+                    if (part.style.backgroundColor) span.style.backgroundColor = part.style.backgroundColor;
+                }
+                
+                patternDisplay.appendChild(span);
+            });
+        } else {
+            patternDisplay.textContent = "-";
+        }
+    }
+
+    const body = document.body;
+    const toggleButton = document.getElementById('toggleBackgroundButton');
+
+    function toggleBackground() {
+        const isLightMode = body.classList.toggle('light-mode');
+        localStorage.setItem(LOCAL_STORAGE_KEY_THEME, isLightMode ? 'light' : 'dark');
+    }
+
+    function loadTheme() {
+        const savedTheme = localStorage.getItem(LOCAL_STORAGE_KEY_THEME);
+        if (savedTheme === 'light') {
+            body.classList.add('light-mode');
+        }
+    }
+    toggleButton.addEventListener('click', toggleBackground);
+
+    document.getElementById('setNowButton').addEventListener('click', () => {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        targetTimeInput.value = `${hours}:${minutes}`;
+        updateUrl();
+    });
+
+    function updateUrl() {
+        const value = settingForm.elements.value.value;
+        const targetTime = targetTimeInput.value;
+        const pattern = settingForm.elements.pattern.value;
+        const newQuery = `?value=${value}&targetTime=${targetTime}&pattern=${pattern}`;
+        const baseUrl = window.location.origin + window.location.pathname;
+        const newUrl = `${baseUrl}${newQuery}`;
+        window.history.pushState({}, '', newUrl);
+        updateSpeedyClock();
+    }
+
+    settingForm.querySelectorAll('input[type="radio"], input[type="time"]').forEach(input => {
+        input.addEventListener('change', updateUrl);
+    });
+
+    function initializeSettings() {
+        const params = new URLSearchParams(window.location.search);
+        const initialValue = params.get('value');
+        const initialTime = params.get('targetTime');
+        const initialPattern = params.get('pattern');
+
+        if (initialValue) {
+            const radio = settingForm.querySelector(`input[name="value"][value="${initialValue}"]`);
+            if (radio) radio.checked = true;
+        }
+        if (initialTime) targetTimeInput.value = initialTime;
+        else {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            targetTimeInput.value = `${hours}:${minutes}`;
+        }
+        if (initialPattern) {
+            const radio = settingForm.querySelector(`input[name="pattern"][value="${initialPattern}"]`);
+            if (radio) radio.checked = true;
+        }
+        
+        updateUrl();
+        loadTheme();
+
+        if (!clockInterval) {
+            clockInterval = setInterval(updateSpeedyClock, 100);
+        }
+    }
+    
+    // JSONのロードから全てを開始
+    loadPatterns();
+</script>
+</body>
+</html>
