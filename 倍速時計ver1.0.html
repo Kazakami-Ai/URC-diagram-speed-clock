@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>倍速時計ver1.0</title>
+    <title>倍速時計</title>
     <style>
         body {
             background-color: #000000;
@@ -43,7 +43,7 @@
         
         #patternTextDisplay {
             margin-top: 20px;
-            font-size: 3.5em;
+            font-size: 2.5em;
             font-weight: bold;
             min-height: 1.5em;
             text-align: center;
@@ -200,41 +200,44 @@
         <div id="settingsContainer">
             
             <div class="setting-group">
-                <h3>スケール</h3>
+                <h3>倍速率</h3>
                 <div class="radio-group">
                     <input type="radio" id="val12" name="value" value="12" checked>
-                    <label for="val12">×12</label>
+                    <label for="val12">12</label>
                     <input type="radio" id="val15" name="value" value="15">
-                    <label for="val15">×15</label>
+                    <label for="val15">15</label>
                     <input type="radio" id="val20" name="value" value="20">
-                    <label for="val20">×20</label>
+                    <label for="val20">20</label>
                     <input type="radio" id="val30" name="value" value="30">
-                    <label for="val30">×30</label>
+                    <label for="val30">30</label>
                     <input type="radio" id="val60" name="value" value="60">
-                    <label for="val60">×60</label>
+                    <label for="val60">60</label>
                 </div>
             </div>
             
             <div class="setting-group">
-                <h3>開始時刻</h3>
+                <h3>目標時刻</h3>
                 <input type="time" id="targetTime" name="targetTime" value="00:00">
-                <button type="button" id="setNowButton">現在時刻</button>
+                <button type="button" id="setNowButton">現在時刻を入力</button>
             </div>
             
             <div class="setting-group">
                 <h3>時刻パターン</h3>
-                <div class="radio-group">
-                    <input type="radio" id="patS" name="pattern" value="S">
-                    <label for="patS">新宿</label>
-                    <input type="radio" id="patG" name="pattern" value="G">
-                    <label for="patG">相模大野</label>
-		    <input type="radio" id="patO" name="pattern" value="O">
-                    <label for="patO">表参道</label>
-		    <input type="radio" id="patK" name="pattern" value="K">
-                    <label for="patK">唐木田</label>
-		    <input type="radio" id="pat" name="pattern" value="-">
-                    <label for="pat">選択なし</label>
-                </div>
+                <select id="patternSelect" name="pattern" style="width: 100%; font-size: 1.1em; padding: 5px; border-radius: 4px; background-color: #333; color: #fff; border: 1px solid #555;">
+                    <option value="S">新宿</option>
+                    <option value="O">表参道</option>
+                    <option value="Up">代々木上原（上り）</option>
+                    <option value="Un">代々木上原（下り）</option>
+                    <option value="Kp">経堂（上り）</option>
+                    <option value="Kn">経堂（下り）</option>
+                    <option value="Cp">成城学園前（上り）</option>
+                    <option value="Cn">成城学園前（下り）</option>
+                    <option value="Np">登戸（上り）</option>
+                    <option value="Nn">登戸（下り）</option>
+                    <option value="Mp">向ヶ丘遊園（上り）</option>
+                    <option value="Mn">向ヶ丘遊園（下り）</option>
+                    <option value="Y">新百合ヶ丘</option>
+                </select>
             </div>
             
             <div class="theme-group">
@@ -253,7 +256,7 @@
         const patternDisplay = document.getElementById('patternTextDisplay');
         const LOCAL_STORAGE_KEY_THEME = 'themeMode';
         let clockInterval;
-        let allPatterns = {}; // 外部JSONから読み込むため、空オブジェクトで初期化
+        let allPatterns = {};
 
         async function loadPatterns() {
             try {
@@ -263,7 +266,7 @@
                 initializeSettings();
             } catch (error) {
                 console.error(error);
-                patternDisplay.textContent = "データを読み込めません。Webサーバーまたはローカルサーバーで実行してください。";
+                patternDisplay.textContent = "データを読み込めません。WebサーバーまたはLocalサーバーで実行してください。";
             }
         }
 
@@ -409,8 +412,8 @@
                 targetTimeInput.value = `${hours}:${minutes}`;
             }
             if (initialPattern) {
-                const radio = settingForm.querySelector(`input[name="pattern"][value="${initialPattern}"]`);
-                if (radio) radio.checked = true;
+                const select = document.getElementById('patternSelect');
+                if (select) select.value = initialPattern;
             }
             
             updateUrl();
@@ -421,12 +424,10 @@
             }
         }
         
-        // 外部JSONの読み込みを開始
         loadPatterns();
     </script>
     <footer id="fixed-credit">
     <small>&copy; 電気通信大学 鉄道研究会</small>
 </footer>
 </body>
-
 </html>
