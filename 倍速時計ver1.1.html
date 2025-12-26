@@ -2,36 +2,51 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>鉄道運用仕様 倍速時計掲示板</title>
+    <title>鉄道運用仕様 倍速掲示板 - 色指定対応版</title>
     <style>
         body {
             background-color: #000; color: #fff;
             display: flex; flex-direction: column; align-items: center;
-            min-height: 100vh; margin: 0; font-family: 'Arial', sans-serif;
+            min-height: 100vh; margin: 0; font-family: 'MS UI Gothic', 'Arial', sans-serif;
             padding: 10px; box-sizing: border-box; transition: 0.5s;
         }
         body.light-mode { background-color: #f4f4f4; color: #111; }
         
-        #timeContainer { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; max-width: 1000px; }
-        #currentTime { font-size: 15vw; text-align: center; margin-bottom: 20px; font-variant-numeric: tabular-nums; }
+        #timeContainer { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; max-width: 1100px; }
+        #currentTime { font-size: 12vw; text-align: center; margin-bottom: 20px; font-variant-numeric: tabular-nums; }
         
-        #board { width: 95%; background: #111; border: 4px solid #333; padding: 10px; }
-        .board-row { display: flex; align-items: center; border-bottom: 1px solid #222; height: 80px; font-size: 2.5rem; font-weight: bold; color: #fff; }
-        .board-row:last-child { border-bottom: none; }
-        .row-label { width: 80px; font-size: 0.5em; color: #888; text-align: center; }
-        .row-content { flex-grow: 1; display: flex; gap: 15px; padding-left: 10px; }
-        .current-row .row-label { color: #ff9900; }
+        #board { width: 100%; background: #050505; border: 4px solid #333; padding: 5px; box-sizing: border-box; }
+        
+        /* 列の幅設定（共通） */
+        .col-num   { width: 15%; text-align: center; } 
+        .col-track { width: 8%;  text-align: center; }   
+        .col-time  { width: 15%; text-align: center; }   
+        .col-type  { width: 20%; text-align: center; }                 
+        .col-dest  { width: 42%; text-align: left;   padding-left: 20px; } 
 
-        #settingsContainer { width: 95%; max-width: 800px; background: #1a1a1a; padding: 10px; border-radius: 8px; display: flex; flex-wrap: wrap; gap: 10px; }
+        .board-header {
+            display: flex; border-bottom: 2px solid #444; padding: 5px 0;
+            font-size: 1.2rem; color: #888; background: #111;
+        }
+
+        .board-row {
+            display: flex; align-items: center; border-bottom: 1px solid #222;
+            height: 70px; font-size: 2.2rem; font-weight: bold;
+        }
+        .board-row:last-child { border-bottom: none; }
+        .row-label { width: 40px; font-size: 0.8rem; color: #666; text-align: center; flex-shrink: 0; }
+        
+        #settingsContainer { width: 95%; max-width: 900px; background: #1a1a1a; padding: 15px; border-radius: 8px; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
         body.light-mode #settingsContainer { background: #e0e0e0; color: #000; }
-        .setting-group { flex: 1; min-width: 140px; text-align: center; }
+        
+        .setting-group { flex: 1; min-width: 150px; text-align: center; }
         .radio-group { display: flex; justify-content: center; flex-wrap: wrap; }
         .radio-group label { background: #333; color: #fff; padding: 5px 8px; margin: 2px; border-radius: 4px; font-size: 0.8em; cursor: pointer; }
         .radio-group input:checked + label { background: #007bff; }
         .radio-group input { display: none; }
-        input[type="time"], select, button { font-size: 1rem; padding: 5px; width: 100%; background: #333; color: #fff; border: 1px solid #555; border-radius: 4px; margin-top: 2px; }
+        input[type="time"], select, button { font-size: 1rem; padding: 5px; width: 100%; background: #333; color: #fff; border: 1px solid #555; border-radius: 4px; margin-top: 5px; }
         body.light-mode input, body.light-mode select, body.light-mode button { background: #fff; color: #000; border-color: #ccc; }
-        #setNowButton { background: #28a745; border: none; }
+        #setNowButton { background: #28a745; border: none; cursor: pointer; }
         #toggleSoundButton.active { background: #28a745; }
         #toggleSoundButton.inactive { background: #dc3545; }
     </style>
@@ -40,10 +55,41 @@
 
     <div id="timeContainer">
         <div id="currentTime">00:00:00</div>
+        
         <div id="board">
-            <div class="board-row current-row"><div class="row-label">先発</div><div id="disp1" class="row-content"></div></div>
-            <div class="board-row"><div class="row-label">次発</div><div id="disp2" class="row-content"></div></div>
-            <div class="board-row"><div class="row-label">次々発</div><div id="disp3" class="row-content"></div></div>
+            <div class="board-header">
+                <div style="width: 40px;"></div>
+                <div class="col-num">列車番号</div>
+                <div class="col-track">番線</div>
+                <div class="col-time">時刻</div>
+                <div class="col-type">種別</div>
+                <div class="col-dest">行先</div>
+            </div>
+            
+            <div class="board-row" id="row1">
+                <div class="row-label">先発</div>
+                <div class="col-num" id="num1"></div>
+                <div class="col-track" id="track1"></div>
+                <div class="col-time" id="time1"></div>
+                <div class="col-type" id="type1"></div>
+                <div class="col-dest" id="dest1"></div>
+            </div>
+            <div class="board-row" id="row2">
+                <div class="row-label">次発</div>
+                <div class="col-num" id="num2"></div>
+                <div class="col-track" id="track2"></div>
+                <div class="col-time" id="time2"></div>
+                <div class="col-type" id="type2"></div>
+                <div class="col-dest" id="dest2"></div>
+            </div>
+            <div class="board-row" id="row3">
+                <div class="row-label">次々発</div>
+                <div class="col-num" id="num3"></div>
+                <div class="col-track" id="track3"></div>
+                <div class="col-time" id="time3"></div>
+                <div class="col-type" id="type3"></div>
+                <div class="col-dest" id="dest3"></div>
+            </div>
         </div>
     </div>
 
@@ -60,19 +106,45 @@
                 </div>
             </div>
             <div class="setting-group">
-                <h3>4:00起点</h3>
+                <h3>4:00起点時刻</h3>
                 <input type="time" id="targetTime" value="04:00">
-                <button type="button" id="setNowButton">現在時刻</button>
+                <button type="button" id="setNowButton">現在時刻に合わせる</button>
             </div>
             <div class="setting-group">
                 <h3>パターン</h3>
                 <select id="pSelect">
-		    <option value="S">S: 新宿</option>
-		    <option value="K">K: 京都</option>
-		</select>
+<option value="岡山_kudari">岡山_kudari</option>
+<option value="岡山_nobori">岡山_nobori</option>
+<option value="倉敷_kudari">倉敷_kudari</option>
+<option value="倉敷_nobori">倉敷_nobori</option>
+<option value="総社_kudari">総社_kudari</option>
+<option value="総社_nobori">総社_nobori</option>
+<option value="美袋_kudari">美袋_kudari</option>
+<option value="美袋_nobori">美袋_nobori</option>
+<option value="備中高梁_kudari">備中高梁_kudari</option>
+<option value="備中高梁_nobori">備中高梁_nobori</option>
+<option value="方谷_kudari">方谷_kudari</option>
+<option value="方谷_nobori">方谷_nobori</option>
+<option value="井倉_kudari">井倉_kudari</option>
+<option value="井倉_nobori">井倉_nobori</option>
+<option value="新見_kudari">新見_kudari</option>
+<option value="新見_nobori">新見_nobori</option>
+<option value="足立_kudari">足立_kudari</option>
+<option value="足立_nobori">足立_nobori</option>
+<option value="生山_kudari">生山_kudari</option>
+<option value="生山_nobori">生山_nobori</option>
+<option value="根雨_kudari">根雨_kudari</option>
+<option value="根雨_nobori">根雨_nobori</option>
+<option value="伯耆溝口_kudari">伯耆溝口_kudari</option>
+<option value="伯耆溝口_nobori">伯耆溝口_nobori</option>
+<option value="伯耆大山_kudari">伯耆大山_kudari</option>
+<option value="伯耆大山_nobori">伯耆大山_nobori</option>
+<option value="米子_kudari">米子_kudari</option>
+<option value="米子_nobori">米子_nobori</option>
+</select>
             </div>
             <div class="setting-group">
-                <h3>機能</h3>
+                <h3>システム</h3>
                 <button type="button" id="bgBtn">背景切替</button>
                 <button type="button" id="toggleSoundButton" class="inactive" style="margin-top:5px;">音声: OFF</button>
             </div>
@@ -90,14 +162,14 @@
                 allSounds = await (await fetch('sounds.json?' + Date.now())).json();
                 loadSavedSettings();
                 setInterval(update, 1000);
-            } catch (e) { document.getElementById('disp1').innerText = "データ読込失敗"; }
+            } catch (e) { console.error("Data Load Error", e); }
         }
 
-        function format(sec) {
+        function formatTime(sec) {
             let h = Math.floor(sec / 3600);
             const m = Math.floor((sec % 3600) / 60);
             const s = Math.floor(sec % 60);
-            if (h >= 30) h -= 30; // 30時以降は0時に戻す
+            if (h >= 30) h -= 30;
             return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
         }
 
@@ -112,23 +184,40 @@
             if (curSec < 0) curSec += THIRTY_HRS;
             if (curSec < 14400) curSec += THIRTY_HRS;
 
-            document.getElementById('currentTime').innerText = format(curSec);
+            document.getElementById('currentTime').innerText = formatTime(curSec);
             
             const pKey = document.getElementById('pSelect').value;
             const upcoming = (allPatterns[pKey] || []).filter(i => i.time_seconds > curSec);
             
-            ['disp1', 'disp2', 'disp3'].forEach((id, idx) => {
-                const el = document.getElementById(id); el.innerHTML = '';
-                if (upcoming[idx]) {
-                    upcoming[idx].parts.forEach(p => {
-                        const s = document.createElement('span'); s.innerText = p.text;
-                        if (p.style) Object.assign(s.style, p.style);
-                        el.appendChild(s);
+            for (let i = 1; i <= 3; i++) {
+                const data = upcoming[i-1];
+                const cells = [
+                    document.getElementById(`num${i}`),
+                    document.getElementById(`track${i}`),
+                    document.getElementById(`time${i}`),
+                    document.getElementById(`type${i}`),
+                    document.getElementById(`dest${i}`)
+                ];
+                
+                if (data && data.parts) {
+                    cells.forEach((cell, idx) => {
+                        const part = data.parts[idx];
+                        if (part) {
+                            cell.innerText = part.text;
+                            // JSONで色が指定されていれば適用、なければデフォルト（白）
+                            cell.style.color = (part.style && part.style.color) ? part.style.color : "#ffffff";
+                        } else {
+                            cell.innerText = "";
+                        }
                     });
-                } else if (idx === 0) el.innerHTML = '<span style="color:#888">営業終了</span>';
-            });
+                } else {
+                    cells.forEach((cell, idx) => {
+                        cell.innerText = (i === 1 && idx === 4) ? "☆本日の営業は終了しました☆" : "";
+                        cell.style.color = "#eeeeee";
+                    });
+                }
+            }
 
-            // 音声トリガーチェック
             if (isSoundOn && allSounds[pKey]) {
                 const trigger = allSounds[pKey].find(s => s.trigger_seconds === curSec);
                 if (trigger) play(trigger.files);
@@ -147,7 +236,6 @@
             next();
         }
 
-        // --- UI & Storage ---
         document.getElementById('bgBtn').onclick = () => {
             const isL = document.body.classList.toggle('light-mode');
             localStorage.setItem('theme', isL ? 'light' : 'dark');
