@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>鉄道運用仕様 倍速時計掲示板</title>
+    <style>
+        body {
+            background-color: #000; color: #fff;
+            display: flex; flex-direction: column; align-items: center;
+            min-height: 100vh; margin: 0; font-family: 'Arial', sans-serif;
+            padding: 10px; box-sizing: border-box; transition: 0.5s;
+        }
+        body.light-mode { background-color: #f4f4f4; color: #111; }
+        
+        #timeContainer { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; max-width: 1000px; }
+        #currentTime { font-size: 15vw; text-align: center; margin-bottom: 20px; font-variant-numeric: tabular-nums; }
+        
+        #board { width: 95%; background: #111; border: 4px solid #333; padding: 10px; }
+        .board-row { display: flex; align-items: center; border-bottom: 1px solid #222; height: 80px; font-size: 2.5rem; font-weight: bold; color: #fff; }
+        .board-row:last-child { border-bottom: none; }
+        .row-label { width: 80px; font-size: 0.5em; color: #888; text-align: center; }
+        .row-content { flex-grow: 1; display: flex; gap: 15px; padding-left: 10px; }
+        .current-row .row-label { color: #ff9900; }
+
+        #settingsContainer { width: 95%; max-width: 800px; background: #1a1a1a; padding: 10px; border-radius: 8px; display: flex; flex-wrap: wrap; gap: 10px; }
+        body.light-mode #settingsContainer { background: #e0e0e0; color: #000; }
+        .setting-group { flex: 1; min-width: 140px; text-align: center; }
+        .radio-group { display: flex; justify-content: center; flex-wrap: wrap; }
+        .radio-group label { background: #333; color: #fff; padding: 5px 8px; margin: 2px; border-radius: 4px; font-size: 0.8em; cursor: pointer; }
+        .radio-group input:checked + label { background: #007bff; }
+        .radio-group input { display: none; }
+        input[type="time"], select, button { font-size: 1rem; padding: 5px; width: 100%; background: #333; color: #fff; border: 1px solid #555; border-radius: 4px; margin-top: 2px; }
+        body.light-mode input, body.light-mode select, body.light-mode button { background: #fff; color: #000; border-color: #ccc; }
+        #setNowButton { background: #28a745; border: none; }
+        #toggleSoundButton.active { background: #28a745; }
+        #toggleSoundButton.inactive { background: #dc3545; }
+    </style>
+</head>
+<body>
+
+    <div id="timeContainer">
+        <div id="currentTime">00:00:00</div>
+        <div id="board">
+            <div class="board-row current-row"><div class="row-label">先発</div><div id="disp1" class="row-content"></div></div>
+            <div class="board-row"><div class="row-label">次発</div><div id="disp2" class="row-content"></div></div>
+            <div class="board-row"><div class="row-label">次々発</div><div id="disp3" class="row-content"></div></div>
+        </div>
+    </div>
+
+    <form id="settingForm">
+        <div id="settingsContainer">
+            <div class="setting-group">
+                <h3>倍速率</h3>
+                <div class="radio-group">
+                    <input type="radio" id="v12" name="v" value="12" checked><label for="v12">12</label>
+                    <input type="radio" id="v15" name="v" value="15"><label for="v15">15</label>
+                    <input type="radio" id="v20" name="v" value="20"><label for="v20">20</label>
+                    <input type="radio" id="v30" name="v" value="30"><label for="v30">30</label>
+                    <input type="radio" id="v60" name="v" value="60"><label for="v60">60</label>
+                </div>
+            </div>
+            <div class="setting-group">
+                <h3>4:00起点</h3>
+                <input type="time" id="targetTime" value="04:00">
+                <button type="button" id="setNowButton">現在時刻</button>
+            </div>
+            <div class="setting-group">
+                <h3>パターン</h3>
+                <select id="pSelect">
+		    <option value="S">S: 新宿</option>
+		    <option value="K">K: 京都</option>
+		</select>
+            </div>
+            <div class="setting-group">
+                <h3>機能</h3>
+                <button type="button" id="bgBtn">背景切替</button>
+                <button type="button" id="toggleSoundButton" class="inactive" style="margin-top:5px;">音声: OFF</button>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        const form = document.getElementById('settingForm');
+        let allPatterns = {}, allSounds = {}, currentAudio = null, isSoundOn = false;
+        const THIRTY_HRS = 108000;
+
+        async function init() {
+            try {
+                allPatterns = await (await fetch('patterns.json?' + Date.now())).json();
+                allSounds = await (await fetch('sounds.json?' + Date.now())).json();
+                loadSavedSettings();
+                setInterval(update, 1000);
+            } catch (e) { document.getElementById('disp1').innerText = "データ読込失敗"; }
+        }
+
+        function format(sec) {
+            let h = Math.floor(sec / 3600);
+            const m = Math.floor((sec % 3600) / 60);
+            const s = Math.floor(sec % 60);
+            if (h >= 30) h -= 30; // 30時以降は0時に戻す
+            return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+        }
+
+        function update() {
+            const speed = parseInt(form.elements.v.value);
+            const [tH, tM] = document.getElementById('targetTime').value.split(':').map(Number);
+            const now = new Date();
+            const target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), tH, tM, 0);
+            
+            const diff = Math.floor(now.getTime() / 1000) - Math.floor(target.getTime() / 1000);
+            let curSec = (diff * speed + 14400) % THIRTY_HRS;
+            if (curSec < 0) curSec += THIRTY_HRS;
+            if (curSec < 14400) curSec += THIRTY_HRS;
+
+            document.getElementById('currentTime').innerText = format(curSec);
+            
+            const pKey = document.getElementById('pSelect').value;
+            const upcoming = (allPatterns[pKey] || []).filter(i => i.time_seconds > curSec);
+            
+            ['disp1', 'disp2', 'disp3'].forEach((id, idx) => {
+                const el = document.getElementById(id); el.innerHTML = '';
+                if (upcoming[idx]) {
+                    upcoming[idx].parts.forEach(p => {
+                        const s = document.createElement('span'); s.innerText = p.text;
+                        if (p.style) Object.assign(s.style, p.style);
+                        el.appendChild(s);
+                    });
+                } else if (idx === 0) el.innerHTML = '<span style="color:#888">営業終了</span>';
+            });
+
+            // 音声トリガーチェック
+            if (isSoundOn && allSounds[pKey]) {
+                const trigger = allSounds[pKey].find(s => s.trigger_seconds === curSec);
+                if (trigger) play(trigger.files);
+            }
+        }
+
+        function play(files) {
+            if (currentAudio) currentAudio.pause();
+            let i = 0;
+            const next = () => {
+                if (i >= files.length) return;
+                currentAudio = new Audio("sounds/" + files[i++]);
+                currentAudio.play();
+                currentAudio.onended = next;
+            };
+            next();
+        }
+
+        // --- UI & Storage ---
+        document.getElementById('bgBtn').onclick = () => {
+            const isL = document.body.classList.toggle('light-mode');
+            localStorage.setItem('theme', isL ? 'light' : 'dark');
+        };
+        document.getElementById('setNowButton').onclick = () => {
+            const n = new Date(); document.getElementById('targetTime').value = `${String(n.getHours()).padStart(2,'0')}:${String(n.getMinutes()).padStart(2,'0')}`;
+            save();
+        };
+        document.getElementById('toggleSoundButton').onclick = function() {
+            isSoundOn = !isSoundOn;
+            this.innerText = isSoundOn ? "音声: ON" : "音声: OFF";
+            this.className = isSoundOn ? "active" : "inactive";
+        };
+        form.onchange = save;
+        function save() {
+            const params = `?v=${form.elements.v.value}&t=${document.getElementById('targetTime').value}&p=${document.getElementById('pSelect').value}`;
+            window.history.replaceState({}, '', params);
+        }
+        function loadSavedSettings() {
+            const p = new URLSearchParams(window.location.search);
+            if (p.get('v')) form.elements.v.value = p.get('v');
+            if (p.get('t')) document.getElementById('targetTime').value = p.get('t');
+            if (p.get('p')) document.getElementById('pSelect').value = p.get('p');
+            if (localStorage.getItem('theme') === 'light') document.body.classList.add('light-mode');
+        }
+
+        init();
+    </script>
+</body>
+</html>
