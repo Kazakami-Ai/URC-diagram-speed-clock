@@ -24,7 +24,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -94,7 +94,7 @@
         {
           "text": "寝台",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -1389,7 +1389,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -1846,7 +1846,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -1916,7 +1916,7 @@
         {
           "text": "寝台",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -3211,7 +3211,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -4942,41 +4942,6 @@
   ],
   "美袋_kudari": [
     {
-      "time_seconds": 0,
-      "parts": [
-        {
-          "text": "1851M",
-          "style": {
-            "color": "#ff9900"
-          }
-        },
-        {
-          "text": "3",
-          "style": {
-            "color": "#ffffff"
-          }
-        },
-        {
-          "text": "0:00",
-          "style": {
-            "color": "#ffffff"
-          }
-        },
-        {
-          "text": "普通",
-          "style": {
-            "color": "#00ff00"
-          }
-        },
-        {
-          "text": "備中高梁",
-          "style": {
-            "color": "#ffffff"
-          }
-        }
-      ]
-    },
-    {
       "time_seconds": 21240,
       "parts": [
         {
@@ -6130,6 +6095,41 @@
           }
         }
       ]
+    },
+    {
+      "time_seconds": 86400,
+      "parts": [
+        {
+          "text": "1851M",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "24:00",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#00ff00"
+          }
+        },
+        {
+          "text": "備中高梁",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
     }
   ],
   "備中高梁_kudari": [
@@ -6157,7 +6157,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -6227,7 +6227,7 @@
         {
           "text": "寝台",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -7172,7 +7172,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -8541,7 +8541,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -8753,7 +8753,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -8788,7 +8788,7 @@
         {
           "text": "寝台",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -9313,7 +9313,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -9455,7 +9455,7 @@
         {
           "text": "寝台",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -10017,7 +10017,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -10297,7 +10297,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -10581,7 +10581,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -10791,7 +10791,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -10968,7 +10968,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -12018,7 +12018,7 @@
         {
           "text": "寝台",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -12088,7 +12088,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -12123,7 +12123,7 @@
         {
           "text": "回送",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -12230,7 +12230,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -12862,7 +12862,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -13422,7 +13422,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -13457,7 +13457,7 @@
         {
           "text": "回送",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -13669,7 +13669,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -15209,7 +15209,7 @@
         {
           "text": "寝台",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -15279,7 +15279,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -17980,7 +17980,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -19485,7 +19485,7 @@
         {
           "text": "寝台",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -19590,7 +19590,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -19628,7 +19628,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -20188,7 +20188,7 @@
         {
           "text": "寝台",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -20223,7 +20223,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -20260,7 +20260,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -20435,7 +20435,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -20472,7 +20472,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -20787,7 +20787,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -20824,7 +20824,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {
@@ -21104,7 +21104,7 @@
         {
           "text": "貨物",
           "style": {
-            "color": "#ffffff"
+            "color": "#00ff00"
           }
         },
         {

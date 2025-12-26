@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>鉄道運用仕様 倍速掲示板 - 色指定対応版</title>
+    <title>鉄道運用仕様 倍速掲示板 - 文字サイズ自動調整版</title>
     <style>
         body {
             background-color: #000; color: #fff;
@@ -17,12 +17,12 @@
         
         #board { width: 100%; background: #050505; border: 4px solid #333; padding: 5px; box-sizing: border-box; }
         
-        /* 列の幅設定（共通） */
+        /* 列の幅設定 */
         .col-num   { width: 15%; text-align: center; } 
         .col-track { width: 8%;  text-align: center; }   
         .col-time  { width: 15%; text-align: center; }   
         .col-type  { width: 20%; text-align: center; }                 
-        .col-dest  { width: 42%; text-align: left;   padding-left: 20px; } 
+        .col-dest  { width: 42%; text-align: left; padding-left: 20px; overflow: hidden; white-space: nowrap; } 
 
         .board-header {
             display: flex; border-bottom: 2px solid #444; padding: 5px 0;
@@ -31,11 +31,14 @@
 
         .board-row {
             display: flex; align-items: center; border-bottom: 1px solid #222;
-            height: 70px; font-size: 2.2rem; font-weight: bold;
+            height: 75px; font-size: 2.2rem; font-weight: bold;
         }
         .board-row:last-child { border-bottom: none; }
         .row-label { width: 40px; font-size: 0.8rem; color: #666; text-align: center; flex-shrink: 0; }
         
+        /* 営業終了用の縮小スタイル */
+        .msg-closed { font-size: 1.6rem !important; color: #eee !important; }
+
         #settingsContainer { width: 95%; max-width: 900px; background: #1a1a1a; padding: 15px; border-radius: 8px; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
         body.light-mode #settingsContainer { background: #e0e0e0; color: #000; }
         
@@ -199,12 +202,14 @@
                     document.getElementById(`dest${i}`)
                 ];
                 
+                // クラスのリセット
+                cells[4].classList.remove('msg-closed');
+
                 if (data && data.parts) {
                     cells.forEach((cell, idx) => {
                         const part = data.parts[idx];
                         if (part) {
                             cell.innerText = part.text;
-                            // JSONで色が指定されていれば適用、なければデフォルト（白）
                             cell.style.color = (part.style && part.style.color) ? part.style.color : "#ffffff";
                         } else {
                             cell.innerText = "";
@@ -212,8 +217,12 @@
                     });
                 } else {
                     cells.forEach((cell, idx) => {
-                        cell.innerText = (i === 1 && idx === 4) ? "☆本日の営業は終了しました☆" : "";
-                        cell.style.color = "#eeeeee";
+                        if (i === 1 && idx === 4) {
+                            cell.innerText = "☆本日の営業は終了しました☆";
+                            cell.classList.add('msg-closed'); // 縮小用クラス適用
+                        } else {
+                            cell.innerText = "";
+                        }
                     });
                 }
             }
