@@ -17,12 +17,11 @@
         
         #board { width: 100%; background: #050505; border: 4px solid #333; padding: 5px; box-sizing: border-box; }
         
-        /* 列の幅設定 */
-        .col-num   { width: 15%; text-align: center; } 
-        .col-track { width: 8%;  text-align: center; }   
-        .col-time  { width: 15%; text-align: center; }   
-        .col-type  { width: 20%; text-align: center; }                  
-        .col-dest  { width: 42%; text-align: left; padding-left: 20px; overflow: hidden; white-space: nowrap; } 
+        .col-num   { width: 12%; text-align: center; } 
+        .col-track { width: 10%;  text-align: center; }   
+        .col-time  { width: 18%; text-align: center; }   
+        .col-type  { width: 24%; text-align: center; }                  
+        .col-dest  { width: 36%; text-align: left; padding-left: 20px; overflow: hidden; white-space: nowrap; } 
 
         .board-header {
             display: flex; border-bottom: 2px solid #444; padding: 5px 0;
@@ -31,13 +30,34 @@
 
         .board-row {
             display: flex; align-items: center; border-bottom: 1px solid #222;
-            height: 75px; font-size: 2.2rem; font-weight: bold;
+            height: 120px; font-size: 2.8rem; font-weight: bold;
+            position: relative;
         }
         .board-row:last-child { border-bottom: none; }
         .row-label { width: 40px; font-size: 0.8rem; color: #666; text-align: center; flex-shrink: 0; }
         
-        /* 営業終了用の縮小スタイル */
-        .msg-closed { font-size: 1.6rem !important; color: #eee !important; }
+        .msg-closed { 
+            font-size: 3.0rem !important;
+            color: #fb8 !important;
+            
+            /* 行全体に広げる設定 */
+            position: absolute !important;
+            left: 40px;   /* 左端の「先発」ラベル(40px)を避ける */
+            top: 0;
+            width: calc(100% - 40px); /* ラベル分を引いた全体の幅 */
+            height: 100%;
+            
+            /* 上下左右中央揃え */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            /* 背景を透過（文字だけが中央に浮かぶ） */
+            background-color: transparent; 
+            z-index: 10;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
 
         #settingsContainer { width: 95%; max-width: 900px; background: #1a1a1a; padding: 15px; border-radius: 8px; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
         body.light-mode #settingsContainer { background: #e0e0e0; color: #000; }
@@ -200,23 +220,19 @@
                         const part = data.parts[idx];
                         if (part) {
                             cell.innerText = part.text;
-                            // 文字色の適用（既存）
                             cell.style.color = (part.style && part.style.color) ? part.style.color : "#ffffff";
-                            // 背景色の適用（★ここを追加修正★）
                             cell.style.backgroundColor = (part.style && part.style.backgroundColor) ? part.style.backgroundColor : "";
                         } else {
                             cell.innerText = "";
-                            cell.style.backgroundColor = ""; // リセット
+                            cell.style.backgroundColor = ""; 
                         }
                     });
                 } else {
                     cells.forEach((cell, idx) => {
-                        // データがない場合の背景色リセット（重要）
                         cell.style.backgroundColor = "";
-                        
+
                         if (i === 1 && idx === 4) {
-                            cell.innerText = "☆本日の営業は終了しました☆";
-                            cell.style.color = "#eee"; // 必要であれば色もデフォルトに戻す
+                            cell.innerText = "☆本日の運転は終了しました☆";
                             cell.classList.add('msg-closed');
                         } else {
                             cell.innerText = "";
@@ -272,7 +288,7 @@
         init();
     </script>
 <footer style="margin-top:20px; color:#666; font-size:1.6rem;">
-    <small>&copy; 電気通信大学　鉄道研究会</small>
+    <small>&copy; ABC研究会</small>
 </footer>
 </body>
 </html>
