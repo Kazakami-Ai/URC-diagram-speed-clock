@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>鉄道運用仕様 倍速掲示板 - 文字サイズ自動調整版</title>
+    <title>URC倍速時計</title>
     <style>
         body {
             background-color: #000; color: #fff;
@@ -13,7 +13,7 @@
         body.light-mode { background-color: #f4f4f4; color: #111; }
         
         #timeContainer { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; max-width: 1100px; }
-        #currentTime { font-size: 12vw; text-align: center; margin-bottom: 20px; font-variant-numeric: tabular-nums; }
+        #currentTime { font-size: 20vw; text-align: center; margin-bottom: 20px; font-variant-numeric: tabular-nums; }
         
         #board { width: 100%; background: #050505; border: 4px solid #333; padding: 5px; box-sizing: border-box; }
         
@@ -21,7 +21,7 @@
         .col-num   { width: 15%; text-align: center; } 
         .col-track { width: 8%;  text-align: center; }   
         .col-time  { width: 15%; text-align: center; }   
-        .col-type  { width: 20%; text-align: center; }                 
+        .col-type  { width: 20%; text-align: center; }                  
         .col-dest  { width: 42%; text-align: left; padding-left: 20px; overflow: hidden; white-space: nowrap; } 
 
         .board-header {
@@ -116,40 +116,30 @@
             <div class="setting-group">
                 <h3>パターン</h3>
                 <select id="pSelect">
-<option value="岡山_kudari">岡山_kudari</option>
-<option value="岡山_nobori">岡山_nobori</option>
-<option value="倉敷_kudari">倉敷_kudari</option>
-<option value="倉敷_nobori">倉敷_nobori</option>
-<option value="総社_kudari">総社_kudari</option>
-<option value="総社_nobori">総社_nobori</option>
-<option value="美袋_kudari">美袋_kudari</option>
-<option value="美袋_nobori">美袋_nobori</option>
-<option value="備中高梁_kudari">備中高梁_kudari</option>
-<option value="備中高梁_nobori">備中高梁_nobori</option>
-<option value="方谷_kudari">方谷_kudari</option>
-<option value="方谷_nobori">方谷_nobori</option>
-<option value="井倉_kudari">井倉_kudari</option>
-<option value="井倉_nobori">井倉_nobori</option>
-<option value="新見_kudari">新見_kudari</option>
-<option value="新見_nobori">新見_nobori</option>
-<option value="足立_kudari">足立_kudari</option>
-<option value="足立_nobori">足立_nobori</option>
-<option value="生山_kudari">生山_kudari</option>
-<option value="生山_nobori">生山_nobori</option>
-<option value="根雨_kudari">根雨_kudari</option>
-<option value="根雨_nobori">根雨_nobori</option>
-<option value="伯耆溝口_kudari">伯耆溝口_kudari</option>
-<option value="伯耆溝口_nobori">伯耆溝口_nobori</option>
-<option value="伯耆大山_kudari">伯耆大山_kudari</option>
-<option value="伯耆大山_nobori">伯耆大山_nobori</option>
-<option value="米子_kudari">米子_kudari</option>
-<option value="米子_nobori">米子_nobori</option>
-</select>
+                    <option value="表参道_kudari">表参道_kudari</option>
+                    <option value="表参道_nobori">表参道_nobori</option>
+                    <option value="代々木上原_kudari">代々木上原_kudari</option>
+                    <option value="代々木上原_nobori">代々木上原_nobori</option>
+                    <option value="新宿_kudari">新宿_kudari</option>
+                    <option value="新宿_nobori">新宿_nobori</option>
+                    <option value="代々木上原_kudari">代々木上原_kudari</option>
+                    <option value="代々木上原_nobori">代々木上原_nobori</option>
+                    <option value="経堂_kudari">経堂_kudari</option>
+                    <option value="経堂_nobori">経堂_nobori</option>
+                    <option value="成城学園前_kudari">成城学園前_kudari</option>
+                    <option value="成城学園前_nobori">成城学園前_nobori</option>
+                    <option value="登戸_kudari">登戸_kudari</option>
+                    <option value="登戸_nobori">登戸_nobori</option>
+                    <option value="向ヶ丘遊園_kudari">向ヶ丘遊園_kudari</option>
+                    <option value="向ヶ丘遊園_nobori">向ヶ丘遊園_nobori</option>
+                    <option value="新百合ヶ丘_kudari">新百合ヶ丘_kudari</option>
+                    <option value="新百合ヶ丘_nobori">新百合ヶ丘_nobori</option>
+                </select>
             </div>
             <div class="setting-group">
                 <h3>システム</h3>
                 <button type="button" id="bgBtn">背景切替</button>
-                <button type="button" id="toggleSoundButton" class="inactive" style="margin-top:5px;">音声: OFF</button>
+                <button type="button" id="toggleSoundButton" class="inactive" style="margin-top:5px;">駅放送＆メロディーOFF</button>
             </div>
         </div>
     </form>
@@ -210,16 +200,24 @@
                         const part = data.parts[idx];
                         if (part) {
                             cell.innerText = part.text;
+                            // 文字色の適用（既存）
                             cell.style.color = (part.style && part.style.color) ? part.style.color : "#ffffff";
+                            // 背景色の適用（★ここを追加修正★）
+                            cell.style.backgroundColor = (part.style && part.style.backgroundColor) ? part.style.backgroundColor : "";
                         } else {
                             cell.innerText = "";
+                            cell.style.backgroundColor = ""; // リセット
                         }
                     });
                 } else {
                     cells.forEach((cell, idx) => {
+                        // データがない場合の背景色リセット（重要）
+                        cell.style.backgroundColor = "";
+                        
                         if (i === 1 && idx === 4) {
                             cell.innerText = "☆本日の営業は終了しました☆";
-                            cell.classList.add('msg-closed'); // 縮小用クラス適用
+                            cell.style.color = "#eee"; // 必要であれば色もデフォルトに戻す
+                            cell.classList.add('msg-closed');
                         } else {
                             cell.innerText = "";
                         }
@@ -255,7 +253,7 @@
         };
         document.getElementById('toggleSoundButton').onclick = function() {
             isSoundOn = !isSoundOn;
-            this.innerText = isSoundOn ? "音声: ON" : "音声: OFF";
+            this.innerText = isSoundOn ? "駅放送＆メロディーON" : "駅放送＆メロディーOFF";
             this.className = isSoundOn ? "active" : "inactive";
         };
         form.onchange = save;
@@ -273,5 +271,8 @@
 
         init();
     </script>
+<footer style="margin-top:20px; color:#666; font-size:1.6rem;">
+    <small>&copy; 電気通信大学　鉄道研究会</small>
+</footer>
 </body>
 </html>
