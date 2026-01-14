@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>URC倍速時計</title>
+    <style>
+        body {
+            background-color: #000; color: #fff;
+            display: flex; flex-direction: column; align-items: center;
+            min-height: 100vh; margin: 0; font-family: 'MS UI Gothic', 'Arial', sans-serif;
+            padding: 10px; box-sizing: border-box; transition: 0.5s;
+        }
+        body.light-mode { background-color: #f4f4f4; color: #111; }
+        
+        #timeContainer { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; max-width: 1100px; }
+        #currentTime { font-size: 20vw; text-align: center; margin-bottom: 20px; font-variant-numeric: tabular-nums; }
+        
+        #board { width: 100%; background: #050505; border: 4px solid #333; padding: 5px; box-sizing: border-box; }
+        
+        .col-num   { width: 12%; text-align: center; } 
+        .col-track { width: 10%;  text-align: center; }   
+        .col-time  { width: 18%; text-align: center; }   
+        .col-type  { width: 24%; text-align: center; }                  
+        .col-dest  { width: 36%; text-align: left; padding-left: 20px; overflow: hidden; white-space: nowrap; } 
+
+        .board-header {
+            display: flex; border-bottom: 2px solid #444; padding: 5px 0;
+            font-size: 1.2rem; color: #888; background: #111;
+        }
+
+        .board-row {
+            display: flex; align-items: center; border-bottom: 1px solid #222;
+            height: 120px; font-size: 2.8rem; font-weight: bold;
+            position: relative;
+        }
+        .board-row:last-child { border-bottom: none; }
+        .row-label { width: 40px; font-size: 0.8rem; color: #666; text-align: center; flex-shrink: 0; }
+        
+        .msg-closed { 
+            font-size: 3.0rem !important;
+            color: #fb8 !important;
+            
+            /* 行全体に広げる設定 */
+            position: absolute !important;
+            left: 40px;   /* 左端の「先発」ラベル(40px)を避ける */
+            top: 0;
+            width: calc(100% - 40px); /* ラベル分を引いた全体の幅 */
+            height: 100%;
+            
+            /* 上下左右中央揃え */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            /* 背景を透過（文字だけが中央に浮かぶ） */
+            background-color: transparent; 
+            z-index: 10;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        #settingsContainer { width: 95%; max-width: 900px; background: #1a1a1a; padding: 15px; border-radius: 8px; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+        body.light-mode #settingsContainer { background: #e0e0e0; color: #000; }
+        
+        .setting-group { flex: 1; min-width: 150px; text-align: center; }
+        .radio-group { display: flex; justify-content: center; flex-wrap: wrap; }
+        .radio-group label { background: #333; color: #fff; padding: 5px 8px; margin: 2px; border-radius: 4px; font-size: 0.8em; cursor: pointer; }
+        .radio-group input:checked + label { background: #007bff; }
+        .radio-group input { display: none; }
+        input[type="time"], select, button { font-size: 1rem; padding: 5px; width: 100%; background: #333; color: #fff; border: 1px solid #555; border-radius: 4px; margin-top: 5px; }
+        body.light-mode input, body.light-mode select, body.light-mode button { background: #fff; color: #000; border-color: #ccc; }
+        #setNowButton { background: #28a745; border: none; cursor: pointer; }
+        #toggleSoundButton.active { background: #28a745; }
+        #toggleSoundButton.inactive { background: #dc3545; }
+    </style>
+</head>
+<body>
+
+    <div id="timeContainer">
+        <div id="currentTime">00:00:00</div>
+        
+        <div id="board">
+            <div class="board-header">
+                <div style="width: 40px;"></div>
+                <div class="col-num">列車番号</div>
+                <div class="col-track">番線</div>
+                <div class="col-time">時刻</div>
+                <div class="col-type">種別</div>
+                <div class="col-dest">行先</div>
+            </div>
+            
+            <div class="board-row" id="row1">
+                <div class="row-label">先発</div>
+                <div class="col-num" id="num1"></div>
+                <div class="col-track" id="track1"></div>
+                <div class="col-time" id="time1"></div>
+                <div class="col-type" id="type1"></div>
+                <div class="col-dest" id="dest1"></div>
+            </div>
+            <div class="board-row" id="row2">
+                <div class="row-label">次発</div>
+                <div class="col-num" id="num2"></div>
+                <div class="col-track" id="track2"></div>
+                <div class="col-time" id="time2"></div>
+                <div class="col-type" id="type2"></div>
+                <div class="col-dest" id="dest2"></div>
+            </div>
+            <div class="board-row" id="row3">
+                <div class="row-label">次々発</div>
+                <div class="col-num" id="num3"></div>
+                <div class="col-track" id="track3"></div>
+                <div class="col-time" id="time3"></div>
+                <div class="col-type" id="type3"></div>
+                <div class="col-dest" id="dest3"></div>
+            </div>
+        </div>
+    </div>
+
+    <form id="settingForm">
+        <div id="settingsContainer">
+            <div class="setting-group">
+                <h3>倍速率</h3>
+                <div class="radio-group">
+                    <input type="radio" id="v12" name="v" value="12" checked><label for="v12">12</label>
+                    <input type="radio" id="v15" name="v" value="15"><label for="v15">15</label>
+                    <input type="radio" id="v20" name="v" value="20"><label for="v20">20</label>
+                    <input type="radio" id="v30" name="v" value="30"><label for="v30">30</label>
+                    <input type="radio" id="v60" name="v" value="60"><label for="v60">60</label>
+                </div>
+            </div>
+            <div class="setting-group">
+                <h3>4:00起点時刻</h3>
+                <input type="time" id="targetTime" value="04:00">
+                <button type="button" id="setNowButton">現在時刻に合わせる</button>
+            </div>
+            <div class="setting-group">
+                <h3>パターン</h3>
+                <select id="pSelect">
+                    <option value="A_kudari">A_kudari</option>
+                    <option value="B_kudari">B_kudari</option>
+                    <option value="B_nobori">B_nobori</option>
+                    <option value="C_nobori">C_nobori</option>
+
+                </select>
+            </div>
+            <div class="setting-group">
+                <h3>システム</h3>
+                <button type="button" id="bgBtn">背景切替</button>
+                <button type="button" id="toggleSoundButton" class="inactive" style="margin-top:5px;">駅放送＆メロディーOFF</button>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        const form = document.getElementById('settingForm');
+        // パターンデータ
+        let allPatterns = {};
+        // 音声データ（Main/Sub）
+        let soundsMain = {}, soundsSub = {};
+        
+        // チャンネル管理用オブジェクト（現在再生中のAudioインスタンスを保持）
+        const channelMain = { audio: null };
+        const channelSub  = { audio: null };
+        
+        let isSoundOn = false;
+        const THIRTY_HRS = 108000;
+
+        async function init() {
+            try {
+                // 3つのファイルを並列で読み込みます
+                const [patternsData, mainData, subData] = await Promise.all([
+                    fetch('patterns.json?' + Date.now()).then(r => r.json()),
+                    fetch('mainsounds.json?' + Date.now()).then(r => r.json()), // Mainチャンネル用定義
+                    fetch('subsounds.json?' + Date.now()).then(r => r.json())   // Subチャンネル用定義
+                ]);
+
+                allPatterns = patternsData;
+                soundsMain = mainData;
+                soundsSub = subData;
+
+                loadSavedSettings();
+                setInterval(update, 1000);
+            } catch (e) { console.error("Data Load Error", e); }
+        }
+
+        function formatTime(sec) {
+            let h = Math.floor(sec / 3600);
+            const m = Math.floor((sec % 3600) / 60);
+            const s = Math.floor(sec % 60);
+            if (h >= 30) h -= 30;
+            return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+        }
+
+        function update() {
+            const speed = parseInt(form.elements.v.value);
+            const [tH, tM] = document.getElementById('targetTime').value.split(':').map(Number);
+            const now = new Date();
+            const target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), tH, tM, 0);
+            
+            const diff = Math.floor(now.getTime() / 1000) - Math.floor(target.getTime() / 1000);
+            let curSec = (diff * speed + 14400) % THIRTY_HRS;
+            if (curSec < 0) curSec += THIRTY_HRS;
+            if (curSec < 14400) curSec += THIRTY_HRS;
+
+            document.getElementById('currentTime').innerText = formatTime(curSec);
+            
+            const pKey = document.getElementById('pSelect').value;
+            const upcoming = (allPatterns[pKey] || []).filter(i => i.time_seconds > curSec);
+            
+            // --- 掲示板の更新処理 ---
+            for (let i = 1; i <= 3; i++) {
+                const data = upcoming[i-1];
+                const cells = [
+                    document.getElementById(`num${i}`),
+                    document.getElementById(`track${i}`),
+                    document.getElementById(`time${i}`),
+                    document.getElementById(`type${i}`),
+                    document.getElementById(`dest${i}`)
+                ];
+                
+                cells[4].classList.remove('msg-closed');
+
+                if (data && data.parts) {
+                    cells.forEach((cell, idx) => {
+                        const part = data.parts[idx];
+                        if (part) {
+                            cell.innerText = part.text;
+                            cell.style.color = (part.style && part.style.color) ? part.style.color : "#ffffff";
+                            cell.style.backgroundColor = (part.style && part.style.backgroundColor) ? part.style.backgroundColor : "";
+                        } else {
+                            cell.innerText = "";
+                            cell.style.backgroundColor = ""; 
+                        }
+                    });
+                } else {
+                    cells.forEach((cell, idx) => {
+                        cell.style.backgroundColor = "";
+                        if (i === 1 && idx === 4) {
+                            cell.innerText = "☆本日の運転は終了しました☆";
+                            cell.classList.add('msg-closed');
+                        } else {
+                            cell.innerText = "";
+                        }
+                    });
+                }
+            }
+
+            // --- 音声再生処理 (Main / Sub 独立判定) ---
+            if (isSoundOn) {
+                // Mainチャンネルのチェックと再生
+                if (soundsMain[pKey]) {
+                    const triggerMain = soundsMain[pKey].find(s => s.trigger_seconds === curSec);
+                    if (triggerMain) playSound(channelMain, triggerMain.files);
+                }
+
+                // Subチャンネルのチェックと再生
+                if (soundsSub[pKey]) {
+                    const triggerSub = soundsSub[pKey].find(s => s.trigger_seconds === curSec);
+                    if (triggerSub) playSound(channelSub, triggerSub.files);
+                }
+            }
+        }
+
+        // チャンネルを指定して再生する関数
+        function playSound(channel, files) {
+            // そのチャンネルで既に再生中なら止める（もう片方のチャンネルには影響しない）
+            if (channel.audio) {
+                channel.audio.pause();
+                channel.audio = null;
+            }
+
+            let i = 0;
+            const next = () => {
+                if (i >= files.length) {
+                    channel.audio = null; // 再生完了時にクリア
+                    return;
+                }
+                // 新しいAudioインスタンスを作成し、チャンネルに紐付ける
+                channel.audio = new Audio("sounds/" + files[i++]);
+                channel.audio.play().catch(e => console.log("Play error:", e)); // ブラウザの制限対策でcatchを追加
+                channel.audio.onended = next;
+            };
+            next();
+        }
+
+        document.getElementById('bgBtn').onclick = () => {
+            const isL = document.body.classList.toggle('light-mode');
+            localStorage.setItem('theme', isL ? 'light' : 'dark');
+        };
+        document.getElementById('setNowButton').onclick = () => {
+            const n = new Date(); document.getElementById('targetTime').value = `${String(n.getHours()).padStart(2,'0')}:${String(n.getMinutes()).padStart(2,'0')}`;
+            save();
+        };
+        document.getElementById('toggleSoundButton').onclick = function() {
+            isSoundOn = !isSoundOn;
+            this.innerText = isSoundOn ? "駅放送＆メロディーON" : "駅放送＆メロディーOFF";
+            this.className = isSoundOn ? "active" : "inactive";
+            
+            // OFFにした瞬間、すべての音を止める
+            if (!isSoundOn) {
+                if (channelMain.audio) channelMain.audio.pause();
+                if (channelSub.audio) channelSub.audio.pause();
+            }
+        };
+        form.onchange = save;
+        function save() {
+            const params = `?v=${form.elements.v.value}&t=${document.getElementById('targetTime').value}&p=${document.getElementById('pSelect').value}`;
+            window.history.replaceState({}, '', params);
+        }
+        function loadSavedSettings() {
+            const p = new URLSearchParams(window.location.search);
+            if (p.get('v')) form.elements.v.value = p.get('v');
+            if (p.get('t')) document.getElementById('targetTime').value = p.get('t');
+            if (p.get('p')) document.getElementById('pSelect').value = p.get('p');
+            if (localStorage.getItem('theme') === 'light') document.body.classList.add('light-mode');
+        }
+
+        init();
+    </script>
+<footer style="margin-top:20px; color:#666; font-size:1.6rem;">
+    <small>&copy; URC Test version</small>
+</footer>
+</body>
+</html>

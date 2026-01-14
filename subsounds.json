@@ -1,0 +1,138 @@
+{
+  "A_kudari": [
+    {
+      "trigger_seconds": 35400,
+      "files": [
+        "2番線.mp3",
+        "普通.mp3",
+        "C.mp3",
+        "10ryo.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49800,
+      "files": [
+        "2番線.mp3",
+        "普通.mp3",
+        "C.mp3",
+        "10ryo.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64200,
+      "files": [
+        "2番線.mp3",
+        "普通.mp3",
+        "C.mp3",
+        "10ryo.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78600,
+      "files": [
+        "2番線.mp3",
+        "普通.mp3",
+        "C.mp3",
+        "10ryo.mp3"
+      ]
+    }
+  ],
+  "B_kudari": [
+    {
+      "trigger_seconds": 38700,
+      "files": [
+        "1番線tuka.mp3",
+        "tuka.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53100,
+      "files": [
+        "1番線tuka.mp3",
+        "tuka.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67500,
+      "files": [
+        "1番線tuka.mp3",
+        "tuka.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81900,
+      "files": [
+        "1番線tuka.mp3",
+        "tuka.mp3"
+      ]
+    }
+  ],
+  "B_nobori": [
+    {
+      "trigger_seconds": 45900,
+      "files": [
+        "2番線tuka.mp3",
+        "tuka.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60300,
+      "files": [
+        "2番線tuka.mp3",
+        "tuka.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74700,
+      "files": [
+        "2番線tuka.mp3",
+        "tuka.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 89100,
+      "files": [
+        "2番線tuka.mp3",
+        "tuka.mp3"
+      ]
+    }
+  ],
+  "C_nobori": [
+    {
+      "trigger_seconds": 42600,
+      "files": [
+        "2番線.mp3",
+        "普通.mp3",
+        "A.mp3",
+        "10ryo.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57000,
+      "files": [
+        "2番線.mp3",
+        "普通.mp3",
+        "A.mp3",
+        "10ryo.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71400,
+      "files": [
+        "2番線.mp3",
+        "普通.mp3",
+        "A.mp3",
+        "10ryo.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85800,
+      "files": [
+        "2番線.mp3",
+        "普通.mp3",
+        "A.mp3",
+        "10ryo.mp3"
+      ]
+    }
+  ]
+}
