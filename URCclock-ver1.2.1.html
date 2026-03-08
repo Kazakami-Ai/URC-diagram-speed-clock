@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>URC倍速時計ver1.2.1</title>
+    <style>
+        body {
+            background-color: #000; color: #fff;
+            display: flex; flex-direction: column; align-items: center;
+            min-height: 100vh; margin: 0; font-family: 'MS UI Gothic', 'Arial', sans-serif;
+            padding: 10px; box-sizing: border-box; transition: 0.5s;
+        }
+        body.light-mode { background-color: #f4f4f4; color: #111; }
+        
+        #timeContainer { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; max-width: 1100px; }
+        #currentTime { font-size: 20vw; text-align: center; margin-bottom: 20px; font-variant-numeric: tabular-nums; }
+        
+        #board { width: 100%; background: #050505; border: 4px solid #333; padding: 5px; box-sizing: border-box; }
+        
+        .col-num   { width: 16%; text-align: center; } 
+        .col-track { width: 4%;  text-align: center; }   
+        .col-time  { width: 20%; text-align: center; }   
+        .col-type  { width: 28%; text-align: center; }                  
+        .col-dest  { width: 32%; text-align: center; padding-left: 20px; overflow: hidden; white-space: nowrap; } 
+
+        .board-header::before {
+            content: ""; width: 15px; flex-shrink: 0;
+        }
+
+        .board-header {
+            display: flex; border-bottom: 2px solid #444; padding: 5px 0;
+            font-size: 1.2rem; color: #888; background: #111;
+        }
+
+        .board-row {
+            display: flex; align-items: center; border-bottom: 1px solid #222;
+            height: 120px; font-size: 3.2rem; font-weight: bold;
+            position: relative;
+        }
+        .board-row:last-child { border-bottom: none; }
+        .row-label { width: 55px; font-size: 1.0rem; color: #666; text-align: center; flex-shrink: 0; }
+        
+        .msg-closed { 
+            font-size: 3.0rem !important; color: #fb8 !important;
+            position: absolute !important; left: 40px; top: 0;
+            width: calc(100% - 40px); height: 100%;
+            display: flex; justify-content: center; align-items: center;
+            background-color: transparent; z-index: 10;
+        }
+
+        #settingsContainer { width: 95%; max-width: 900px; background: #1a1a1a; padding: 15px; border-radius: 8px; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+        body.light-mode #settingsContainer { background: #e0e0e0; color: #000; }
+        
+        .setting-group { flex: 1; min-width: 150px; text-align: center; }
+        .radio-group { display: flex; justify-content: center; flex-wrap: wrap; }
+        .radio-group label { background: #333; color: #fff; padding: 5px 8px; margin: 2px; border-radius: 4px; font-size: 0.8em; cursor: pointer; }
+        .radio-group input:checked + label { background: #007bff; }
+        .radio-group input { display: none; }
+        input[type="time"], select, button { font-size: 1rem; padding: 5px; width: 100%; background: #333; color: #fff; border: 1px solid #555; border-radius: 4px; margin-top: 5px; }
+        body.light-mode input, body.light-mode select, body.light-mode button { background: #fff; color: #000; border-color: #ccc; }
+        #setNowButton { background: #28a745; border: none; cursor: pointer; }
+        #toggleSoundButton.active { background: #28a745; }
+        #toggleSoundButton.inactive { background: #dc3545; }
+    </style>
+</head>
+<body>
+
+    <div id="timeContainer">
+        <div id="currentTime">00:00:00</div>
+        
+        <div id="board">
+            <div class="board-header">
+                <div style="width: 40px;"></div>
+                <div class="col-num">列車番号</div>
+                <div class="col-track">番線</div>
+                <div class="col-time">時刻</div>
+                <div class="col-type">種別</div>
+                <div class="col-dest">行先</div>
+            </div>
+            
+            <div class="board-row" id="row1">
+                <div class="row-label">先発</div>
+                <div class="col-num" id="num1"></div>
+                <div class="col-track" id="track1"></div>
+                <div class="col-time" id="time1"></div>
+                <div class="col-type" id="type1"></div>
+                <div class="col-dest" id="dest1"></div>
+            </div>
+            <div class="board-row" id="row2">
+                <div class="row-label">次発</div>
+                <div class="col-num" id="num2"></div>
+                <div class="col-track" id="track2"></div>
+                <div class="col-time" id="time2"></div>
+                <div class="col-type" id="type2"></div>
+                <div class="col-dest" id="dest2"></div>
+            </div>
+            <div class="board-row" id="row3">
+                <div class="row-label">次々発</div>
+                <div class="col-num" id="num3"></div>
+                <div class="col-track" id="track3"></div>
+                <div class="col-time" id="time3"></div>
+                <div class="col-type" id="type3"></div>
+                <div class="col-dest" id="dest3"></div>
+            </div>
+        </div>
+    </div>
+
+    <form id="settingForm">
+        <div id="settingsContainer">
+            <div class="setting-group">
+                <h3>倍速率</h3>
+                <div class="radio-group">
+                    <input type="radio" id="v12" name="v" value="12" checked><label for="v12">12</label>
+                    <input type="radio" id="v15" name="v" value="15"><label for="v15">15</label>
+                    <input type="radio" id="v20" name="v" value="20"><label for="v20">20</label>
+                    <input type="radio" id="v30" name="v" value="30"><label for="v30">30</label>
+                    <input type="radio" id="v60" name="v" value="60"><label for="v60">60</label>
+                </div>
+            </div>
+            <div class="setting-group">
+                <h3>4:00起点時刻</h3>
+                <input type="time" id="targetTime" value="04:00">
+                <button type="button" id="setNowButton">現在時刻に合わせる</button>
+            </div>
+            <div class="setting-group">
+                <h3>パターン</h3>
+                <select id="pSelect">
+                    <option value="元住吉検車区_kudari">元住吉検車区</option>
+<option value="新横浜_kudari">新横浜 海老名・湘南台方面</option>
+<option value="新横浜_nobori">新横浜 元住吉方面</option>
+<option value="西谷S_nobori">西谷 新横浜方面</option>
+<option value="横浜_kudari">横浜</option>
+<option value="星川_kudari">星川 海老名・湘南台方面</option>
+<option value="星川_nobori">星川 横浜方面</option>
+<option value="西谷_kudari">西谷 海老名・湘南台方面</option>
+<option value="西谷_nobori">西谷 横浜方面</option>
+<option value="二俣川_kudari">二俣川 海老名方面</option>
+<option value="二俣川_nobori">二俣川 横浜方面</option>
+<option value="瀬谷_kudari">瀬谷 海老名方面</option>
+<option value="瀬谷_nobori">瀬谷 横浜方面</option>
+<option value="大和_kudari">大和 海老名方面</option>
+<option value="大和_nobori">大和 横浜方面</option>
+<option value="かしわ台_kudari">かしわ台 海老名方面</option>
+<option value="かしわ台_nobori">かしわ台 横浜方面</option>
+<option value="海老名_nobori">海老名</option>
+<option value="二俣川S_kudari">二俣川 湘南台方面</option>
+<option value="湘南台_nobori">湘南台</option>
+                </select>
+            </div>
+            <div class="setting-group">
+                <h3>システム</h3>
+                <button type="button" id="bgBtn">背景切替</button>
+                <button type="button" id="toggleSoundButton" class="inactive" style="margin-top:5px;">駅放送＆メロディーOFF</button>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        const form = document.getElementById('settingForm');
+        let allPatterns = {};
+        let soundsMain = {}, soundsSub = {};
+        
+        // --- Web Audio API による実装 ---
+        // AudioContextの作成（まだ生成せず、ユーザー操作時に生成します）
+        let audioCtx;
+
+        // 再生チャネル（今回は音量調整用ノードとして定義）
+        let gainNodeMain, gainNodeSub;
+
+        let isSoundOn = false;
+        const THIRTY_HRS = 108000;
+
+        // 音声データをロードしてデコードするヘルパー関数
+        async function loadAudioBuffer(url) {
+            const response = await fetch(url);
+            const arrayBuffer = await response.arrayBuffer();
+            return await audioCtx.decodeAudioData(arrayBuffer);
+        }
+
+        // 連続再生をスケジュールする関数
+        async function playSequence(gainNode, files) {
+            if (!audioCtx) return;
+
+            // 1. 全ファイルを先に並列でロード・デコードする（ここで待機時間が発生しても無音ラグにはならない）
+            const buffers = await Promise.all(files.map(f => loadAudioBuffer("sounds/" + f)));
+
+            // 2. 現在時刻を基準にスケジュール開始
+            let startTime = audioCtx.currentTime;
+            
+            // 少しだけ未来（0.05秒後）から開始することで、デコード直後のノイズを防ぐ
+            if (startTime < audioCtx.currentTime + 0.05) startTime = audioCtx.currentTime + 0.05;
+
+            buffers.forEach(buffer => {
+                const source = audioCtx.createBufferSource();
+                source.buffer = buffer;
+                source.connect(gainNode); // 出力先に接続
+                source.start(startTime);  // ★ここで「前の曲の終了地点」に予約を入れる
+                
+                // 次の曲の開始時間を、今の曲の長さ分ずらす
+                startTime += buffer.duration;
+            });
+        }
+
+        async function init() {
+            try {
+                const [patternsData, mainData, subData] = await Promise.all([
+                    fetch('patterns.json?' + Date.now()).then(r => r.json()),
+                    fetch('mainsounds.json?' + Date.now()).then(r => r.json()),
+                    fetch('subsounds.json?' + Date.now()).then(r => r.json())
+                ]);
+
+                allPatterns = patternsData;
+                soundsMain = mainData;
+                soundsSub = subData;
+
+                loadSavedSettings();
+
+                setInterval(update, 1000);
+            } catch (e) { console.error("Data Load Error", e); }
+        }
+
+        function formatTime(sec) {
+            let h = Math.floor(sec / 3600);
+            const m = Math.floor((sec % 3600) / 60);
+            const s = Math.floor(sec % 60);
+            if (h >= 30) h -= 30;
+            return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+        }
+
+        function update() {
+            const speed = parseInt(form.elements.v.value);
+            const [tH, tM] = document.getElementById('targetTime').value.split(':').map(Number);
+            const now = new Date();
+            const target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), tH, tM, 0);
+            
+            const diff = Math.floor(now.getTime() / 1000) - Math.floor(target.getTime() / 1000);
+            let curSec = (diff * speed + 14400) % THIRTY_HRS;
+            if (curSec < 0) curSec += THIRTY_HRS;
+            if (curSec < 14400) curSec += THIRTY_HRS;
+
+            document.getElementById('currentTime').innerText = formatTime(curSec);
+            
+            const pKey = document.getElementById('pSelect').value;
+            const upcoming = (allPatterns[pKey] || []).filter(i => i.time_seconds > curSec);
+            
+            for (let i = 1; i <= 3; i++) {
+                const data = upcoming[i-1];
+                const cells = [
+                    document.getElementById(`num${i}`), document.getElementById(`track${i}`),
+                    document.getElementById(`time${i}`), document.getElementById(`type${i}`),
+                    document.getElementById(`dest${i}`)
+                ];
+                cells[4].classList.remove('msg-closed');
+                if (data && data.parts) {
+                    cells.forEach((cell, idx) => {
+                        const part = data.parts[idx];
+                        if (part) {
+                            cell.innerText = part.text;
+                            cell.style.color = (part.style && part.style.color) ? part.style.color : "#ffffff";
+                            cell.style.backgroundColor = (part.style && part.style.backgroundColor) ? part.style.backgroundColor : "";
+                        } else { cell.innerText = ""; cell.style.backgroundColor = ""; }
+                    });
+                } else {
+                    cells.forEach((cell, idx) => {
+                        cell.style.backgroundColor = "";
+                        if (i === 1 && idx === 4) {
+                            cell.innerText = "☆本日の運転は終了しました☆";
+                            cell.classList.add('msg-closed');
+                        } else { cell.innerText = ""; }
+                    });
+                }
+            }
+
+            if (isSoundOn) {
+                if (soundsMain[pKey]) {
+                    const triggerMain = soundsMain[pKey].find(s => s.trigger_seconds === curSec);
+                    if (triggerMain) playSequence(gainNodeMain, triggerMain.files);
+                }
+                if (soundsSub[pKey]) {
+                    const triggerSub = soundsSub[pKey].find(s => s.trigger_seconds === curSec);
+                    if (triggerSub) playSequence(gainNodeSub, triggerSub.files);
+                }
+            }
+        }
+
+        document.getElementById('bgBtn').onclick = () => {
+            const isL = document.body.classList.toggle('light-mode');
+            localStorage.setItem('theme', isL ? 'light' : 'dark');
+        };
+        
+        document.getElementById('setNowButton').onclick = () => {
+            const n = new Date(); 
+            document.getElementById('targetTime').value = `${String(n.getHours()).padStart(2,'0')}:${String(n.getMinutes()).padStart(2,'0')}`;
+            save();
+        };
+
+        document.getElementById('toggleSoundButton').onclick = async function() {
+            isSoundOn = !isSoundOn;
+            
+            if (isSoundOn) {
+                // AudioContextが未作成なら作成、停止中なら再開
+                if (!audioCtx) {
+                    const AudioContext = window.AudioContext || window.webkitAudioContext;
+                    audioCtx = new AudioContext();
+                    
+                    // 音量ノードを作成してスピーカーに繋ぐ
+                    gainNodeMain = audioCtx.createGain();
+                    gainNodeSub = audioCtx.createGain();
+                    gainNodeMain.connect(audioCtx.destination);
+                    gainNodeSub.connect(audioCtx.destination);
+                }
+                if (audioCtx.state === 'suspended') {
+                    await audioCtx.resume();
+                }
+            } else {
+                // 音を止める場合、Contextごと一時停止させるのが手っ取り早い
+                if (audioCtx) await audioCtx.suspend();
+            }
+
+            this.innerText = isSoundOn ? "駅放送＆メロディーON" : "駅放送＆メロディーOFF";
+            this.className = isSoundOn ? "active" : "inactive";
+        };
+
+        form.onchange = save;
+        function save() {
+            const params = `?v=${form.elements.v.value}&t=${document.getElementById('targetTime').value}&p=${document.getElementById('pSelect').value}`;
+            window.history.replaceState({}, '', params);
+        }
+        function loadSavedSettings() {
+            const p = new URLSearchParams(window.location.search);
+            if (p.get('v')) form.elements.v.value = p.get('v');
+            if (p.get('t')) document.getElementById('targetTime').value = p.get('t');
+            if (p.get('p')) document.getElementById('pSelect').value = p.get('p');
+            if (localStorage.getItem('theme') === 'light') document.body.classList.add('light-mode');
+        }
+
+        init();
+    </script>
+    <footer style="margin-top:20px; color:#666; font-size:1.6rem;">
+        <small>&copy; 鉄道研究会 倍速時計ver1.2.1 / VOICEVOX：冥鳴ひまり</small>
+    </footer>
+</body>
+</html>
