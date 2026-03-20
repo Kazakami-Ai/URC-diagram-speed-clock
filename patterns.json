@@ -47608,7 +47608,7 @@
           }
         },
         {
-          "text": "鳩ヶ谷",
+          "text": "浦和美園",
           "style": {
             "color": "#ffffff"
           }
@@ -48940,7 +48940,7 @@
           }
         },
         {
-          "text": "新宿",
+          "text": "大崎",
           "style": {
             "color": "#ffffff"
           }
@@ -64391,7 +64391,7 @@
           }
         },
         {
-          "text": "鳩ヶ谷",
+          "text": "浦和美園",
           "style": {
             "color": "#ffffff"
           }
@@ -64967,7 +64967,7 @@
           }
         },
         {
-          "text": "新宿",
+          "text": "大崎",
           "style": {
             "color": "#ffffff"
           }
@@ -68029,7 +68029,7 @@
           }
         },
         {
-          "text": "鳩ヶ谷",
+          "text": "浦和美園",
           "style": {
             "color": "#ffffff"
           }
@@ -68569,7 +68569,7 @@
           }
         },
         {
-          "text": "新宿",
+          "text": "大崎",
           "style": {
             "color": "#ffffff"
           }
@@ -71992,7 +71992,7 @@
           }
         },
         {
-          "text": "新宿",
+          "text": "大崎",
           "style": {
             "color": "#ffffff"
           }
@@ -75486,7 +75486,7 @@
           }
         },
         {
-          "text": "鳩ヶ谷",
+          "text": "浦和美園",
           "style": {
             "color": "#ffffff"
           }
@@ -76350,7 +76350,7 @@
           }
         },
         {
-          "text": "新宿",
+          "text": "大崎",
           "style": {
             "color": "#ffffff"
           }
@@ -81572,7 +81572,7 @@
           }
         },
         {
-          "text": "新宿",
+          "text": "大崎",
           "style": {
             "color": "#ffffff"
           }
@@ -87770,7 +87770,7 @@
           }
         },
         {
-          "text": "鳩ヶ谷",
+          "text": "浦和美園",
           "style": {
             "color": "#ffffff"
           }
@@ -88454,7 +88454,7 @@
           }
         },
         {
-          "text": "新宿",
+          "text": "大崎",
           "style": {
             "color": "#ffffff"
           }
@@ -92681,13 +92681,13 @@
   "新宿_nobori": [],
   "和光市_nobori": [],
   "森林公園_nobori": [],
-  "鳩ヶ谷_nobori": [],
   "大宮_nobori": [],
   "新宿三丁目_nobori": [],
   "小川町_nobori": [],
   "赤羽_nobori": [],
   "高島平_nobori": [],
   "池袋_nobori": [],
+  "大崎_nobori": [],
   "武蔵浦和_nobori": [],
   "志木_nobori": [],
   "赤羽岩淵_nobori": [],
