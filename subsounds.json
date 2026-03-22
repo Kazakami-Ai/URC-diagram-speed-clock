@@ -230,7 +230,7 @@
       ]
     },
     {
-      "trigger_seconds": 28620,
+      "trigger_seconds": 28320,
       "files": [
         "17.mp3",
         "23.mp3",
@@ -264,7 +264,7 @@
       ]
     },
     {
-      "trigger_seconds": 30300,
+      "trigger_seconds": 29640,
       "files": [
         "17.mp3",
         "23.mp3",
@@ -879,7 +879,7 @@
       ]
     },
     {
-      "trigger_seconds": 76080,
+      "trigger_seconds": 78840,
       "files": [
         "17.mp3",
         "23.mp3",
@@ -1018,7 +1018,7 @@
       ]
     },
     {
-      "trigger_seconds": 83540,
+      "trigger_seconds": 82580,
       "files": [
         "17.mp3",
         "23.mp3",
@@ -1040,13 +1040,15 @@
       ]
     },
     {
-      "trigger_seconds": 84860,
+      "trigger_seconds": 84800,
       "files": [
         "16.mp3",
         "30.mp3",
         "42.mp3",
         "102.mp3",
-        "108.mp3"
+        "108.mp3",
+        "116.mp3",
+        "118.mp3"
       ]
     },
     {
@@ -1069,13 +1071,15 @@
       ]
     },
     {
-      "trigger_seconds": 87260,
+      "trigger_seconds": 87200,
       "files": [
         "16.mp3",
         "30.mp3",
         "48.mp3",
         "102.mp3",
-        "108.mp3"
+        "108.mp3",
+        "116.mp3",
+        "122.mp3"
       ]
     },
     {
@@ -1282,15 +1286,6 @@
       ]
     },
     {
-      "trigger_seconds": 28160,
-      "files": [
-        "17.mp3",
-        "107.mp3",
-        "109.mp3",
-        "115.mp3"
-      ]
-    },
-    {
       "trigger_seconds": 28580,
       "files": [
         "18.mp3",
@@ -1311,12 +1306,6 @@
         "45.mp3",
         "105.mp3",
         "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 29700,
-      "files": [
-        "6.mp3"
       ]
     },
     {
@@ -2006,12 +1995,6 @@
       ]
     },
     {
-      "trigger_seconds": 75460,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
       "trigger_seconds": 75940,
       "files": [
         "1.mp3"
@@ -2030,18 +2013,9 @@
       ]
     },
     {
-      "trigger_seconds": 76940,
+      "trigger_seconds": 77100,
       "files": [
-        "17.mp3",
-        "107.mp3",
-        "109.mp3",
-        "115.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 77260,
-      "files": [
-        "1.mp3"
+        "4.mp3"
       ]
     },
     {
@@ -2127,15 +2101,6 @@
       ]
     },
     {
-      "trigger_seconds": 82520,
-      "files": [
-        "17.mp3",
-        "107.mp3",
-        "109.mp3",
-        "115.mp3"
-      ]
-    },
-    {
       "trigger_seconds": 83140,
       "files": [
         "14.mp3",
@@ -2207,13 +2172,7 @@
       ]
     },
     {
-      "trigger_seconds": 17100,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 17400,
+      "trigger_seconds": 16740,
       "files": [
         "16.mp3",
         "106.mp3",
@@ -2222,7 +2181,7 @@
       ]
     },
     {
-      "trigger_seconds": 17760,
+      "trigger_seconds": 17640,
       "files": [
         "2.mp3"
       ]
@@ -2234,42 +2193,47 @@
       ]
     },
     {
-      "trigger_seconds": 18300,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 18840,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 19000,
+      "trigger_seconds": 17960,
       "files": [
         "17.mp3",
-        "29.mp3",
-        "39.mp3",
-        "93.mp3",
-        "105.mp3",
-        "109.mp3"
+        "107.mp3",
+        "109.mp3",
+        "115.mp3"
       ]
     },
     {
-      "trigger_seconds": 19560,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 19900,
+      "trigger_seconds": 18520,
       "files": [
         "17.mp3",
         "33.mp3",
         "43.mp3",
         "103.mp3",
         "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 19040,
+      "files": [
+        "16.mp3",
+        "30.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 19320,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 19860,
+      "files": [
+        "16.mp3",
+        "106.mp3",
+        "108.mp3",
+        "114.mp3"
       ]
     },
     {
@@ -2279,123 +2243,82 @@
       ]
     },
     {
-      "trigger_seconds": 20680,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 20880,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 20900,
-      "files": [
-        "16.mp3",
-        "28.mp3",
-        "30.mp3",
-        "88.mp3",
-        "104.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 21360,
-      "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 21840,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 21740,
-      "files": [
-        "16.mp3",
-        "28.mp3",
-        "30.mp3",
-        "88.mp3",
-        "104.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 22200,
-      "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 22720,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 22920,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 23160,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 23280,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 23520,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 23640,
-      "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 23880,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 24220,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 24080,
+      "trigger_seconds": 20340,
       "files": [
         "17.mp3",
-        "37.mp3",
+        "25.mp3",
+        "39.mp3",
+        "71.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20540,
+      "files": [
+        "17.mp3",
+        "31.mp3",
         "43.mp3",
         "103.mp3",
         "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 24540,
+      "trigger_seconds": 20920,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "35.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 24560,
+      "trigger_seconds": 21220,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21520,
+      "files": [
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "83.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21740,
+      "files": [
+        "17.mp3",
+        "31.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22080,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22380,
+      "files": [
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22580,
       "files": [
         "16.mp3",
         "30.mp3",
@@ -2405,63 +2328,135 @@
       ]
     },
     {
-      "trigger_seconds": 24960,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 25140,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 25320,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 25480,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 25460,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "40.mp3",
-        "74.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 25640,
+      "trigger_seconds": 22720,
       "files": [
         "17.mp3",
-        "37.mp3",
+        "33.mp3",
         "43.mp3",
         "103.mp3",
         "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 25840,
+      "trigger_seconds": 22960,
       "files": [
         "17.mp3",
-        "29.mp3",
+        "27.mp3",
+        "31.mp3",
+        "79.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23200,
+      "files": [
+        "17.mp3",
         "39.mp3",
-        "89.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23300,
+      "files": [
+        "16.mp3",
+        "28.mp3",
+        "38.mp3",
+        "88.mp3",
+        "104.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23540,
+      "files": [
+        "17.mp3",
+        "31.mp3",
+        "43.mp3",
         "105.mp3",
         "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 26060,
+      "trigger_seconds": 23880,
+      "files": [
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24020,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "30.mp3",
+        "84.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24400,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24360,
+      "files": [
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "61.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24720,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24800,
+      "files": [
+        "16.mp3",
+        "36.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25000,
+      "files": [
+        "17.mp3",
+        "39.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25140,
+      "files": [
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "69.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25340,
       "files": [
         "17.mp3",
         "37.mp3",
@@ -2471,7 +2466,372 @@
       ]
     },
     {
-      "trigger_seconds": 26240,
+      "trigger_seconds": 25800,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26040,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26160,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26400,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26580,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26700,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26940,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26840,
+      "files": [
+        "16.mp3",
+        "36.mp3",
+        "42.mp3",
+        "104.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27080,
+      "files": [
+        "17.mp3",
+        "31.mp3",
+        "57.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27480,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27660,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27500,
+      "files": [
+        "17.mp3",
+        "37.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28020,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28200,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28040,
+      "files": [
+        "16.mp3",
+        "36.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28560,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28740,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28540,
+      "files": [
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "93.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28860,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29100,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28960,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "30.mp3",
+        "72.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29240,
+      "files": [
+        "16.mp3",
+        "36.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29740,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29940,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29840,
+      "files": [
+        "17.mp3",
+        "37.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30140,
+      "files": [
+        "17.mp3",
+        "31.mp3",
+        "43.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30540,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30580,
+      "files": [
+        "17.mp3",
+        "39.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30800,
+      "files": [
+        "16.mp3",
+        "36.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31260,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31480,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31600,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31540,
+      "files": [
+        "16.mp3",
+        "32.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31900,
+      "files": [
+        "9.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31880,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "40.mp3",
+        "78.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32340,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32580,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32700,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32940,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33100,
+      "files": [
+        "901.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33360,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33600,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33780,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33900,
+      "files": [
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "67.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34240,
+      "files": [
+        "901.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34500,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34680,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34760,
+      "files": [
+        "16.mp3",
+        "28.mp3",
+        "30.mp3",
+        "88.mp3",
+        "104.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35220,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35800,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35720,
       "files": [
         "16.mp3",
         "38.mp3",
@@ -2481,222 +2841,54 @@
       ]
     },
     {
-      "trigger_seconds": 26380,
-      "files": [
-        "17.mp3",
-        "27.mp3",
-        "31.mp3",
-        "87.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 26600,
-      "files": [
-        "17.mp3",
-        "31.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 26760,
-      "files": [
-        "17.mp3",
-        "25.mp3",
-        "39.mp3",
-        "65.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 27100,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 27300,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 27340,
-      "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 27380,
-      "files": [
-        "16.mp3",
-        "28.mp3",
-        "40.mp3",
-        "90.mp3",
-        "104.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 27780,
-      "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 27860,
-      "files": [
-        "17.mp3",
-        "37.mp3",
-        "43.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 28000,
-      "files": [
-        "17.mp3",
-        "27.mp3",
-        "39.mp3",
-        "75.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 28320,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 28400,
-      "files": [
-        "17.mp3",
-        "31.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 28480,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "72.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 28800,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 28760,
-      "files": [
-        "17.mp3",
-        "37.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 28980,
-      "files": [
-        "17.mp3",
-        "25.mp3",
-        "39.mp3",
-        "59.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 29280,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 29380,
+      "trigger_seconds": 36160,
       "files": [
         "9.mp3"
       ]
     },
     {
-      "trigger_seconds": 29620,
-      "files": [
-        "17.mp3",
-        "27.mp3",
-        "39.mp3",
-        "63.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 29800,
-      "files": [
-        "16.mp3",
-        "28.mp3",
-        "30.mp3",
-        "90.mp3",
-        "104.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 30180,
+      "trigger_seconds": 36660,
       "files": [
         "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 30300,
+      "trigger_seconds": 36840,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37140,
       "files": [
         "7.mp3"
       ]
     },
     {
-      "trigger_seconds": 30520,
+      "trigger_seconds": 37480,
       "files": [
         "16.mp3",
         "26.mp3",
-        "40.mp3",
+        "30.mp3",
         "72.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 30840,
+      "trigger_seconds": 37920,
       "files": [
         "5.mp3"
       ]
     },
     {
-      "trigger_seconds": 31080,
+      "trigger_seconds": 38340,
       "files": [
         "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 31180,
+      "trigger_seconds": 38620,
       "files": [
         "16.mp3",
         "32.mp3",
@@ -2706,123 +2898,66 @@
       ]
     },
     {
-      "trigger_seconds": 31300,
-      "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 31500,
-      "files": [
-        "17.mp3",
-        "25.mp3",
-        "31.mp3",
-        "61.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 31860,
+      "trigger_seconds": 39120,
       "files": [
         "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 31820,
-      "files": [
-        "17.mp3",
-        "31.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 32220,
+      "trigger_seconds": 39300,
       "files": [
         "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 32260,
-      "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 32360,
-      "files": [
-        "17.mp3",
-        "29.mp3",
-        "31.mp3",
-        "89.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 32620,
-      "files": [
-        "16.mp3",
-        "32.mp3",
-        "42.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 32740,
-      "files": [
-        "17.mp3",
-        "25.mp3",
-        "31.mp3",
-        "63.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 33020,
+      "trigger_seconds": 39760,
       "files": [
         "16.mp3",
         "26.mp3",
-        "40.mp3",
-        "82.mp3",
+        "30.mp3",
+        "78.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 33280,
+      "trigger_seconds": 40260,
       "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "105.mp3",
-        "109.mp3"
+        "5.mp3"
       ]
     },
     {
-      "trigger_seconds": 33460,
+      "trigger_seconds": 40440,
       "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
+        "7.mp3"
       ]
     },
     {
-      "trigger_seconds": 33820,
+      "trigger_seconds": 41160,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41400,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41520,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41940,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42220,
       "files": [
         "16.mp3",
         "32.mp3",
@@ -2832,23 +2967,141 @@
       ]
     },
     {
-      "trigger_seconds": 34120,
+      "trigger_seconds": 42720,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42900,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43360,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "30.mp3",
+        "78.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43860,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44040,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44520,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44760,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45000,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45120,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45540,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45820,
+      "files": [
+        "16.mp3",
+        "32.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46320,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46500,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46960,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "30.mp3",
+        "78.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47460,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47640,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48360,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48580,
       "files": [
         "3.mp3"
       ]
     },
     {
-      "trigger_seconds": 34180,
+      "trigger_seconds": 48720,
       "files": [
-        "17.mp3",
-        "35.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
+        "5.mp3"
       ]
     },
     {
-      "trigger_seconds": 34360,
+      "trigger_seconds": 49140,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49420,
       "files": [
         "16.mp3",
         "32.mp3",
@@ -2858,498 +3111,135 @@
       ]
     },
     {
-      "trigger_seconds": 34780,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 35100,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 35500,
-      "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 35700,
-      "files": [
-        "17.mp3",
-        "25.mp3",
-        "31.mp3",
-        "59.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 36040,
+      "trigger_seconds": 49900,
       "files": [
         "3.mp3"
       ]
     },
     {
-      "trigger_seconds": 36340,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 36480,
-      "files": [
-        "16.mp3",
-        "106.mp3",
-        "108.mp3",
-        "114.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 36820,
-      "files": [
-        "17.mp3",
-        "29.mp3",
-        "39.mp3",
-        "89.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 37480,
-      "files": [
-        "17.mp3",
-        "35.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 37800,
+      "trigger_seconds": 50100,
       "files": [
         "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 38020,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 38580,
-      "files": [
-        "17.mp3",
-        "25.mp3",
-        "31.mp3",
-        "59.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 38920,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 38980,
-      "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 39820,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 40140,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 40120,
-      "files": [
-        "17.mp3",
-        "29.mp3",
-        "39.mp3",
-        "89.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 40820,
+      "trigger_seconds": 50560,
       "files": [
         "16.mp3",
         "26.mp3",
         "30.mp3",
-        "82.mp3",
+        "78.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 41080,
+      "trigger_seconds": 51060,
       "files": [
-        "17.mp3",
-        "35.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 41180,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "82.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 41620,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 42180,
-      "files": [
-        "17.mp3",
-        "25.mp3",
-        "31.mp3",
-        "59.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 42520,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 42580,
-      "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 43420,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 43740,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 43720,
-      "files": [
-        "17.mp3",
-        "29.mp3",
-        "39.mp3",
-        "89.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 44180,
-      "files": [
-        "17.mp3",
-        "107.mp3",
-        "109.mp3",
-        "115.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 44420,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "82.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 44680,
-      "files": [
-        "17.mp3",
-        "35.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 44780,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "82.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 45220,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 45780,
-      "files": [
-        "17.mp3",
-        "25.mp3",
-        "31.mp3",
-        "59.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 46120,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 46180,
-      "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 47020,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 47340,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 47320,
-      "files": [
-        "17.mp3",
-        "29.mp3",
-        "39.mp3",
-        "89.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 48040,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "80.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 48280,
-      "files": [
-        "17.mp3",
-        "35.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 48400,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "80.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 48820,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 49380,
-      "files": [
-        "17.mp3",
-        "25.mp3",
-        "31.mp3",
-        "59.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 49720,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 49780,
-      "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 50620,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 50940,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 50920,
-      "files": [
-        "17.mp3",
-        "29.mp3",
-        "39.mp3",
-        "89.mp3",
-        "105.mp3",
-        "109.mp3"
+        "5.mp3"
       ]
     },
     {
       "trigger_seconds": 51240,
       "files": [
-        "16.mp3",
-        "106.mp3",
-        "108.mp3",
-        "114.mp3"
+        "7.mp3"
       ]
     },
     {
-      "trigger_seconds": 51640,
+      "trigger_seconds": 51600,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51960,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52200,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52320,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52740,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53020,
       "files": [
         "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "80.mp3",
+        "32.mp3",
+        "42.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 51880,
+      "trigger_seconds": 53520,
       "files": [
-        "17.mp3",
-        "35.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
+        "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 52000,
+      "trigger_seconds": 53700,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54140,
       "files": [
         "16.mp3",
         "26.mp3",
         "30.mp3",
-        "80.mp3",
+        "62.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 52420,
+      "trigger_seconds": 54660,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54840,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55560,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55800,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55920,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56020,
       "files": [
         "17.mp3",
         "33.mp3",
@@ -3359,7 +3249,82 @@
       ]
     },
     {
-      "trigger_seconds": 52980,
+      "trigger_seconds": 56340,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56620,
+      "files": [
+        "16.mp3",
+        "32.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57120,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57300,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57760,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "30.mp3",
+        "78.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58260,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58440,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59160,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59400,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59520,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59940,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60180,
       "files": [
         "17.mp3",
         "25.mp3",
@@ -3370,23 +3335,111 @@
       ]
     },
     {
-      "trigger_seconds": 53320,
+      "trigger_seconds": 60520,
       "files": [
         "901.mp3"
       ]
     },
     {
-      "trigger_seconds": 53380,
+      "trigger_seconds": 60720,
       "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
+        "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 54220,
+      "trigger_seconds": 60960,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61120,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61240,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "30.mp3",
+        "78.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61740,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61980,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62460,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62760,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62880,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63300,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63340,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "30.mp3",
+        "78.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63660,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63740,
+      "files": [
+        "16.mp3",
+        "30.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64080,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64000,
       "files": [
         "17.mp3",
         "33.mp3",
@@ -3396,183 +3449,34 @@
       ]
     },
     {
-      "trigger_seconds": 54540,
+      "trigger_seconds": 64160,
       "files": [
-        "2.mp3"
+        "16.mp3",
+        "30.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 54520,
+      "trigger_seconds": 64360,
       "files": [
         "17.mp3",
         "29.mp3",
-        "39.mp3",
-        "89.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 55220,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "82.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 55480,
-      "files": [
-        "17.mp3",
-        "35.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 55580,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "82.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 55860,
-      "files": [
-        "16.mp3",
-        "106.mp3",
-        "108.mp3",
-        "114.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 56220,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 56580,
-      "files": [
-        "17.mp3",
-        "25.mp3",
         "31.mp3",
-        "59.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 56920,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 56980,
-      "files": [
-        "17.mp3",
-        "39.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 57820,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 58140,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 58120,
-      "files": [
-        "17.mp3",
-        "29.mp3",
-        "39.mp3",
-        "89.mp3",
+        "93.mp3",
         "105.mp3",
         "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 58840,
+      "trigger_seconds": 64680,
       "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "80.mp3",
-        "102.mp3",
-        "108.mp3"
+        "7.mp3"
       ]
     },
     {
-      "trigger_seconds": 59080,
-      "files": [
-        "17.mp3",
-        "35.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 59200,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "80.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 59620,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 60080,
-      "files": [
-        "16.mp3",
-        "30.mp3",
-        "42.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 60420,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 60400,
+      "trigger_seconds": 64720,
       "files": [
         "17.mp3",
         "39.mp3",
@@ -3582,17 +3486,18 @@
       ]
     },
     {
-      "trigger_seconds": 60620,
+      "trigger_seconds": 64840,
       "files": [
         "16.mp3",
+        "26.mp3",
         "30.mp3",
-        "42.mp3",
+        "78.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 60820,
+      "trigger_seconds": 65140,
       "files": [
         "17.mp3",
         "33.mp3",
@@ -3602,23 +3507,7 @@
       ]
     },
     {
-      "trigger_seconds": 61300,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 61620,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 61660,
+      "trigger_seconds": 65260,
       "files": [
         "17.mp3",
         "29.mp3",
@@ -3629,7 +3518,7 @@
       ]
     },
     {
-      "trigger_seconds": 62140,
+      "trigger_seconds": 65680,
       "files": [
         "16.mp3",
         "32.mp3",
@@ -3639,65 +3528,13 @@
       ]
     },
     {
-      "trigger_seconds": 62360,
-      "files": [
-        "17.mp3",
-        "31.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 62560,
-      "files": [
-        "17.mp3",
-        "29.mp3",
-        "39.mp3",
-        "89.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 62980,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "78.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 63220,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 63460,
-      "files": [
-        "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 63900,
+      "trigger_seconds": 66000,
       "files": [
         "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 63780,
+      "trigger_seconds": 66240,
       "files": [
         "17.mp3",
         "25.mp3",
@@ -3708,82 +3545,23 @@
       ]
     },
     {
-      "trigger_seconds": 64120,
+      "trigger_seconds": 66580,
       "files": [
         "901.mp3"
       ]
     },
     {
-      "trigger_seconds": 64320,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 64500,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 64480,
-      "files": [
-        "16.mp3",
-        "26.mp3",
-        "30.mp3",
-        "78.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 64800,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 65040,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 65160,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 65460,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 65580,
-      "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 65720,
+      "trigger_seconds": 66520,
       "files": [
         "17.mp3",
-        "31.mp3",
+        "35.mp3",
         "43.mp3",
         "103.mp3",
         "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 66180,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 66280,
+      "trigger_seconds": 66640,
       "files": [
         "16.mp3",
         "26.mp3",
@@ -3794,37 +3572,312 @@
       ]
     },
     {
-      "trigger_seconds": 66600,
+      "trigger_seconds": 66860,
       "files": [
-        "5.mp3"
+        "16.mp3",
+        "30.mp3",
+        "42.mp3",
+        "104.mp3",
+        "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 66840,
+      "trigger_seconds": 67060,
+      "files": [
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "93.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67280,
+      "files": [
+        "17.mp3",
+        "31.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67620,
       "files": [
         "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 66960,
+      "trigger_seconds": 67740,
       "files": [
         "5.mp3"
       ]
     },
     {
-      "trigger_seconds": 67200,
+      "trigger_seconds": 67840,
       "files": [
-        "2.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "83.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 67380,
+      "trigger_seconds": 68160,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68260,
+      "files": [
+        "17.mp3",
+        "39.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68440,
+      "files": [
+        "17.mp3",
+        "33.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68640,
+      "files": [
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68980,
+      "files": [
+        "901.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69160,
+      "files": [
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "93.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69480,
       "files": [
         "7.mp3"
       ]
     },
     {
-      "trigger_seconds": 67280,
+      "trigger_seconds": 69700,
+      "files": [
+        "17.mp3",
+        "35.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69820,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "38.mp3",
+        "78.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70060,
+      "files": [
+        "17.mp3",
+        "33.mp3",
+        "43.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70380,
+      "files": [
+        "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70300,
+      "files": [
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70620,
+      "files": [
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70820,
+      "files": [
+        "17.mp3",
+        "31.mp3",
+        "43.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70960,
+      "files": [
+        "16.mp3",
+        "32.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71260,
+      "files": [
+        "17.mp3",
+        "33.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71560,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "38.mp3",
+        "78.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71880,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71840,
+      "files": [
+        "17.mp3",
+        "31.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72100,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "38.mp3",
+        "78.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72420,
+      "files": [
+        "5.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72400,
+      "files": [
+        "17.mp3",
+        "33.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72620,
+      "files": [
+        "16.mp3",
+        "30.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72900,
+      "files": [
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73060,
+      "files": [
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "93.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73380,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73600,
+      "files": [
+        "17.mp3",
+        "35.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73880,
       "files": [
         "16.mp3",
         "26.mp3",
@@ -3835,23 +3888,28 @@
       ]
     },
     {
-      "trigger_seconds": 67600,
+      "trigger_seconds": 74140,
       "files": [
         "17.mp3",
-        "33.mp3",
-        "43.mp3",
-        "103.mp3",
+        "29.mp3",
+        "39.mp3",
+        "95.mp3",
+        "105.mp3",
         "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 67980,
+      "trigger_seconds": 74380,
       "files": [
-        "2.mp3"
+        "17.mp3",
+        "33.mp3",
+        "43.mp3",
+        "105.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 68000,
+      "trigger_seconds": 74600,
       "files": [
         "16.mp3",
         "30.mp3",
@@ -3861,41 +3919,48 @@
       ]
     },
     {
-      "trigger_seconds": 68400,
+      "trigger_seconds": 75000,
       "files": [
-        "2.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 68580,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 68740,
-      "files": [
-        "3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 68740,
+      "trigger_seconds": 75200,
       "files": [
         "16.mp3",
-        "32.mp3",
+        "30.mp3",
         "42.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 69180,
+      "trigger_seconds": 75580,
       "files": [
-        "2.mp3"
+        "17.mp3",
+        "39.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 69280,
+      "trigger_seconds": 75760,
+      "files": [
+        "17.mp3",
+        "33.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75880,
       "files": [
         "16.mp3",
         "26.mp3",
@@ -3906,25 +3971,27 @@
       ]
     },
     {
-      "trigger_seconds": 69600,
+      "trigger_seconds": 76300,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "35.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 70000,
+      "trigger_seconds": 76700,
       "files": [
-        "3.mp3"
+        "17.mp3",
+        "31.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 70140,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 70160,
+      "trigger_seconds": 76880,
       "files": [
         "16.mp3",
         "30.mp3",
@@ -3934,43 +4001,7 @@
       ]
     },
     {
-      "trigger_seconds": 70560,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 70680,
-      "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 70960,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 71160,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 71340,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 71580,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 71620,
+      "trigger_seconds": 77020,
       "files": [
         "17.mp3",
         "29.mp3",
@@ -3981,248 +4012,194 @@
       ]
     },
     {
-      "trigger_seconds": 71940,
-      "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 72180,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 72260,
-      "files": [
-        "16.mp3",
-        "30.mp3",
-        "42.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 72600,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 72720,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 72960,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 73240,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 73160,
-      "files": [
-        "16.mp3",
-        "30.mp3",
-        "42.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 73620,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 73920,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 74220,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 74460,
-      "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 74700,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 74940,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 75340,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 75540,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 75900,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 76080,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 76200,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 76620,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 77040,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 77220,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 77340,
-      "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 77880,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 78000,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 78240,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 78840,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 79140,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 79260,
-      "files": [
-        "5.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 79540,
-      "files": [
-        "901.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 79740,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 80280,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 80080,
+      "trigger_seconds": 77540,
       "files": [
         "17.mp3",
-        "29.mp3",
         "31.mp3",
-        "99.mp3",
+        "43.mp3",
         "105.mp3",
         "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 80640,
+      "trigger_seconds": 77660,
+      "files": [
+        "16.mp3",
+        "26.mp3",
+        "30.mp3",
+        "96.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77920,
+      "files": [
+        "17.mp3",
+        "33.mp3",
+        "43.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78520,
+      "files": [
+        "17.mp3",
+        "35.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78800,
+      "files": [
+        "16.mp3",
+        "30.mp3",
+        "42.mp3",
+        "104.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78960,
+      "files": [
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "73.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79200,
+      "files": [
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79400,
+      "files": [
+        "17.mp3",
+        "31.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79960,
+      "files": [
+        "17.mp3",
+        "39.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80120,
+      "files": [
+        "16.mp3",
+        "30.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80400,
+      "files": [
+        "7.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80580,
+      "files": [
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81040,
+      "files": [
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "97.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81320,
+      "files": [
+        "16.mp3",
+        "30.mp3",
+        "42.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81800,
+      "files": [
+        "17.mp3",
+        "31.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82480,
+      "files": [
+        "17.mp3",
+        "35.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82860,
       "files": [
         "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 80920,
+      "trigger_seconds": 83320,
       "files": [
-        "901.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "97.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 81360,
+      "trigger_seconds": 83780,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "107.mp3",
+        "109.mp3",
+        "115.mp3"
       ]
     },
     {
-      "trigger_seconds": 81660,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 82140,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 82500,
+      "trigger_seconds": 84000,
       "files": [
         "16.mp3",
         "106.mp3",
@@ -4231,45 +4208,33 @@
       ]
     },
     {
-      "trigger_seconds": 82920,
+      "trigger_seconds": 84220,
       "files": [
-        "2.mp3"
+        "17.mp3",
+        "39.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 83640,
+      "trigger_seconds": 85000,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "101.mp3",
+        "105.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 84120,
+      "trigger_seconds": 85400,
       "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 84340,
-      "files": [
-        "3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 84540,
-      "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 85320,
-      "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 85740,
-      "files": [
-        "2.mp3"
+        "17.mp3",
+        "107.mp3",
+        "109.mp3",
+        "115.mp3"
       ]
     },
     {
@@ -4279,33 +4244,36 @@
       ]
     },
     {
-      "trigger_seconds": 86620,
+      "trigger_seconds": 86240,
       "files": [
-        "3.mp3"
+        "17.mp3",
+        "31.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3",
+        "116.mp3",
+        "118.mp3"
       ]
     },
     {
-      "trigger_seconds": 87400,
+      "trigger_seconds": 87180,
       "files": [
-        "3.mp3"
+        "16.mp3",
+        "106.mp3",
+        "108.mp3",
+        "114.mp3"
       ]
     },
     {
-      "trigger_seconds": 87840,
+      "trigger_seconds": 87960,
       "files": [
         "2.mp3"
       ]
     },
     {
-      "trigger_seconds": 88920,
+      "trigger_seconds": 89040,
       "files": [
         "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 89440,
-      "files": [
-        "3.mp3"
       ]
     }
   ],
@@ -5836,12 +5804,6 @@
       "trigger_seconds": 88020,
       "files": [
         "6.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 89380,
-      "files": [
-        "1.mp3"
       ]
     }
   ],
@@ -8583,495 +8545,898 @@
       ]
     },
     {
-      "trigger_seconds": 28320,
+      "trigger_seconds": 28460,
       "files": [
-        "2.mp3"
+        "17.mp3",
+        "29.mp3",
+        "41.mp3",
+        "91.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 28800,
+      "trigger_seconds": 29000,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "75.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 29340,
+      "trigger_seconds": 29540,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "93.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 29880,
+      "trigger_seconds": 29980,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "73.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 30240,
+      "trigger_seconds": 30160,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 30460,
+      "trigger_seconds": 30640,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "63.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 31020,
+      "trigger_seconds": 30980,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "91.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 31260,
+      "trigger_seconds": 31520,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "41.mp3",
+        "73.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 31920,
+      "trigger_seconds": 32180,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "93.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 32520,
+      "trigger_seconds": 32680,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "61.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 32920,
+      "trigger_seconds": 33020,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "41.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 33300,
+      "trigger_seconds": 33380,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 33660,
+      "trigger_seconds": 33760,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "63.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 34060,
+      "trigger_seconds": 34040,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "41.mp3",
+        "83.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 34500,
+      "trigger_seconds": 34900,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "67.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 35080,
+      "trigger_seconds": 35900,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 36240,
+      "trigger_seconds": 36940,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 37240,
+      "trigger_seconds": 37820,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 38100,
+      "trigger_seconds": 38620,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "73.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 38880,
+      "trigger_seconds": 39580,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 39760,
+      "trigger_seconds": 40940,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 41220,
+      "trigger_seconds": 41120,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 41400,
+      "trigger_seconds": 42200,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "83.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 42480,
+      "trigger_seconds": 43180,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 43360,
+      "trigger_seconds": 44540,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 44820,
+      "trigger_seconds": 44720,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 45000,
+      "trigger_seconds": 45800,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "83.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 46080,
+      "trigger_seconds": 46780,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 46960,
+      "trigger_seconds": 48140,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 48420,
+      "trigger_seconds": 48320,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 48600,
+      "trigger_seconds": 49420,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "81.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 49680,
+      "trigger_seconds": 50380,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 50560,
+      "trigger_seconds": 51740,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 52020,
+      "trigger_seconds": 51920,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 52200,
+      "trigger_seconds": 53020,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "81.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 53280,
+      "trigger_seconds": 53980,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 54160,
+      "trigger_seconds": 55340,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "63.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 55620,
+      "trigger_seconds": 55520,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 55800,
+      "trigger_seconds": 56600,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "83.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 56880,
+      "trigger_seconds": 57580,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 57760,
+      "trigger_seconds": 58940,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 59220,
+      "trigger_seconds": 59120,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 59400,
+      "trigger_seconds": 60220,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "81.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 60480,
+      "trigger_seconds": 61180,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 61360,
+      "trigger_seconds": 61460,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 61740,
+      "trigger_seconds": 62420,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 62700,
+      "trigger_seconds": 62680,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "93.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 62940,
+      "trigger_seconds": 63560,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 63840,
+      "trigger_seconds": 64340,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 64620,
+      "trigger_seconds": 64780,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 64960,
+      "trigger_seconds": 65360,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "93.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 65640,
+      "trigger_seconds": 65840,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 66120,
+      "trigger_seconds": 66280,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "93.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 66540,
+      "trigger_seconds": 67240,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 67420,
+      "trigger_seconds": 67660,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "81.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 67920,
+      "trigger_seconds": 68080,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "93.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 68340,
+      "trigger_seconds": 68420,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "85.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 68700,
+      "trigger_seconds": 68840,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "83.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 69120,
+      "trigger_seconds": 69640,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 69820,
+      "trigger_seconds": 70160,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "93.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 70440,
+      "trigger_seconds": 70840,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 71100,
+      "trigger_seconds": 71360,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 71640,
+      "trigger_seconds": 71740,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 71920,
+      "trigger_seconds": 72620,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 72900,
+      "trigger_seconds": 73120,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 73380,
+      "trigger_seconds": 73900,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "39.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 74080,
+      "trigger_seconds": 74060,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "93.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 74340,
+      "trigger_seconds": 74900,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "85.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 75180,
+      "trigger_seconds": 75140,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "95.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 75420,
+      "trigger_seconds": 76120,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 76420,
+      "trigger_seconds": 76900,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "79.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 77160,
+      "trigger_seconds": 78020,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "39.mp3",
+        "89.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 78300,
+      "trigger_seconds": 78800,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "97.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 79080,
+      "trigger_seconds": 79960,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "27.mp3",
+        "39.mp3",
+        "73.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 80220,
+      "trigger_seconds": 80320,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 80620,
+      "trigger_seconds": 81220,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "99.mp3",
+        "105.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 81600,
+      "trigger_seconds": 81700,
       "files": [
-        "7.mp3"
+        "17.mp3",
+        "25.mp3",
+        "31.mp3",
+        "59.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 82000,
+      "trigger_seconds": 82160,
       "files": [
-        "10.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "97.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 82680,
+      "trigger_seconds": 84320,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "27.mp3",
+        "31.mp3",
+        "97.mp3",
+        "103.mp3",
+        "113.mp3"
       ]
     },
     {
-      "trigger_seconds": 84720,
+      "trigger_seconds": 86000,
       "files": [
-        "5.mp3"
+        "17.mp3",
+        "29.mp3",
+        "31.mp3",
+        "101.mp3",
+        "105.mp3",
+        "113.mp3",
+        "117.mp3",
+        "130.mp3"
       ]
     },
     {
-      "trigger_seconds": 86400,
+      "trigger_seconds": 86620,
       "files": [
-        "7.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87000,
-      "files": [
-        "2.mp3"
+        "16.mp3",
+        "22.mp3",
+        "30.mp3",
+        "54.mp3",
+        "104.mp3",
+        "110.mp3",
+        "116.mp3",
+        "128.mp3"
       ]
     },
     {
@@ -9215,471 +9580,775 @@
       ]
     },
     {
-      "trigger_seconds": 29020,
+      "trigger_seconds": 28920,
       "files": [
-        "1.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 29280,
+      "trigger_seconds": 29340,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "53.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 29580,
+      "trigger_seconds": 29520,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 29800,
+      "trigger_seconds": 30300,
       "files": [
-        "901.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
       "trigger_seconds": 30540,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 30780,
+      "trigger_seconds": 30900,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 31180,
+      "trigger_seconds": 31680,
       "files": [
-        "901.mp3"
+        "14.mp3",
+        "31.mp3",
+        "53.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 31920,
+      "trigger_seconds": 32100,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 32460,
+      "trigger_seconds": 33060,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 33360,
+      "trigger_seconds": 33840,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 34120,
+      "trigger_seconds": 34080,
       "files": [
-        "901.mp3"
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 34320,
+      "trigger_seconds": 34980,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
       "trigger_seconds": 35340,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 35700,
+      "trigger_seconds": 36000,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "51.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 36340,
+      "trigger_seconds": 36420,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 36780,
+      "trigger_seconds": 37140,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 37420,
+      "trigger_seconds": 38820,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 39060,
+      "trigger_seconds": 38940,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 39300,
+      "trigger_seconds": 40020,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 40380,
+      "trigger_seconds": 40740,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 41020,
+      "trigger_seconds": 42420,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 42660,
+      "trigger_seconds": 42540,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 42900,
+      "trigger_seconds": 43620,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 43980,
+      "trigger_seconds": 44340,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 44620,
+      "trigger_seconds": 46020,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 46260,
+      "trigger_seconds": 46140,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 46500,
+      "trigger_seconds": 47220,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 47580,
+      "trigger_seconds": 47940,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 48220,
+      "trigger_seconds": 49620,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 49860,
+      "trigger_seconds": 49740,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 50100,
+      "trigger_seconds": 50820,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 51180,
+      "trigger_seconds": 51540,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 51820,
+      "trigger_seconds": 53220,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 53460,
+      "trigger_seconds": 53340,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 53700,
+      "trigger_seconds": 54420,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 54780,
+      "trigger_seconds": 55140,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 55420,
+      "trigger_seconds": 56820,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 57060,
+      "trigger_seconds": 56940,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 57300,
+      "trigger_seconds": 57900,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 58260,
+      "trigger_seconds": 58800,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 59080,
+      "trigger_seconds": 59220,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 59580,
+      "trigger_seconds": 60240,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 60480,
+      "trigger_seconds": 60540,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
       "trigger_seconds": 60900,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 61140,
+      "trigger_seconds": 61860,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 62140,
+      "trigger_seconds": 62700,
       "files": [
-        "901.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 63000,
+      "trigger_seconds": 63180,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "39.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 63420,
+      "trigger_seconds": 63720,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 64080,
+      "trigger_seconds": 64020,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 64300,
+      "trigger_seconds": 64980,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 65220,
+      "trigger_seconds": 65580,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 65880,
+      "trigger_seconds": 66240,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 66520,
+      "trigger_seconds": 66840,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 67200,
+      "trigger_seconds": 67440,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 67680,
+      "trigger_seconds": 67800,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 68100,
+      "trigger_seconds": 68220,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 68500,
+      "trigger_seconds": 69120,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 69360,
+      "trigger_seconds": 69720,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 69960,
+      "trigger_seconds": 70320,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 70660,
+      "trigger_seconds": 71280,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 71520,
+      "trigger_seconds": 72180,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 72540,
+      "trigger_seconds": 73020,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 73320,
+      "trigger_seconds": 73740,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 74080,
+      "trigger_seconds": 74220,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 74580,
+      "trigger_seconds": 74700,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 75000,
+      "trigger_seconds": 75600,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 75820,
+      "trigger_seconds": 76020,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 76380,
+      "trigger_seconds": 76920,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 77140,
+      "trigger_seconds": 77520,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
       "trigger_seconds": 77820,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 78120,
+      "trigger_seconds": 79620,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 79920,
+      "trigger_seconds": 79980,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "53.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 80400,
+      "trigger_seconds": 80760,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 81000,
+      "trigger_seconds": 82380,
       "files": [
-        "4.mp3"
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 82620,
+      "trigger_seconds": 83400,
       "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 83680,
+      "trigger_seconds": 84360,
       "files": [
-        "9.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "110.mp3"
       ]
     },
     {
-      "trigger_seconds": 84600,
+      "trigger_seconds": 86700,
       "files": [
-        "4.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87060,
-      "files": [
-        "6.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "110.mp3",
+        "117.mp3",
+        "132.mp3"
       ]
     },
     {
@@ -11769,13 +12438,15 @@
       ]
     },
     {
-      "trigger_seconds": 86720,
+      "trigger_seconds": 86600,
       "files": [
         "15.mp3",
         "30.mp3",
         "54.mp3",
         "102.mp3",
-        "108.mp3"
+        "108.mp3",
+        "116.mp3",
+        "128.mp3"
       ]
     },
     {
@@ -11788,31 +12459,69 @@
   ],
   "横浜_kudari": [
     {
-      "trigger_seconds": 17320,
+      "trigger_seconds": 17860,
       "files": [
-        "1.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 18460,
+      "trigger_seconds": 18500,
       "files": [
-        "1.mp3"
+        "15.mp3",
+        "30.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 19060,
+      "trigger_seconds": 18980,
       "files": [
-        "1.mp3"
+        "16.mp3",
+        "30.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
       ]
     },
     {
       "trigger_seconds": 19660,
       "files": [
+        "16.mp3",
+        "38.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20260,
+      "files": [
         "1.mp3"
       ]
     },
     {
-      "trigger_seconds": 20000,
+      "trigger_seconds": 20680,
+      "files": [
+        "15.mp3",
+        "38.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21220,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21440,
       "files": [
         "14.mp3",
         "31.mp3",
@@ -11822,169 +12531,23 @@
       ]
     },
     {
-      "trigger_seconds": 20560,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 20900,
+      "trigger_seconds": 22100,
       "files": [
         "16.mp3",
         "30.mp3",
-        "44.mp3",
+        "50.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 21460,
+      "trigger_seconds": 22660,
       "files": [
         "1.mp3"
       ]
     },
     {
-      "trigger_seconds": 22120,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 22420,
-      "files": [
-        "16.mp3",
-        "38.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 22960,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 23440,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 23800,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 24580,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 25060,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 25160,
-      "files": [
-        "16.mp3",
-        "30.mp3",
-        "52.mp3",
-        "104.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 25720,
-      "files": [
-        "3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 26200,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 26380,
-      "files": [
-        "16.mp3",
-        "38.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 26620,
-      "files": [
-        "15.mp3",
-        "32.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 26860,
-      "files": [
-        "14.mp3",
-        "35.mp3",
-        "47.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 27400,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 27520,
-      "files": [
-        "15.mp3",
-        "38.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 27700,
-      "files": [
-        "14.mp3",
-        "33.mp3",
-        "47.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 27920,
-      "files": [
-        "16.mp3",
-        "30.mp3",
-        "54.mp3",
-        "104.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 28480,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 28640,
+      "trigger_seconds": 22280,
       "files": [
         "15.mp3",
         "32.mp3",
@@ -11994,41 +12557,91 @@
       ]
     },
     {
-      "trigger_seconds": 29200,
+      "trigger_seconds": 23200,
       "files": [
-        "1.mp3"
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 29560,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 29600,
+      "trigger_seconds": 24020,
       "files": [
         "16.mp3",
-        "30.mp3",
-        "54.mp3",
-        "104.mp3",
+        "34.mp3",
+        "44.mp3",
+        "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 30160,
+      "trigger_seconds": 24500,
+      "files": [
+        "15.mp3",
+        "30.mp3",
+        "46.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24700,
+      "files": [
+        "14.mp3",
+        "35.mp3",
+        "45.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25480,
       "files": [
         "1.mp3"
       ]
     },
     {
-      "trigger_seconds": 30520,
+      "trigger_seconds": 25420,
+      "files": [
+        "15.mp3",
+        "38.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26120,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "53.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26680,
       "files": [
         "1.mp3"
       ]
     },
     {
-      "trigger_seconds": 30500,
+      "trigger_seconds": 26920,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27160,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27020,
       "files": [
         "16.mp3",
         "30.mp3",
@@ -12038,23 +12651,185 @@
       ]
     },
     {
-      "trigger_seconds": 30760,
-      "files": [
-        "14.mp3",
-        "33.mp3",
-        "47.mp3",
-        "103.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 31300,
+      "trigger_seconds": 27760,
       "files": [
         "1.mp3"
       ]
     },
     {
-      "trigger_seconds": 31340,
+      "trigger_seconds": 28060,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28240,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28300,
+      "files": [
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28900,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29000,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "53.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29200,
+      "files": [
+        "15.mp3",
+        "34.mp3",
+        "44.mp3",
+        "104.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29920,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29560,
+      "files": [
+        "14.mp3",
+        "33.mp3",
+        "45.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30100,
+      "files": [
+        "15.mp3",
+        "38.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30880,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31060,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30920,
+      "files": [
+        "15.mp3",
+        "30.mp3",
+        "54.mp3",
+        "104.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31720,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31900,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32260,
+      "files": [
+        "15.mp3",
+        "38.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32800,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33100,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33020,
+      "files": [
+        "16.mp3",
+        "32.mp3",
+        "46.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33820,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33760,
+      "files": [
+        "15.mp3",
+        "38.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34540,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34580,
+      "files": [
+        "15.mp3",
+        "30.mp3",
+        "54.mp3",
+        "104.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35360,
       "files": [
         "16.mp3",
         "34.mp3",
@@ -12064,35 +12839,63 @@
       ]
     },
     {
-      "trigger_seconds": 31660,
-      "files": [
-        "14.mp3",
-        "33.mp3",
-        "47.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 32200,
+      "trigger_seconds": 35920,
       "files": [
         "1.mp3"
       ]
     },
     {
-      "trigger_seconds": 32560,
+      "trigger_seconds": 36220,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36200,
+      "files": [
+        "16.mp3",
+        "30.mp3",
+        "54.mp3",
+        "104.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37120,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37420,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37780,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38260,
       "files": [
         "14.mp3",
         "31.mp3",
-        "45.mp3",
+        "55.mp3",
         "105.mp3",
         "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 32740,
+      "trigger_seconds": 38660,
       "files": [
-        "15.mp3",
+        "16.mp3",
         "34.mp3",
         "44.mp3",
         "102.mp3",
@@ -12100,29 +12903,319 @@
       ]
     },
     {
-      "trigger_seconds": 33280,
+      "trigger_seconds": 39460,
       "files": [
-        "1.mp3"
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 33580,
+      "trigger_seconds": 40000,
       "files": [
         "14.mp3",
         "31.mp3",
         "55.mp3",
-        "103.mp3",
+        "105.mp3",
         "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 34120,
+      "trigger_seconds": 40720,
       "files": [
         "1.mp3"
       ]
     },
     {
-      "trigger_seconds": 34180,
+      "trigger_seconds": 41020,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41260,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41800,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42260,
+      "files": [
+        "16.mp3",
+        "34.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43060,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43600,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44320,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44620,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44860,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45400,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45860,
+      "files": [
+        "16.mp3",
+        "34.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46660,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47200,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47920,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48220,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48460,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49000,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49460,
+      "files": [
+        "16.mp3",
+        "34.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50260,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50800,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51520,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51820,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52060,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52600,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53060,
+      "files": [
+        "16.mp3",
+        "34.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53860,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54400,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55120,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55420,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55660,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56200,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56920,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57220,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57460,
       "files": [
         "16.mp3",
         "32.mp3",
@@ -12132,19 +13225,449 @@
       ]
     },
     {
-      "trigger_seconds": 34720,
+      "trigger_seconds": 58000,
       "files": [
-        "3.mp3"
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 35320,
+      "trigger_seconds": 58300,
+      "files": [
+        "16.mp3",
+        "38.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59020,
       "files": [
         "1.mp3"
       ]
     },
     {
-      "trigger_seconds": 35660,
+      "trigger_seconds": 59260,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59800,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60040,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "52.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60880,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61040,
+      "files": [
+        "15.mp3",
+        "38.mp3",
+        "46.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61360,
+      "files": [
+        "16.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61960,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61780,
+      "files": [
+        "15.mp3",
+        "34.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62620,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62920,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62740,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63520,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63560,
+      "files": [
+        "16.mp3",
+        "38.mp3",
+        "46.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63980,
+      "files": [
+        "15.mp3",
+        "30.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64640,
+      "files": [
+        "16.mp3",
+        "34.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65140,
+      "files": [
+        "14.mp3",
+        "33.mp3",
+        "47.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65680,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65980,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66040,
+      "files": [
+        "15.mp3",
+        "38.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66700,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67000,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67100,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "46.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67280,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67700,
+      "files": [
+        "16.mp3",
+        "34.mp3",
+        "44.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68740,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68740,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69080,
+      "files": [
+        "16.mp3",
+        "32.mp3",
+        "46.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69880,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69860,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "47.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70600,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70900,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70900,
+      "files": [
+        "14.mp3",
+        "35.mp3",
+        "45.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71680,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71480,
+      "files": [
+        "15.mp3",
+        "38.mp3",
+        "46.mp3",
+        "104.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71800,
+      "files": [
+        "14.mp3",
+        "39.mp3",
+        "45.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72760,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73060,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73300,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73280,
+      "files": [
+        "16.mp3",
+        "32.mp3",
+        "46.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74320,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74060,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "53.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75040,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75340,
+      "files": [
+        "1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75820,
+      "files": [
+        "14.mp3",
+        "31.mp3",
+        "45.mp3",
+        "105.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76040,
+      "files": [
+        "15.mp3",
+        "30.mp3",
+        "46.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76660,
+      "files": [
+        "14.mp3",
+        "35.mp3",
+        "45.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77480,
+      "files": [
+        "16.mp3",
+        "30.mp3",
+        "52.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77660,
+      "files": [
+        "15.mp3",
+        "32.mp3",
+        "46.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78160,
+      "files": [
+        "14.mp3",
+        "35.mp3",
+        "45.mp3",
+        "103.mp3",
+        "109.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78940,
+      "files": [
+        "3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78980,
       "files": [
         "14.mp3",
         "107.mp3",
@@ -12153,305 +13676,87 @@
       ]
     },
     {
-      "trigger_seconds": 35980,
+      "trigger_seconds": 79340,
       "files": [
         "15.mp3",
-        "32.mp3",
+        "30.mp3",
+        "46.mp3",
+        "104.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79700,
+      "files": [
+        "16.mp3",
+        "30.mp3",
         "44.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 36520,
+      "trigger_seconds": 80380,
       "files": [
-        "1.mp3"
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "105.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 36860,
+      "trigger_seconds": 80860,
       "files": [
         "15.mp3",
-        "32.mp3",
-        "46.mp3",
+        "38.mp3",
+        "44.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 37180,
+      "trigger_seconds": 81260,
+      "files": [
+        "16.mp3",
+        "30.mp3",
+        "52.mp3",
+        "102.mp3",
+        "108.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81760,
       "files": [
         "14.mp3",
-        "39.mp3",
+        "33.mp3",
         "45.mp3",
         "103.mp3",
         "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 37720,
+      "trigger_seconds": 83260,
       "files": [
-        "1.mp3"
+        "14.mp3",
+        "31.mp3",
+        "55.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
-      "trigger_seconds": 38320,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 38920,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 39520,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 40120,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 40460,
+      "trigger_seconds": 82760,
       "files": [
         "15.mp3",
-        "32.mp3",
-        "46.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 40780,
-      "files": [
-        "16.mp3",
-        "38.mp3",
+        "30.mp3",
         "44.mp3",
         "102.mp3",
         "108.mp3"
       ]
     },
     {
-      "trigger_seconds": 41320,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 41920,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 42520,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 43120,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 43720,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 44060,
-      "files": [
-        "15.mp3",
-        "32.mp3",
-        "46.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 44380,
-      "files": [
-        "16.mp3",
-        "38.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 44920,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 45520,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 46120,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 46720,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 47320,
-      "files": [
-        "3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 47660,
-      "files": [
-        "15.mp3",
-        "32.mp3",
-        "46.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 47980,
-      "files": [
-        "16.mp3",
-        "38.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 48520,
-      "files": [
-        "3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 49120,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 49720,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 50320,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 50920,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 51260,
-      "files": [
-        "15.mp3",
-        "32.mp3",
-        "46.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 51580,
-      "files": [
-        "16.mp3",
-        "38.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 52120,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 52720,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 53320,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 53920,
-      "files": [
-        "3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 54520,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 54860,
-      "files": [
-        "15.mp3",
-        "32.mp3",
-        "46.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 55180,
-      "files": [
-        "16.mp3",
-        "38.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 55720,
-      "files": [
-        "3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 56320,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 56640,
+      "trigger_seconds": 84720,
       "files": [
         "16.mp3",
         "106.mp3",
@@ -12460,513 +13765,28 @@
       ]
     },
     {
-      "trigger_seconds": 56980,
-      "files": [
-        "15.mp3",
-        "34.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 57520,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 58000,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 58600,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 58760,
-      "files": [
-        "15.mp3",
-        "30.mp3",
-        "46.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 59320,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 59860,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 60400,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 60560,
-      "files": [
-        "16.mp3",
-        "34.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 61120,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 61600,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 61640,
+      "trigger_seconds": 85540,
       "files": [
         "14.mp3",
         "31.mp3",
-        "47.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 62200,
-      "files": [
-        "3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 62360,
-      "files": [
-        "16.mp3",
-        "30.mp3",
-        "46.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 62620,
-      "files": [
-        "14.mp3",
-        "33.mp3",
-        "45.mp3",
+        "55.mp3",
         "103.mp3",
-        "109.mp3"
+        "109.mp3",
+        "116.mp3",
+        "128.mp3"
       ]
     },
     {
-      "trigger_seconds": 63160,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 63280,
+      "trigger_seconds": 87740,
       "files": [
         "14.mp3",
-        "31.mp3",
-        "55.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 63820,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 64240,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 64600,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 65200,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 65440,
-      "files": [
-        "15.mp3",
-        "32.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 65600,
-      "files": [
-        "16.mp3",
-        "30.mp3",
-        "46.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 66160,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 66460,
-      "files": [
-        "14.mp3",
-        "31.mp3",
-        "55.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 66760,
-      "files": [
-        "16.mp3",
-        "32.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 67300,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 67840,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 68200,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 68440,
-      "files": [
-        "15.mp3",
-        "32.mp3",
-        "44.mp3",
-        "104.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 68980,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 69340,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 69640,
-      "files": [
-        "15.mp3",
-        "38.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 70180,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 70360,
-      "files": [
-        "16.mp3",
-        "38.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 70600,
-      "files": [
-        "15.mp3",
-        "32.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 71140,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 71360,
-      "files": [
-        "16.mp3",
-        "30.mp3",
-        "52.mp3",
-        "104.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 71920,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 72280,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 72500,
-      "files": [
-        "16.mp3",
-        "30.mp3",
-        "52.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 72760,
-      "files": [
-        "15.mp3",
-        "34.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 73000,
-      "files": [
-        "14.mp3",
-        "33.mp3",
-        "47.mp3",
-        "105.mp3",
-        "109.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 73540,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 73940,
-      "files": [
-        "15.mp3",
-        "30.mp3",
-        "52.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 74500,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 74800,
-      "files": [
-        "16.mp3",
-        "38.mp3",
-        "44.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 75080,
-      "files": [
-        "15.mp3",
-        "32.mp3",
-        "46.mp3",
-        "102.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 75640,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 76420,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 76960,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 77380,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 78160,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 78520,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 78700,
-      "files": [
-        "16.mp3",
-        "32.mp3",
-        "50.mp3",
-        "104.mp3",
-        "108.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 79240,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 79720,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 80200,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 80920,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 81280,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 81700,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 82120,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 83020,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 84220,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 84820,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 85720,
-      "files": [
-        "3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86560,
-      "files": [
-        "1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88300,
-      "files": [
-        "3.mp3"
+        "107.mp3",
+        "109.mp3",
+        "115.mp3"
       ]
     }
   ],
   "海老名_nobori": [
-    {
-      "trigger_seconds": 17040,
-      "files": [
-        "2.mp3"
-      ]
-    },
     {
       "trigger_seconds": 17760,
       "files": [
@@ -12980,7 +13800,7 @@
       ]
     },
     {
-      "trigger_seconds": 18880,
+      "trigger_seconds": 18700,
       "files": [
         "14.mp3",
         "35.mp3",
@@ -13060,7 +13880,7 @@
       ]
     },
     {
-      "trigger_seconds": 23340,
+      "trigger_seconds": 23280,
       "files": [
         "14.mp3",
         "25.mp3",
@@ -13105,7 +13925,7 @@
       ]
     },
     {
-      "trigger_seconds": 25220,
+      "trigger_seconds": 24920,
       "files": [
         "15.mp3",
         "36.mp3",
@@ -13238,7 +14058,7 @@
       ]
     },
     {
-      "trigger_seconds": 32080,
+      "trigger_seconds": 31960,
       "files": [
         "15.mp3",
         "24.mp3",
@@ -13255,7 +14075,7 @@
       ]
     },
     {
-      "trigger_seconds": 32940,
+      "trigger_seconds": 32820,
       "files": [
         "15.mp3",
         "106.mp3",
@@ -13270,7 +14090,7 @@
       ]
     },
     {
-      "trigger_seconds": 33700,
+      "trigger_seconds": 33580,
       "files": [
         "15.mp3",
         "38.mp3",
@@ -13325,7 +14145,7 @@
       ]
     },
     {
-      "trigger_seconds": 36860,
+      "trigger_seconds": 36740,
       "files": [
         "14.mp3",
         "107.mp3",
@@ -13686,7 +14506,7 @@
       ]
     },
     {
-      "trigger_seconds": 67120,
+      "trigger_seconds": 67000,
       "files": [
         "15.mp3",
         "28.mp3",
@@ -13718,7 +14538,7 @@
       ]
     },
     {
-      "trigger_seconds": 68500,
+      "trigger_seconds": 68320,
       "files": [
         "15.mp3",
         "28.mp3",
@@ -13752,7 +14572,7 @@
       ]
     },
     {
-      "trigger_seconds": 69820,
+      "trigger_seconds": 69700,
       "files": [
         "15.mp3",
         "28.mp3",
@@ -13793,7 +14613,7 @@
       ]
     },
     {
-      "trigger_seconds": 72340,
+      "trigger_seconds": 72220,
       "files": [
         "15.mp3",
         "28.mp3",
@@ -13827,7 +14647,7 @@
       ]
     },
     {
-      "trigger_seconds": 73780,
+      "trigger_seconds": 73540,
       "files": [
         "15.mp3",
         "38.mp3",
@@ -13914,7 +14734,7 @@
       ]
     },
     {
-      "trigger_seconds": 79760,
+      "trigger_seconds": 79580,
       "files": [
         "14.mp3",
         "31.mp3",
@@ -13930,7 +14750,7 @@
       ]
     },
     {
-      "trigger_seconds": 80660,
+      "trigger_seconds": 80420,
       "files": [
         "14.mp3",
         "107.mp3",
@@ -14001,19 +14821,27 @@
       "files": [
         "3.mp3"
       ]
+    },
+    {
+      "trigger_seconds": 89520,
+      "files": [
+        "15.mp3",
+        "106.mp3",
+        "108.mp3",
+        "114.mp3"
+      ]
     }
   ],
   "湘南台_nobori": [
     {
-      "trigger_seconds": 16560,
+      "trigger_seconds": 17180,
       "files": [
-        "2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 18060,
-      "files": [
-        "2.mp3"
+        "11.mp3",
+        "14.mp3",
+        "31.mp3",
+        "43.mp3",
+        "103.mp3",
+        "109.mp3"
       ]
     },
     {
@@ -14464,6 +15292,15 @@
       "trigger_seconds": 86640,
       "files": [
         "2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88980,
+      "files": [
+        "15.mp3",
+        "106.mp3",
+        "108.mp3",
+        "114.mp3"
       ]
     }
   ],
@@ -15530,13 +16367,15 @@
       ]
     },
     {
-      "trigger_seconds": 85700,
+      "trigger_seconds": 85640,
       "files": [
         "16.mp3",
         "30.mp3",
         "42.mp3",
         "102.mp3",
-        "108.mp3"
+        "108.mp3",
+        "116.mp3",
+        "118.mp3"
       ]
     },
     {
@@ -15550,13 +16389,15 @@
       ]
     },
     {
-      "trigger_seconds": 88100,
+      "trigger_seconds": 88040,
       "files": [
         "16.mp3",
         "30.mp3",
         "48.mp3",
         "102.mp3",
-        "108.mp3"
+        "108.mp3",
+        "116.mp3",
+        "122.mp3"
       ]
     },
     {
@@ -16675,13 +17516,15 @@
       ]
     },
     {
-      "trigger_seconds": 88340,
+      "trigger_seconds": 88220,
       "files": [
         "15.mp3",
         "30.mp3",
         "44.mp3",
         "104.mp3",
-        "108.mp3"
+        "108.mp3",
+        "116.mp3",
+        "131.mp3"
       ]
     }
   ],
