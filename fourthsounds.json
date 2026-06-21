@@ -1,0 +1,9520 @@
+{
+  "秋葉原_kudari": [
+    {
+      "trigger_seconds": 19620,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20880,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22380,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22980,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23460,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24180,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-yashio.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24540,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25140,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25620,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26040,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26760,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-yashio.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27240,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27780,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28200,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28500,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-yashio.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29220,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29520,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-yashio.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29940,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30360,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30780,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31260,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31620,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32100,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32520,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33120,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33540,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34200,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35040,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35820,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36420,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37020,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37620,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38640,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39420,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40260,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41220,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42240,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43020,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44040,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45240,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45840,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46620,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47460,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48420,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49440,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50220,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51060,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51720,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52860,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53520,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54240,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54840,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56460,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57120,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57840,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58440,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59640,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60240,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61020,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61620,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62400,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63000,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64020,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64440,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64860,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65400,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65760,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66240,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66780,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67260,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67680,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68820,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69480,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70020,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70620,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71160,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71640,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72000,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73020,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73620,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74220,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74820,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75420,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76380,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77160,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77880,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78540,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79260,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79980,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81000,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81720,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82620,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83400,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84420,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85320,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86220,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86220,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86220,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    }
+  ],
+  "つくば_nobori": [
+    {
+      "trigger_seconds": 19440,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20640,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22180,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23380,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24400,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25180,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25840,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26680,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27640,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28600,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29620,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30880,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32020,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33160,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34240,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35200,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36540,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37840,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38800,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40140,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41440,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42400,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43740,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45040,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46000,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47340,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48640,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49600,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50940,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52240,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53200,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54540,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55860,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56800,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58140,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59260,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60540,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61560,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62220,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63580,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64360,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65940,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66600,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67740,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68340,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69360,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70000,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70720,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71800,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72520,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73720,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74680,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75460,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76200,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76980,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77820,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78900,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80040,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81820,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83440,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-akihabara.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84660,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86220,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86220,
+      "files": [
+        "departure-w-track2.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87420,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    }
+  ],
+  "みどりの_nobori": [
+    {
+      "trigger_seconds": 20300,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22100,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24620,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26060,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26900,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27740,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29660,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30800,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33260,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34820,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42980,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51980,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68900,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71300,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73700,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75260,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76760,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81320,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    }
+  ],
+  "みどりの_kudari": [
+    {
+      "trigger_seconds": 20720,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23660,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25100,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27200,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28340,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31820,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34400,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35780,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65660,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68120,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70220,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74120,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75380,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77720,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87200,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    }
+  ],
+  "八潮_nobori": [
+    {
+      "trigger_seconds": 18840,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20420,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21240,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21980,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22280,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22920,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23780,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24140,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24680,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25220,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25700,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26220,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26600,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27080,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27560,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28020,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28400,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28820,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29240,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29780,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30020,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30440,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30920,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31460,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31940,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32480,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33380,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34100,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35000,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35420,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36080,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37160,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37760,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38400,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39260,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40700,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41360,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42500,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43760,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44300,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44960,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45600,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46460,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47900,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48560,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49200,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50060,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50960,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51860,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52760,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53300,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54560,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55460,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56360,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56900,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58160,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58700,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59360,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60000,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60860,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61280,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62120,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62720,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63260,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63860,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64280,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64700,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65180,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65660,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66140,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67040,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67880,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68280,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68880,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69360,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70040,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70640,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71120,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71880,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72480,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73020,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74060,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74780,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75560,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76160,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76640,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77360,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78140,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79160,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80060,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80780,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81560,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82400,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83300,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84260,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85880,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87500,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88160,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    }
+  ],
+  "八潮_kudari": [
+    {
+      "trigger_seconds": 20900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24080,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26640,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28880,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30080,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31220,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31820,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32120,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32520,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33860,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34400,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36320,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37880,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38300,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38880,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40560,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42320,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44160,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45320,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47120,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47760,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50720,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51360,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53120,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54080,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56120,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59120,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59720,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62160,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65780,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67020,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67460,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68960,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71280,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72320,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76620,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78320,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79100,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79820,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80540,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81200,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87320,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    }
+  ],
+  "六町_nobori": [
+    {
+      "trigger_seconds": 19100,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21800,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23360,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24320,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25040,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26120,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26600,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29720,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30980,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31340,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32360,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34700,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35600,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37340,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38660,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45860,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52340,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55940,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60260,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61220,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62660,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63740,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65660,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66320,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68060,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69860,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72740,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75200,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79820,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81260,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85220,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    }
+  ],
+  "六町_kudari": [
+    {
+      "trigger_seconds": 20660,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24500,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26660,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27800,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31400,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32120,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32660,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36080,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38060,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40880,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45080,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46880,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48080,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55880,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62300,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65540,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67460,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68660,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70820,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71300,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72800,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76220,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77720,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79100,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80300,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87020,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    }
+  ],
+  "北千住_nobori": [
+    {
+      "trigger_seconds": 19460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21860,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22340,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22820,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24200,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25760,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27620,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28100,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28940,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29360,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30320,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30620,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31040,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31520,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32900,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33920,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35360,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35960,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37700,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38960,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43040,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44120,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49040,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49760,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51320,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53120,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54920,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56720,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58520,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61760,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63740,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64220,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64760,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65960,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66320,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66920,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68600,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69260,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69740,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70700,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71300,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72200,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72800,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76220,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76760,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77420,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78920,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80120,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82340,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83420,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88940,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    }
+  ],
+  "北千住_kudari": [
+    {
+      "trigger_seconds": 20360,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21620,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23120,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23720,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24200,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26360,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26780,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27500,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30020,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31100,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32360,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33860,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35780,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38360,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39380,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41960,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44780,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47360,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48200,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50180,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50960,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51800,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52460,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57200,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57860,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59180,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60380,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62420,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65180,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66500,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68060,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68420,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70220,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71420,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72380,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74360,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75020,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77180,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80780,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83420,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86060,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    }
+  ],
+  "南流山_nobori": [
+    {
+      "trigger_seconds": 20000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23360,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24020,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25040,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25520,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26120,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26600,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27740,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28820,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31820,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34100,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37100,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37820,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39800,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40700,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41600,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44300,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45020,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47900,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48620,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51800,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53300,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56900,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57800,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58700,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59420,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60020,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62060,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62660,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65120,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66200,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67220,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67760,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68300,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69260,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71300,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71900,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74420,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75200,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75800,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77420,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80720,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84620,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85940,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88100,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    }
+  ],
+  "南流山_kudari": [
+    {
+      "trigger_seconds": 21260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24380,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25100,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27080,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27620,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32180,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32960,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35420,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38360,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39020,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40820,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42080,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44420,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46220,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48020,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51620,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52880,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55400,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57020,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60620,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63800,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66320,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66800,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68060,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68660,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69080,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69800,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70880,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71540,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71960,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73520,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75500,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76880,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78320,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78980,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79700,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81200,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83060,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84500,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86360,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87500,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87620,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87620,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88280,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    }
+  ],
+  "守谷_nobori": [
+    {
+      "trigger_seconds": 19340,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20240,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20900,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21740,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22640,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23120,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23540,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24060,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24500,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25160,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25560,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26360,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26840,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27500,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27860,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28520,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28820,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29540,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30320,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30800,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31400,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32600,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33200,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34040,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34520,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35420,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36380,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36840,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37500,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39200,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39980,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41000,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41780,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42800,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43580,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44040,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44700,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46400,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47180,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47640,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48300,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49020,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50100,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50820,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51800,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52580,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53700,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54500,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55400,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56180,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57200,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57980,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58440,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59040,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59780,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60440,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61080,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61680,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62240,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62900,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63200,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63680,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64140,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64760,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65420,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66440,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66860,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67320,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67940,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68280,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69080,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69500,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70400,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70920,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71460,
+      "files": [
+        "departure-w-track3.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72260,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73100,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73700,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74600,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75080,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75860,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76820,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77360,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78080,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78920,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79640,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80420,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81200,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81980,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82640,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83780,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85100,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86660,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87200,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    }
+  ],
+  "守谷_kudari": [
+    {
+      "trigger_seconds": 18560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23660,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24380,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26720,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27860,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30200,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31340,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32420,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36020,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37980,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41580,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43340,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44360,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45180,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47960,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48780,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50540,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52380,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55980,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59580,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61380,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64040,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65060,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66860,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68160,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70700,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71720,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72360,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74220,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75440,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76020,
+      "files": [
+        "departure-m-track2.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79460,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82460,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84080,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86300,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87920,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88100,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    }
+  ],
+  "流山おおたかの森_nobori": [
+    {
+      "trigger_seconds": 19820,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 20660,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21380,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22280,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23180,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23840,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24140,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24740,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25080,
+      "files": [
+        "departure-w-track4.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25740,
+      "files": [
+        "departure-w-track4.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26360,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26900,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27440,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28040,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28520,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29120,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29400,
+      "files": [
+        "departure-w-track4.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30300,
+      "files": [
+        "departure-w-track4.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30980,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31380,
+      "files": [
+        "departure-w-track4.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32100,
+      "files": [
+        "departure-w-track4.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33140,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33800,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34460,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35300,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35900,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36860,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37520,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38180,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39620,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40460,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41420,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42260,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43220,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44060,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44720,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45380,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46820,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47660,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48320,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48980,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49700,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50780,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51500,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52220,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53060,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54380,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55100,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55820,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56660,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57620,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58460,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59120,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59720,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60300,
+      "files": [
+        "departure-w-track4.mp3",
+        "dpdest-w-akihabara.mp3",
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60920,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61760,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62360,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62840,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63320,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63920,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64280,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64820,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65300,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65960,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66980,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67460,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68000,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68540,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68960,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69500,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69980,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71000,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71600,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72140,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73100,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73700,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74180,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75020,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75560,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76400,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77240,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77900,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78980,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79700,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80420,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81200,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82400,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82940,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83600,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85220,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86900,
+      "files": [
+        "chime-tsukuba-track4.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87680,
+      "files": [
+        "chime-tsukuba-track3.mp3"
+      ]
+    }
+  ],
+  "流山おおたかの森_kudari": [
+    {
+      "trigger_seconds": 21560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22560,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24660,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-tsukuba.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27860,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29660,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30260,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30800,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32420,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33320,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33620,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34200,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34520,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35060,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37040,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37500,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39020,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39620,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41300,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42860,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44900,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46040,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50060,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52100,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53660,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59060,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62900,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64340,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65900,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67100,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67820,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68160,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68600,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69240,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69660,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71420,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72020,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72540,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73020,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73700,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74300,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74900,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76140,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76700,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77360,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78300,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78960,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79760,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81200,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81900,
+      "files": [
+        "departure-m-track1.mp3",
+        "dpdest-m-moriya.mp3",
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83600,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85340,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87260,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87860,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87920,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    }
+  ],
+  "浅草_nobori": [
+    {
+      "trigger_seconds": 19700,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21020,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22100,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22580,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23060,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24920,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27860,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28340,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29600,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30020,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30860,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31760,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34880,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35600,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36200,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36860,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37940,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39200,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39920,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43280,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44360,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45740,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47120,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49340,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50720,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52520,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53360,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56120,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56960,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58760,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 59480,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60800,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61520,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62060,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62780,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63980,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65420,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66260,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66560,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68840,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69500,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69980,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71000,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71540,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72440,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73040,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74240,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75080,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75860,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76460,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77060,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77660,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78380,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79160,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80420,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81140,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81860,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82640,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83660,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84680,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85820,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 87020,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 88400,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 89180,
+      "files": [
+        "chime-tsukuba-track2.mp3"
+      ]
+    }
+  ],
+  "浅草_kudari": [
+    {
+      "trigger_seconds": 20000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 21260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 22760,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23360,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 23840,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24560,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 24920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 25580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 26480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 27680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28220,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 28940,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29660,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 29900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30380,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 30740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 31640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32480,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 32900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33500,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 33920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 34580,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 35420,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36200,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 36800,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 37400,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 38000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39020,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 39800,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 40700,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 41600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 42620,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 43400,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 44420,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 45620,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 46220,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 47900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 48800,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 49820,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 50600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 51500,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 52100,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53300,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 53900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 54620,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 55220,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 56900,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 57500,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58220,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 58820,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60020,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 60620,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 61340,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62060,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 62780,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 63380,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64460,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 64820,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65240,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 65780,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66140,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 66680,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 67700,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 68060,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 69860,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 70400,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71060,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 71540,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72020,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 72380,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 73460,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74000,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 74660,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75260,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 75740,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 76820,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 77600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78320,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 78920,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 79640,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 80420,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 81380,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 82160,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83060,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 83780,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 84860,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 85700,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86540,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    },
+    {
+      "trigger_seconds": 86600,
+      "files": [
+        "chime-tsukuba-track1.mp3"
+      ]
+    }
+  ]
+}
