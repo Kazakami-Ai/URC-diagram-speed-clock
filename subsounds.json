@@ -1,5 +1,14 @@
 {
-  "秋葉原_kudari": [],
+  "秋葉原_kudari": [
+    {
+      "trigger_seconds": 86860,
+      "files": [
+        "approaching-m-track1.mp3",
+        "kaisou-m-nomal.mp3",
+        "homedoor-m-nomal.mp3"
+      ]
+    }
+  ],
   "つくば_nobori": [],
   "みどりの_nobori": [
     {
@@ -538,20 +547,11 @@
       ]
     },
     {
-      "trigger_seconds": 86620,
-      "files": [
-        "approaching-w-track2.mp3",
-        "syubetsu-w-futsu.mp3",
-        "dest-w-akihabara.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
       "trigger_seconds": 86680,
       "files": [
         "approaching-w-track2.mp3",
         "syubetsu-w-futsu.mp3",
-        "dest-w-moriya.mp3",
+        "last-w-moriya.mp3",
         "homedoor-w-nomal.mp3"
       ]
     },
@@ -1107,22 +1107,14 @@
       ]
     },
     {
-      "trigger_seconds": 87040,
+      "trigger_seconds": 88240,
       "files": [
         "approaching-m-track1.mp3",
-        "syubetsu-m-kukankaisoku.mp3",
-        "dest-m-tsukuba.mp3",
+        "syubetsu-m-futsu.mp3",
+        "last-m-tsukuba.mp3",
         "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88600,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-kukankaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
+      ],
+      "_comment": "last みどりの_kudari"
     }
   ],
   "八潮_nobori": [
@@ -1996,23 +1988,6 @@
         "kaisou-w-nomal.mp3",
         "homedoor-w-nomal.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 87400,
-      "files": [
-        "approaching-w-track3.mp3",
-        "kaisou-w-nomal.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87980,
-      "files": [
-        "approaching-w-track4.mp3",
-        "syubetsu-w-kukankaisoku.mp3",
-        "dest-w-akihabara.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
     }
   ],
   "八潮_kudari": [
@@ -2863,34 +2838,16 @@
       "files": [
         "approaching-m-track1.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-tsukuba.mp3",
+        "last-m-tsukuba.mp3",
         "homedoor-m-nomal.mp3"
       ]
     },
     {
-      "trigger_seconds": 87100,
+      "trigger_seconds": 87700,
       "files": [
         "approaching-m-track1.mp3",
-        "syubetsu-m-kukankaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87100,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-kaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87160,
-      "files": [
-        "approaching-m-track2.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-moriya.mp3",
+        "last-m-moriya.mp3",
         "homedoor-m-nomal.mp3"
       ]
     }
@@ -3718,16 +3675,8 @@
         "syubetsu-w-futsu.mp3",
         "dest-w-akihabara.mp3",
         "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87520,
-      "files": [
-        "approaching-w-track2.mp3",
-        "syubetsu-w-futsu.mp3",
-        "dest-w-akihabara.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
+      ],
+      "_comment": "last 六町_nobori"
     }
   ],
   "六町_kudari": [
@@ -4550,25 +4499,6 @@
         "dest-m-moriya.mp3",
         "homedoor-m-nomal.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 86980,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-futsu.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87460,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-futsu.mp3",
-        "dest-m-moriya.mp3",
-        "homedoor-m-nomal.mp3"
-      ],
-      "_comment": "last 六町_kudari"
     }
   ],
   "北千住_nobori": [
@@ -5434,25 +5364,8 @@
         "syubetsu-w-futsu.mp3",
         "dest-w-akihabara.mp3",
         "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87820,
-      "files": [
-        "approaching-w-track2.mp3",
-        "syubetsu-w-futsu.mp3",
-        "dest-w-akihabara.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88360,
-      "files": [
-        "approaching-w-track2.mp3",
-        "syubetsu-w-kukankaisoku.mp3",
-        "dest-w-akihabara.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
+      ],
+      "_comment": "last 北千住_nobori"
     }
   ],
   "北千住_kudari": [
@@ -6307,36 +6220,19 @@
       "files": [
         "approaching-m-track1.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-tsukuba.mp3",
+        "last-m-tsukuba.mp3",
         "homedoor-m-nomal.mp3"
       ]
     },
     {
-      "trigger_seconds": 86740,
+      "trigger_seconds": 87160,
       "files": [
         "approaching-m-track1.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-tsukuba.mp3",
+        "last-m-moriya.mp3",
         "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86740,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-kukankaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86740,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-kaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
+      ],
+      "_comment": "last 北千住_kudari"
     }
   ],
   "南流山_nobori": [
@@ -7163,24 +7059,7 @@
       "files": [
         "approaching-w-track2.mp3",
         "syubetsu-w-futsu.mp3",
-        "dest-w-yashio.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87120,
-      "files": [
-        "pass-w-track2.mp3",
-        "pass2-w-nomal.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87700,
-      "files": [
-        "approaching-w-track2.mp3",
-        "syubetsu-w-kukankaisoku.mp3",
-        "dest-w-akihabara.mp3",
+        "last-w-yashio.mp3",
         "homedoor-w-nomal.mp3"
       ]
     }
@@ -8010,36 +7889,19 @@
       "files": [
         "approaching-m-track1.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-tsukuba.mp3",
+        "last-m-tsukuba.mp3",
         "homedoor-m-nomal.mp3"
       ]
     },
     {
-      "trigger_seconds": 87340,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-kaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87460,
+      "trigger_seconds": 88120,
       "files": [
         "approaching-m-track1.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-tsukuba.mp3",
+        "last-m-moriya.mp3",
         "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87460,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-kukankaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
+      ],
+      "_comment": "last 南流山_kudari"
     }
   ],
   "守谷_nobori": [
@@ -8850,7 +8712,7 @@
       "files": [
         "approaching-w-track4.mp3",
         "syubetsu-w-futsu.mp3",
-        "dest-w-yashio.mp3",
+        "last-w-yashio.mp3",
         "homedoor-w-nomal.mp3"
       ]
     },
@@ -8863,30 +8725,12 @@
       ]
     },
     {
-      "trigger_seconds": 87020,
-      "files": [
-        "approaching-w-track4.mp3",
-        "syubetsu-w-kukankaisoku.mp3",
-        "dest-w-akihabara.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87220,
+      "trigger_seconds": 88060,
       "files": [
         "approaching-w-track3.mp3",
         "kaisou-w-nomal.mp3",
         "homedoor-w-nomal.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 88960,
-      "files": [
-        "approaching-w-track3.mp3",
-        "kaisou-w-nomal.mp3",
-        "homedoor-w-nomal.mp3"
-      ],
-      "_comment": "last 守谷_nobori"
     }
   ],
   "守谷_kudari": [
@@ -9678,30 +9522,12 @@
       "files": [
         "approaching-m-track2.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-tsukuba.mp3",
+        "last-m-tsukuba.mp3",
         "homedoor-m-nomal.mp3"
       ]
     },
     {
-      "trigger_seconds": 87940,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-kaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88240,
-      "files": [
-        "approaching-m-track2.mp3",
-        "syubetsu-m-futsu.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88380,
+      "trigger_seconds": 89040,
       "files": [
         "approaching-m-track2.mp3",
         "kaisou-m-nomal.mp3",
@@ -10533,24 +10359,7 @@
       "files": [
         "approaching-w-track3.mp3",
         "syubetsu-w-futsu.mp3",
-        "dest-w-yashio.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86860,
-      "files": [
-        "pass-w-track3.mp3",
-        "pass2-w-nomal.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87500,
-      "files": [
-        "approaching-w-track3.mp3",
-        "syubetsu-w-kukankaisoku.mp3",
-        "dest-w-akihabara.mp3",
+        "last-w-yashio.mp3",
         "homedoor-w-nomal.mp3"
       ]
     }
@@ -11380,36 +11189,19 @@
       "files": [
         "approaching-m-track2.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-tsukuba.mp3",
+        "last-m-tsukuba.mp3",
         "homedoor-m-nomal.mp3"
       ]
     },
     {
-      "trigger_seconds": 87520,
-      "files": [
-        "approaching-m-track2.mp3",
-        "syubetsu-m-kaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87700,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-futsu.mp3",
-        "dest-m-moriya.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87760,
+      "trigger_seconds": 88420,
       "files": [
         "approaching-m-track2.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-moriya.mp3",
+        "last-m-moriya.mp3",
         "homedoor-m-nomal.mp3"
-      ]
+      ],
+      "_comment": "last 流山おおたかの森_kudari"
     }
   ],
   "浅草_nobori": [
@@ -12275,25 +12067,8 @@
         "syubetsu-w-futsu.mp3",
         "dest-w-akihabara.mp3",
         "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88060,
-      "files": [
-        "approaching-w-track2.mp3",
-        "syubetsu-w-futsu.mp3",
-        "dest-w-akihabara.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88600,
-      "files": [
-        "approaching-w-track2.mp3",
-        "syubetsu-w-kukankaisoku.mp3",
-        "dest-w-akihabara.mp3",
-        "homedoor-w-nomal.mp3"
-      ]
+      ],
+      "_comment": "last 浅草_nobori"
     }
   ],
   "浅草_kudari": [
@@ -13148,36 +12923,19 @@
       "files": [
         "approaching-m-track1.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-tsukuba.mp3",
+        "last-m-tsukuba.mp3",
         "homedoor-m-nomal.mp3"
       ]
     },
     {
-      "trigger_seconds": 86380,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-kaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86440,
+      "trigger_seconds": 86800,
       "files": [
         "approaching-m-track1.mp3",
         "syubetsu-m-futsu.mp3",
-        "dest-m-moriya.mp3",
+        "last-m-moriya.mp3",
         "homedoor-m-nomal.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86440,
-      "files": [
-        "approaching-m-track1.mp3",
-        "syubetsu-m-tsukinkaisoku.mp3",
-        "dest-m-tsukuba.mp3",
-        "homedoor-m-nomal.mp3"
-      ]
+      ],
+      "_comment": "last 浅草_kudari"
     }
   ]
 }

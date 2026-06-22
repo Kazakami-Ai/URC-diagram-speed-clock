@@ -767,30 +767,6 @@
         "dpdest-w-moriya.mp3",
         "chime-tsukuba-track2.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 86220,
-      "files": [
-        "departure-w-track2.mp3",
-        "dpdest-w-moriya.mp3",
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86220,
-      "files": [
-        "departure-m-track1.mp3",
-        "dpdest-m-tsukuba.mp3",
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86640,
-      "files": [
-        "departure-m-track1.mp3",
-        "dpdest-m-moriya.mp3",
-        "chime-tsukuba-track1.mp3"
-      ]
     }
   ],
   "つくば_nobori": [
@@ -1291,23 +1267,7 @@
       ]
     },
     {
-      "trigger_seconds": 86220,
-      "files": [
-        "departure-w-track2.mp3",
-        "dpdest-w-akihabara.mp3",
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86220,
-      "files": [
-        "departure-w-track2.mp3",
-        "dpdest-w-akihabara.mp3",
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88320,
+      "trigger_seconds": 87420,
       "files": [
         "departure-m-track1.mp3",
         "dpdest-m-moriya.mp3",
@@ -1605,12 +1565,6 @@
       ]
     },
     {
-      "trigger_seconds": 86780,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
       "trigger_seconds": 86840,
       "files": [
         "chime-tsukuba-track2.mp3"
@@ -1889,19 +1843,7 @@
       ]
     },
     {
-      "trigger_seconds": 86780,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88400,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88880,
+      "trigger_seconds": 87200,
       "files": [
         "chime-tsukuba-track1.mp3"
       ]
@@ -2509,24 +2451,6 @@
       "files": [
         "chime-tsukuba-track4.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 86300,
-      "files": [
-        "chime-tsukuba-track3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87800,
-      "files": [
-        "chime-tsukuba-track4.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88460,
-      "files": [
-        "chime-tsukuba-track3.mp3"
-      ]
     }
   ],
   "八潮_kudari": [
@@ -3103,24 +3027,6 @@
       "files": [
         "chime-tsukuba-track1.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 87260,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87320,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87920,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
     }
   ],
   "六町_nobori": [
@@ -3489,12 +3395,6 @@
       "files": [
         "chime-tsukuba-track2.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 87680,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
     }
   ],
   "六町_kudari": [
@@ -3841,13 +3741,7 @@
       ]
     },
     {
-      "trigger_seconds": 87080,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87140,
+      "trigger_seconds": 87680,
       "files": [
         "chime-tsukuba-track1.mp3"
       ]
@@ -4429,18 +4323,6 @@
       "files": [
         "chime-tsukuba-track2.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 87980,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88520,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
     }
   ],
   "北千住_kudari": [
@@ -5019,24 +4901,6 @@
       "files": [
         "chime-tsukuba-track1.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 86900,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86900,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87380,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
     }
   ],
   "南流山_nobori": [
@@ -5582,18 +5446,6 @@
     },
     {
       "trigger_seconds": 85460,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87140,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87860,
       "files": [
         "chime-tsukuba-track2.mp3"
       ]
@@ -6153,19 +6005,7 @@
       ]
     },
     {
-      "trigger_seconds": 87500,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87620,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87620,
+      "trigger_seconds": 88280,
       "files": [
         "chime-tsukuba-track1.mp3"
       ]
@@ -6783,21 +6623,9 @@
       ]
     },
     {
-      "trigger_seconds": 86300,
-      "files": [
-        "chime-tsukuba-track3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87020,
+      "trigger_seconds": 86660,
       "files": [
         "chime-tsukuba-track4.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87260,
-      "files": [
-        "chime-tsukuba-track3.mp3"
       ]
     }
   ],
@@ -7197,25 +7025,7 @@
       ]
     },
     {
-      "trigger_seconds": 86300,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
       "trigger_seconds": 86720,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88100,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88340,
       "files": [
         "chime-tsukuba-track1.mp3"
       ]
@@ -7783,18 +7593,6 @@
       "files": [
         "chime-tsukuba-track3.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 87320,
-      "files": [
-        "chime-tsukuba-track3.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87860,
-      "files": [
-        "chime-tsukuba-track4.mp3"
-      ]
     }
   ],
   "流山おおたかの森_kudari": [
@@ -8361,25 +8159,7 @@
       ]
     },
     {
-      "trigger_seconds": 87680,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87860,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87860,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88580,
+      "trigger_seconds": 87920,
       "files": [
         "chime-tsukuba-track2.mp3"
       ]
@@ -8961,18 +8741,6 @@
       "files": [
         "chime-tsukuba-track2.mp3"
       ]
-    },
-    {
-      "trigger_seconds": 88220,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 88760,
-      "files": [
-        "chime-tsukuba-track2.mp3"
-      ]
     }
   ],
   "浅草_kudari": [
@@ -9550,24 +9318,6 @@
     },
     {
       "trigger_seconds": 86360,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86600,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 86600,
-      "files": [
-        "chime-tsukuba-track1.mp3"
-      ]
-    },
-    {
-      "trigger_seconds": 87020,
       "files": [
         "chime-tsukuba-track1.mp3"
       ]
