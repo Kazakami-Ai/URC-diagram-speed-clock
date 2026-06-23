@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta http-equiv="content-type" charset="UTF-8">
+		<title> 駅時刻表選択</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+		<style>
+			.time_table
+			{  
+				font-family: "Noto Sans JP", sans-serif;  
+  				font-size: 25px;
+				display:none;
+			}
+
+			.station_name
+			{  
+				font-size: 45px; 
+				padding: 0px 7px;
+				height: 80px;
+				font-weight: bold;
+			}
+
+			.table_base
+			{
+				width: 100%; 
+				border-collapse: collapse;
+			}
+
+			.time_index
+			{  
+  				font-size: 20px;
+				width: 600px;
+				height: 50px;
+				font-weight: bold;
+				color: #000000;
+				background-color: #eeeeee;
+				padding: 0px 7px;
+			}
+			.time
+			{  
+				font-size: 30px;
+				height: 70px;
+				width: 120px;
+				padding: 0px 20px;
+				border-bottom: 2px solid #b4b4b4;
+			}
+
+			.TT_menu
+			{
+				position:fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				font-size: 30px;
+				height: 70px;
+				z-index:999;
+				background-color:#ffffff; 
+			}
+
+			.TT_menu_space
+			{
+				height: 70px;
+			}
+
+			.custom-link 
+			{
+            color: #000000;
+            text-decoration: none;
+        	}
+		</style>
+		<link rel="stylesheet" type="text/css" href="common.css">
+		<script>
+
+			function ShowTable()
+			{
+				// URLのクエリパラメータを取得
+				const urlParams = new URLSearchParams(window.location.search);
+
+				// リンクにパラメータ付与
+				const dia = urlParams.get("dia");
+				const links = document.querySelectorAll('a');
+				links.forEach(link => {
+					// 既存のURLを取得
+					const url = new URL(link.href);
+
+					// パラメータを追加
+					url.searchParams.append("dia", dia);
+
+					// 更新したURLをリンクに設定
+					link.href = url.toString();
+				});
+
+				// 引数を取得
+				const select = urlParams.get("sel");
+
+				// 表示
+				document.getElementById(select).style.display="block";
+			}
+		</script>
+	</head>
+	<body onload='ShowTable()'>
+		<div class="TT_menu">
+			<a href="TTIndex.html">駅一覧に戻る</a>
+		</div>
+		<div class="TT_menu_space"></div>
+		<div id="0" class="time_table">
+			<div class="station_name">秋葉原</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_0_down">つくば・TX総合基地方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="1" class="time_table">
+			<div class="station_name">浅草</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_1_down">つくば・TX総合基地方面</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_1_up">秋葉原方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="2" class="time_table">
+			<div class="station_name">北千住</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_2_down">つくば・TX総合基地方面</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_2_up">秋葉原方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="3" class="time_table">
+			<div class="station_name">六町</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_3_down">TX総合基地・つくば方面</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_3_up">秋葉原方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="4" class="time_table">
+			<div class="station_name">八潮</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_4_down">つくば・TX総合基地方面</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_4_up">秋葉原方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="6" class="time_table">
+			<div class="station_name">南流山</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_6_down">つくば・TX総合基地方面</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_6_up">秋葉原・八潮方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="7" class="time_table">
+			<div class="station_name">流山おおたかの森</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_7_down">つくば・TX総合基地方面</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_7_up">秋葉原・八潮方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="8" class="time_table">
+			<div class="station_name">守谷</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_8_down">つくば・TX総合基地方面</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_8_up">秋葉原・八潮方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="10" class="time_table">
+			<div class="station_name">みどりの</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_10_down">つくば方面</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_10_up">秋葉原・守谷方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="5" class="time_table">
+			<div class="station_name">八潮留置線</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_5_up">秋葉原方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="9" class="time_table">
+			<div class="station_name">TX総合基地</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_9_up">秋葉原・守谷方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="11" class="time_table">
+			<div class="station_name">つくば</div>
+			<table class="table_base">
+				<tr>
+					<td class="time_index">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="time">
+						<a href="rd.html?sel=STT_dia_11_up">秋葉原・守谷方面</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	<br>この時刻表はOuOrario V001.002を使用して生成しています。<a href="https://surugaexpress.web.fc2.com/X7_freeSoft/ouorario/ouorario.html">詳細</a></body>
+</html>
