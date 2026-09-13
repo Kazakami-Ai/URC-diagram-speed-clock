@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>列車運行ステータス管理</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>列車運行ステータス管理</h1>
+      <p class="sub">列車カードを3レーンで管理し、操作履歴を Firebase Realtime Database の logs に記録</p>
+    </div>
+    <div id="firebaseStatus" class="connection disconnected">Firebase: 未接続</div>
+  </header>
+
+  <main>
+    <section class="clock-panel">
+      <div class="clock-row">
+        <div>
+          <div class="label">模型世界時計</div>
+          <div id="modelClock" class="clock">00:00:00</div>
+          <div id="tickValue" class="tick">0 tick</div>
+        </div>
+        <div class="clock-settings">
+          <div class="fixed-value">Anchor<strong id="anchorDisplay">読み込み中…</strong></div>
+          <div class="fixed-value">Speed<strong id="speedDisplay">読み込み中…</strong></div>
+          <div class="fixed-value">Anchor_tick<strong>14400</strong></div>
+        </div>
+      </div>
+      <div class="formula">tick = (現実時間 − Anchor) × Speed + Anchor_tick</div>
+    </section>
+
+    <section class="toolbar">
+      <strong id="trainCount">0列車</strong>
+      <span id="loadMessage">timetable.json を読み込んでいます…</span>
+      <div class="station-filter">
+        <label for="stationAttribute">担当駅</label>
+        <select id="stationAttribute"></select>
+      </div>
+    </section>
+
+    <section id="trainCards" class="train-lanes" aria-label="列車カードレーン">
+      <section class="train-lane lane-unknown" id="lane-u" data-lane="u">
+        <header class="lane-header"><h2>不明・遅延</h2><span>unknown</span></header>
+        <div class="lane-cards"></div>
+      </section>
+      <section class="train-lane lane-scheduled" id="lane-s" data-lane="s">
+        <header class="lane-header"><h2>発車予定</h2><span>scheduled</span></header>
+        <div class="lane-cards"></div>
+      </section>
+      <section class="train-lane lane-departed" id="lane-d" data-lane="d">
+        <header class="lane-header"><h2>発車済</h2><span>departed</span></header>
+        <div class="lane-cards"></div>
+      </section>
+    </section>
+  </main>
+
+  <template id="trainCardTemplate">
+    <article class="train-card" role="button" aria-label="列車カード">
+      <div class="train-main">
+        <div>
+          <div class="train-number"></div>
+          <div class="train-meta"></div>
+        </div>
+        <div class="train-summary">
+          <div class="destination"></div>
+          <div class="departure-time"></div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <span class="lane-action"></span>
+        <span class="keyboard-hint">← → 選択 / ↑↓・Enter・Backspace 移動</span>
+      </div>
+    </article>
+  </template>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

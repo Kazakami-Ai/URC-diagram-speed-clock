@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "unit": "tick",
+  "segments": [
+    {
+      "from": "st_001",
+      "to": "st_002",
+      "minTick": 660,
+      "sourceDirections": [
+        "Kudari"
+      ],
+      "sourceTrainNumbers": [
+        "R101",
+        "R103",
+        "R105",
+        "R107",
+        "R109",
+        "R111",
+        "R113",
+        "R701",
+        "R801",
+        "R803",
+        "R805",
+        "R807",
+        "R809",
+        "R811",
+        "R813",
+        "R815"
+      ]
+    },
+    {
+      "from": "st_001",
+      "to": "st_005",
+      "minTick": null,
+      "sourceDirections": [],
+      "sourceTrainNumbers": []
+    },
+    {
+      "from": "st_002",
+      "to": "st_003",
+      "minTick": 540,
+      "sourceDirections": [
+        "Kudari"
+      ],
+      "sourceTrainNumbers": [
+        "R101",
+        "R103",
+        "R105",
+        "R107",
+        "R109",
+        "R111",
+        "R113",
+        "R701",
+        "R801",
+        "R803",
+        "R805",
+        "R807",
+        "R809",
+        "R811",
+        "R813",
+        "R815"
+      ]
+    },
+    {
+      "from": "st_003",
+      "to": "st_004",
+      "minTick": 300,
+      "sourceDirections": [
+        "Kudari"
+      ],
+      "sourceTrainNumbers": [
+        "R101",
+        "R103",
+        "R105",
+        "R107",
+        "R109",
+        "R111",
+        "R113",
+        "R701"
+      ]
+    },
+    {
+      "from": "st_003",
+      "to": "st_008",
+      "minTick": 300,
+      "sourceDirections": [
+        "Kudari"
+      ],
+      "sourceTrainNumbers": [
+        "R7951",
+        "R7953"
+      ]
+    },
+    {
+      "from": "st_004",
+      "to": "st_005",
+      "minTick": 420,
+      "sourceDirections": [
+        "Kudari"
+      ],
+      "sourceTrainNumbers": [
+        "R101",
+        "R103",
+        "R105",
+        "R107",
+        "R109",
+        "R111",
+        "R113",
+        "R701"
+      ]
+    },
+    {
+      "from": "st_005",
+      "to": "st_006",
+      "minTick": 420,
+      "sourceDirections": [
+        "Kudari"
+      ],
+      "sourceTrainNumbers": [
+        "R101",
+        "R103",
+        "R105",
+        "R107",
+        "R109",
+        "R111",
+        "R113",
+        "R401"
+      ]
+    },
+    {
+      "from": "st_006",
+      "to": "st_007",
+      "minTick": 300,
+      "sourceDirections": [
+        "Kudari"
+      ],
+      "sourceTrainNumbers": [
+        "R101",
+        "R103",
+        "R105",
+        "R107",
+        "R109",
+        "R111",
+        "R113",
+        "R401"
+      ]
+    }
+  ],
+  "patterns": [],
+  "stations": {
+    "st_000": {
+      "isPass": false
+    },
+    "st_001": {
+      "isPass": false
+    },
+    "st_002": {
+      "isPass": false
+    },
+    "st_003": {
+      "isPass": false
+    },
+    "st_004": {
+      "isPass": false
+    },
+    "st_005": {
+      "isPass": false
+    },
+    "st_006": {
+      "isPass": false
+    },
+    "st_007": {
+      "isPass": false
+    },
+    "st_008": {
+      "isPass": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "stations": {
+    "st_000": "down_only",
+    "st_001": "down_only",
+    "st_002": "down_up_separate",
+    "st_003": "down_up_separate",
+    "st_004": "shared",
+    "st_005": "shared",
+    "st_006": "shared",
+    "st_007": "up_only",
+    "st_008": "up_only"
+  }
+}

@@ -1,0 +1,2061 @@
+{
+  "stations": [
+    {
+      "id": "st_000",
+      "name": "南栗橋車両管区七光台支所",
+      "stationType": "REGULAR",
+      "tracks": [
+        "出区",
+        "入区"
+      ]
+    },
+    {
+      "id": "st_001",
+      "name": "大宮",
+      "stationType": "REGULAR",
+      "tracks": [
+        "1番線",
+        "2番線"
+      ]
+    },
+    {
+      "id": "st_002",
+      "name": "岩槻",
+      "stationType": "REGULAR",
+      "tracks": [
+        "1番線",
+        "2番線",
+        "3番線"
+      ]
+    },
+    {
+      "id": "st_003",
+      "name": "春日部",
+      "stationType": "JUNCTION",
+      "tracks": [
+        "7番線",
+        "8番線",
+        "9番線",
+        "10番線"
+      ]
+    },
+    {
+      "id": "st_004",
+      "name": "南桜井",
+      "stationType": "REGULAR",
+      "tracks": [
+        "1番線",
+        "2番線"
+      ]
+    },
+    {
+      "id": "st_005",
+      "name": "七光台",
+      "stationType": "JUNCTION",
+      "tracks": [
+        "1番線",
+        "2番線"
+      ]
+    },
+    {
+      "id": "st_006",
+      "name": "野田市",
+      "stationType": "REGULAR",
+      "tracks": [
+        "1番線",
+        "2番線",
+        "3番線",
+        "4番線"
+      ]
+    },
+    {
+      "id": "st_007",
+      "name": "運河",
+      "stationType": "TERMINAL",
+      "tracks": [
+        "1番線",
+        "2番線",
+        "3番線"
+      ]
+    },
+    {
+      "id": "st_008",
+      "name": "春日部留置線",
+      "stationType": "TERMINAL",
+      "tracks": [
+        "入区",
+        "出区"
+      ]
+    }
+  ],
+  "trains": {
+    "tr_R7901": {
+      "trainNumber": "R7901",
+      "trainName": "",
+      "operationNumber": "04",
+      "trainType": "回送",
+      "direction": "Kudari",
+      "destination": "七光台",
+      "prevTrainId": null,
+      "nextTrainId": "tr_R401",
+      "timetable": [
+        {
+          "stationId": "st_000",
+          "trackNum": "出区",
+          "isPass": false,
+          "arrTick": 21000,
+          "depTick": 21000,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 21300,
+          "depTick": 21300,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R401": {
+      "trainNumber": "R401",
+      "trainName": "",
+      "operationNumber": "04",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "運河",
+      "prevTrainId": "tr_R7901",
+      "nextTrainId": "tr_R100",
+      "timetable": [
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 21600,
+          "depTick": 21600,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 22020,
+          "depTick": 22140,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 22440,
+          "depTick": 22440,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R7903": {
+      "trainNumber": "R7903",
+      "trainName": "",
+      "operationNumber": "03",
+      "trainType": "回送",
+      "direction": "Kudari",
+      "destination": "七光台",
+      "prevTrainId": null,
+      "nextTrainId": "tr_R700",
+      "timetable": [
+        {
+          "stationId": "st_000",
+          "trackNum": "出区",
+          "isPass": false,
+          "arrTick": 21960,
+          "depTick": 21960,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 22260,
+          "depTick": 22260,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R101": {
+      "trainNumber": "R101",
+      "trainName": "",
+      "operationNumber": "05",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "運河",
+      "prevTrainId": null,
+      "nextTrainId": "tr_R102",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 21600,
+          "depTick": 21600,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 22260,
+          "depTick": 22380,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "8番線",
+          "isPass": false,
+          "arrTick": 22920,
+          "depTick": 23040,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 23340,
+          "depTick": 23460,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 23880,
+          "depTick": 24000,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 24420,
+          "depTick": 24540,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 24840,
+          "depTick": 24840,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R801": {
+      "trainNumber": "R801",
+      "trainName": "",
+      "operationNumber": "06",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "春日部",
+      "prevTrainId": "tr_R600",
+      "nextTrainId": "tr_R804",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 22800,
+          "depTick": 22800,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 23460,
+          "depTick": 23580,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 24120,
+          "depTick": 24120,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R103": {
+      "trainNumber": "R103",
+      "trainName": "",
+      "operationNumber": "01",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "運河",
+      "prevTrainId": "tr_R800",
+      "nextTrainId": "tr_R104",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 24000,
+          "depTick": 24000,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 24660,
+          "depTick": 24780,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "8番線",
+          "isPass": false,
+          "arrTick": 25320,
+          "depTick": 25440,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 25740,
+          "depTick": 25860,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 26280,
+          "depTick": 26400,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 26820,
+          "depTick": 26940,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 27240,
+          "depTick": 27240,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R803": {
+      "trainNumber": "R803",
+      "trainName": "",
+      "operationNumber": "02",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "春日部",
+      "prevTrainId": "tr_R802",
+      "nextTrainId": "tr_R806",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 25200,
+          "depTick": 25200,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 25860,
+          "depTick": 25980,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 26520,
+          "depTick": 26520,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R105": {
+      "trainNumber": "R105",
+      "trainName": "",
+      "operationNumber": "03",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "運河",
+      "prevTrainId": "tr_R700",
+      "nextTrainId": "tr_R106",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 26400,
+          "depTick": 26400,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 27060,
+          "depTick": 27180,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "8番線",
+          "isPass": false,
+          "arrTick": 27720,
+          "depTick": 27840,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 28140,
+          "depTick": 28260,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 28680,
+          "depTick": 28800,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 29220,
+          "depTick": 29340,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 29640,
+          "depTick": 29640,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R805": {
+      "trainNumber": "R805",
+      "trainName": "",
+      "operationNumber": "06",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "春日部",
+      "prevTrainId": "tr_R804",
+      "nextTrainId": "tr_R808",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 27600,
+          "depTick": 27600,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 28260,
+          "depTick": 28380,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 28920,
+          "depTick": 28920,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R107": {
+      "trainNumber": "R107",
+      "trainName": "",
+      "operationNumber": "04",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "運河",
+      "prevTrainId": "tr_R100",
+      "nextTrainId": "tr_R108",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 28800,
+          "depTick": 28800,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 29460,
+          "depTick": 29580,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "8番線",
+          "isPass": false,
+          "arrTick": 30120,
+          "depTick": 30240,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 30540,
+          "depTick": 30660,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 31080,
+          "depTick": 31200,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 31620,
+          "depTick": 31740,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 32040,
+          "depTick": 32040,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R807": {
+      "trainNumber": "R807",
+      "trainName": "",
+      "operationNumber": "02",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "春日部",
+      "prevTrainId": "tr_R806",
+      "nextTrainId": "tr_R810",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 30000,
+          "depTick": 30000,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 30660,
+          "depTick": 30780,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 31320,
+          "depTick": 31320,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R109": {
+      "trainNumber": "R109",
+      "trainName": "",
+      "operationNumber": "05",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "運河",
+      "prevTrainId": "tr_R102",
+      "nextTrainId": "tr_R110",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 31200,
+          "depTick": 31200,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 31860,
+          "depTick": 31980,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "8番線",
+          "isPass": false,
+          "arrTick": 32520,
+          "depTick": 32640,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 32940,
+          "depTick": 33060,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 33480,
+          "depTick": 33600,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 34020,
+          "depTick": 34140,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 34440,
+          "depTick": 34440,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R809": {
+      "trainNumber": "R809",
+      "trainName": "",
+      "operationNumber": "06",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "春日部",
+      "prevTrainId": "tr_R808",
+      "nextTrainId": "tr_R812",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 32400,
+          "depTick": 32400,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 33060,
+          "depTick": 33180,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 33720,
+          "depTick": 33720,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R111": {
+      "trainNumber": "R111",
+      "trainName": "",
+      "operationNumber": "01",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "運河",
+      "prevTrainId": "tr_R104",
+      "nextTrainId": "tr_R400",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 33600,
+          "depTick": 33600,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 34260,
+          "depTick": 34380,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "8番線",
+          "isPass": false,
+          "arrTick": 34920,
+          "depTick": 35040,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 35340,
+          "depTick": 35460,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 35880,
+          "depTick": 36000,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 36420,
+          "depTick": 36540,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 36840,
+          "depTick": 36840,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R811": {
+      "trainNumber": "R811",
+      "trainName": "",
+      "operationNumber": "02",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "春日部",
+      "prevTrainId": "tr_R810",
+      "nextTrainId": "tr_R814",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 34800,
+          "depTick": 34800,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 35460,
+          "depTick": 35580,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 36120,
+          "depTick": 36120,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R113": {
+      "trainNumber": "R113",
+      "trainName": "",
+      "operationNumber": "03",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "運河",
+      "prevTrainId": "tr_R106",
+      "nextTrainId": "tr_R402",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 36000,
+          "depTick": 36000,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 36660,
+          "depTick": 36780,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "8番線",
+          "isPass": false,
+          "arrTick": 37320,
+          "depTick": 37440,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 37740,
+          "depTick": 37860,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 38280,
+          "depTick": 38400,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 38820,
+          "depTick": 38940,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 39240,
+          "depTick": 39240,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R813": {
+      "trainNumber": "R813",
+      "trainName": "",
+      "operationNumber": "06",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "春日部",
+      "prevTrainId": "tr_R812",
+      "nextTrainId": "tr_R300",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 37200,
+          "depTick": 37200,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 37860,
+          "depTick": 37980,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 38520,
+          "depTick": 38520,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R701": {
+      "trainNumber": "R701",
+      "trainName": "",
+      "operationNumber": "04",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "七光台",
+      "prevTrainId": "tr_R108",
+      "nextTrainId": "tr_R7900",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 38400,
+          "depTick": 38400,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 39060,
+          "depTick": 39180,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "8番線",
+          "isPass": false,
+          "arrTick": 39720,
+          "depTick": 39840,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 40140,
+          "depTick": 40260,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 40680,
+          "depTick": 40680,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R7951": {
+      "trainNumber": "R7951",
+      "trainName": "",
+      "operationNumber": "01",
+      "trainType": "回送",
+      "direction": "Kudari",
+      "destination": "春日部留置線",
+      "prevTrainId": "tr_R400",
+      "nextTrainId": null,
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 40740,
+          "depTick": 40740,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_008",
+          "trackNum": "入区",
+          "isPass": false,
+          "arrTick": 41040,
+          "depTick": 41040,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R815": {
+      "trainNumber": "R815",
+      "trainName": "",
+      "operationNumber": "02",
+      "trainType": "普通",
+      "direction": "Kudari",
+      "destination": "春日部",
+      "prevTrainId": "tr_R814",
+      "nextTrainId": "tr_R7953",
+      "timetable": [
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 39600,
+          "depTick": 39600,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 40260,
+          "depTick": 40380,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 40920,
+          "depTick": 40920,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R7953": {
+      "trainNumber": "R7953",
+      "trainName": "",
+      "operationNumber": "02",
+      "trainType": "回送",
+      "direction": "Kudari",
+      "destination": "春日部留置線",
+      "prevTrainId": "tr_R815",
+      "nextTrainId": null,
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 41220,
+          "depTick": 41220,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_008",
+          "trackNum": "入区",
+          "isPass": false,
+          "arrTick": 41520,
+          "depTick": 41520,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R600": {
+      "trainNumber": "R600",
+      "trainName": "",
+      "operationNumber": "06",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": null,
+      "nextTrainId": "tr_R801",
+      "timetable": [
+        {
+          "stationId": "st_002",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 20820,
+          "depTick": 20820,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 21480,
+          "depTick": 21480,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R7950": {
+      "trainNumber": "R7950",
+      "trainName": "",
+      "operationNumber": "01",
+      "trainType": "回送",
+      "direction": "Nobori",
+      "destination": "春日部",
+      "prevTrainId": null,
+      "nextTrainId": "tr_R800",
+      "timetable": [
+        {
+          "stationId": "st_008",
+          "trackNum": "出区",
+          "isPass": false,
+          "arrTick": 20760,
+          "depTick": 20760,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 21060,
+          "depTick": 21060,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R800": {
+      "trainNumber": "R800",
+      "trainName": "",
+      "operationNumber": "01",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R7950",
+      "nextTrainId": "tr_R103",
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 21360,
+          "depTick": 21360,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 21900,
+          "depTick": 22020,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 22680,
+          "depTick": 22680,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R7952": {
+      "trainNumber": "R7952",
+      "trainName": "",
+      "operationNumber": "02",
+      "trainType": "回送",
+      "direction": "Nobori",
+      "destination": "春日部",
+      "prevTrainId": null,
+      "nextTrainId": "tr_R802",
+      "timetable": [
+        {
+          "stationId": "st_008",
+          "trackNum": "出区",
+          "isPass": false,
+          "arrTick": 21960,
+          "depTick": 21960,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 22260,
+          "depTick": 22260,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R802": {
+      "trainNumber": "R802",
+      "trainName": "",
+      "operationNumber": "02",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R7952",
+      "nextTrainId": "tr_R803",
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 22560,
+          "depTick": 22560,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 23100,
+          "depTick": 23220,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 23880,
+          "depTick": 23880,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R700": {
+      "trainNumber": "R700",
+      "trainName": "",
+      "operationNumber": "03",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R7903",
+      "nextTrainId": "tr_R105",
+      "timetable": [
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 22560,
+          "depTick": 22560,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 22980,
+          "depTick": 23340,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 23640,
+          "depTick": 23760,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 24300,
+          "depTick": 24420,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 25080,
+          "depTick": 25080,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R804": {
+      "trainNumber": "R804",
+      "trainName": "",
+      "operationNumber": "06",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R801",
+      "nextTrainId": "tr_R805",
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 24960,
+          "depTick": 24960,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 25500,
+          "depTick": 25620,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 26280,
+          "depTick": 26280,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R100": {
+      "trainNumber": "R100",
+      "trainName": "",
+      "operationNumber": "04",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R401",
+      "nextTrainId": "tr_R107",
+      "timetable": [
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 24000,
+          "depTick": 24000,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 24300,
+          "depTick": 24420,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 24840,
+          "depTick": 24960,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 25380,
+          "depTick": 25740,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 26040,
+          "depTick": 26160,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 26700,
+          "depTick": 26820,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 27480,
+          "depTick": 27480,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R806": {
+      "trainNumber": "R806",
+      "trainName": "",
+      "operationNumber": "02",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R803",
+      "nextTrainId": "tr_R807",
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 27360,
+          "depTick": 27360,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 27900,
+          "depTick": 28020,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 28680,
+          "depTick": 28680,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R102": {
+      "trainNumber": "R102",
+      "trainName": "",
+      "operationNumber": "05",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R101",
+      "nextTrainId": "tr_R109",
+      "timetable": [
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 26400,
+          "depTick": 26400,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 26700,
+          "depTick": 26820,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 27240,
+          "depTick": 27360,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 27780,
+          "depTick": 28140,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 28440,
+          "depTick": 28560,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 29100,
+          "depTick": 29220,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 29880,
+          "depTick": 29880,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R808": {
+      "trainNumber": "R808",
+      "trainName": "",
+      "operationNumber": "06",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R805",
+      "nextTrainId": "tr_R809",
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 29760,
+          "depTick": 29760,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 30300,
+          "depTick": 30420,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 31080,
+          "depTick": 31080,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R104": {
+      "trainNumber": "R104",
+      "trainName": "",
+      "operationNumber": "01",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R103",
+      "nextTrainId": "tr_R111",
+      "timetable": [
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 28800,
+          "depTick": 28800,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 29100,
+          "depTick": 29220,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 29640,
+          "depTick": 29760,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 30180,
+          "depTick": 30540,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 30840,
+          "depTick": 30960,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 31500,
+          "depTick": 31620,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 32280,
+          "depTick": 32280,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R810": {
+      "trainNumber": "R810",
+      "trainName": "",
+      "operationNumber": "02",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R807",
+      "nextTrainId": "tr_R811",
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 32160,
+          "depTick": 32160,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 32700,
+          "depTick": 32820,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 33480,
+          "depTick": 33480,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R106": {
+      "trainNumber": "R106",
+      "trainName": "",
+      "operationNumber": "03",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R105",
+      "nextTrainId": "tr_R113",
+      "timetable": [
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 31200,
+          "depTick": 31200,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 31500,
+          "depTick": 31620,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 32040,
+          "depTick": 32160,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 32580,
+          "depTick": 32940,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 33240,
+          "depTick": 33360,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 33900,
+          "depTick": 34020,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 34680,
+          "depTick": 34680,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R812": {
+      "trainNumber": "R812",
+      "trainName": "",
+      "operationNumber": "06",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R809",
+      "nextTrainId": "tr_R813",
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 34560,
+          "depTick": 34560,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 35100,
+          "depTick": 35220,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 35880,
+          "depTick": 35880,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R108": {
+      "trainNumber": "R108",
+      "trainName": "",
+      "operationNumber": "04",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R107",
+      "nextTrainId": "tr_R701",
+      "timetable": [
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 33600,
+          "depTick": 33600,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 33900,
+          "depTick": 34020,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 34440,
+          "depTick": 34560,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 34980,
+          "depTick": 35340,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 35640,
+          "depTick": 35760,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 36300,
+          "depTick": 36420,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 37080,
+          "depTick": 37080,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R814": {
+      "trainNumber": "R814",
+      "trainName": "",
+      "operationNumber": "02",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R811",
+      "nextTrainId": "tr_R815",
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 36960,
+          "depTick": 36960,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 37500,
+          "depTick": 37620,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 38280,
+          "depTick": 38280,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R110": {
+      "trainNumber": "R110",
+      "trainName": "",
+      "operationNumber": "05",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "大宮",
+      "prevTrainId": "tr_R109",
+      "nextTrainId": null,
+      "timetable": [
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 36000,
+          "depTick": 36000,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 36300,
+          "depTick": 36420,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 36840,
+          "depTick": 36960,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 37380,
+          "depTick": 37740,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 38040,
+          "depTick": 38160,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 38700,
+          "depTick": 38820,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_001",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 39480,
+          "depTick": 39480,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R300": {
+      "trainNumber": "R300",
+      "trainName": "",
+      "operationNumber": "06",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "岩槻",
+      "prevTrainId": "tr_R813",
+      "nextTrainId": null,
+      "timetable": [
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 39360,
+          "depTick": 39360,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_002",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 39900,
+          "depTick": 39900,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R400": {
+      "trainNumber": "R400",
+      "trainName": "",
+      "operationNumber": "01",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "春日部",
+      "prevTrainId": "tr_R111",
+      "nextTrainId": "tr_R7951",
+      "timetable": [
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 38400,
+          "depTick": 38400,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 38700,
+          "depTick": 38820,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 39240,
+          "depTick": 39360,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_004",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 39780,
+          "depTick": 40140,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_003",
+          "trackNum": "9番線",
+          "isPass": false,
+          "arrTick": 40440,
+          "depTick": 40440,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R7900": {
+      "trainNumber": "R7900",
+      "trainName": "",
+      "operationNumber": "04",
+      "trainType": "回送",
+      "direction": "Nobori",
+      "destination": "南栗橋車両管区七光台支所",
+      "prevTrainId": "tr_R701",
+      "nextTrainId": null,
+      "timetable": [
+        {
+          "stationId": "st_005",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 40980,
+          "depTick": 40980,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_000",
+          "trackNum": "入区",
+          "isPass": false,
+          "arrTick": 41280,
+          "depTick": 41280,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R402": {
+      "trainNumber": "R402",
+      "trainName": "",
+      "operationNumber": "03",
+      "trainType": "普通",
+      "direction": "Nobori",
+      "destination": "七光台",
+      "prevTrainId": "tr_R113",
+      "nextTrainId": "tr_R7902",
+      "timetable": [
+        {
+          "stationId": "st_007",
+          "trackNum": "3番線",
+          "isPass": false,
+          "arrTick": 40800,
+          "depTick": 40800,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_006",
+          "trackNum": "2番線",
+          "isPass": false,
+          "arrTick": 41100,
+          "depTick": 41220,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 41640,
+          "depTick": 41640,
+          "isPassingWait": false
+        }
+      ]
+    },
+    "tr_R7902": {
+      "trainNumber": "R7902",
+      "trainName": "",
+      "operationNumber": "03",
+      "trainType": "回送",
+      "direction": "Nobori",
+      "destination": "南栗橋車両管区七光台支所",
+      "prevTrainId": "tr_R402",
+      "nextTrainId": null,
+      "timetable": [
+        {
+          "stationId": "st_005",
+          "trackNum": "1番線",
+          "isPass": false,
+          "arrTick": 41940,
+          "depTick": 41940,
+          "isPassingWait": false
+        },
+        {
+          "stationId": "st_000",
+          "trackNum": "入区",
+          "isPass": false,
+          "arrTick": 42240,
+          "depTick": 42240,
+          "isPassingWait": false
+        }
+      ]
+    }
+  }
+}
