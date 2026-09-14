@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>列車情報検索システム</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background-color: #f8f9fa; margin: 0; }
+        .container { max-width: 900px; margin: 0 auto; }
+        .result { margin-top: 15px; padding: 20px; background: white; border-radius: 8px; border: 1px solid #ccc; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .train-info { margin-bottom: 20px; }
+        .train-info h3 { margin-top: 0; color: #333; border-bottom: 2px solid #0056b3; padding-bottom: 5px; }
+        .train-info ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+        .train-info li { background: #e9ecef; padding: 8px 12px; border-radius: 4px; border: 1px solid #dee2e6; font-size: 14px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 10px; font-size: 14px; }
+        th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: center; }
+        th { background-color: #f1f3f5; color: #495057; }
+        td:first-child { text-align: left; font-weight: bold; }
+        input[type="text"] { padding: 8px; font-size: 16px; width: 250px; border: 1px solid #ccc; border-radius: 4px; }
+        button { padding: 8px 20px; font-size: 16px; cursor: pointer; background-color: #0056b3; color: white; border: none; border-radius: 4px; }
+        button:hover { background-color: #004494; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>列車情報検索</h2>
+        <p>列車番号を入力してください（例: R111, 7901A）</p>
+        <input type="text" id="trainNumberInput" placeholder="列車番号">
+        <button onclick="searchTrain()">検索</button>
+
+        <div id="resultArea" class="result" style="display:none;"></div>
+    </div>
+
+    <script>
+        let jsonData = null;
+
+        // Honban.json のみを読み込む
+        fetch('Honban.json')
+            .then(response => response.json())
+            .then(data => { jsonData = data; })
+            .catch(error => {
+                console.error('JSON読み込みエラー:', error);
+                alert("Honban.json の読み込みに失敗しました。ファイルが同じフォルダにあるか、ローカルサーバーで実行しているか確認してください。");
+            });
+
+        // 秒数を "HH:MM" 形式に変換する関数
+        function formatTime(seconds) {
+            if (seconds === null || seconds === undefined) return "-";
+            const h = Math.floor(seconds / 3600);
+            const m = Math.floor((seconds % 3600) / 60);
+            // 24時間以上の表記（25:30など）を許容する場合はそのまま計算
+            return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+        }
+
+        function searchTrain() {
+            if (!jsonData) {
+                alert("データの読み込みが完了していません。");
+                return;
+            }
+
+            const inputNum = document.getElementById("trainNumberInput").value.trim();
+            const trainId = "tr_" + inputNum;
+            const train = jsonData.trains[trainId];
+            const resultArea = document.getElementById("resultArea");
+
+            if (train) {
+                // 1. 指定された情報をすべて表示する
+                let html = `<div class="train-info">`;
+                html += `<h3>列車番号: ${train.trainNumber || "-"}</h3>`;
+                html += `<ul>`;
+                html += `<li><strong>列車名:</strong> ${train.trainName || "なし"}</li>`;
+                html += `<li><strong>運用番号:</strong> ${train.operationNumber || "-"}</li>`;
+                html += `<li><strong>種別:</strong> ${train.trainType || "-"}</li>`;
+                html += `<li><strong>方向:</strong> ${train.direction || "-"}</li>`;
+                html += `<li><strong>行き先:</strong> ${train.destination || "-"}</li>`;
+                html += `<li><strong>前運用:</strong> ${train.prevTrainId || "なし"}</li>`;
+                html += `<li><strong>次運用:</strong> ${train.nextTrainId || "なし"}</li>`;
+                html += `</ul></div>`;
+
+                // 2. タイムテーブルの表示
+                html += `<h4>タイムテーブル</h4>`;
+                html += `<table><tr><th>駅名</th><th>番線</th><th>到着</th><th>出発</th><th>備考</th></tr>`;
+                
+                train.timetable.forEach(stop => {
+                    const station = jsonData.stations.find(s => s.id === stop.stationId);
+                    const stationName = station ? station.name : "不明";
+                    
+                    let arrText, depText;
+
+                    // isPass が true の場合は強制的に「通過」
+                    if (stop.isPass) {
+                        arrText = "通過";
+                        depText = "通過";
+                    } else {
+                        // 秒数を 時:分 に変換
+                        arrText = formatTime(stop.arrTick);
+                        depText = formatTime(stop.depTick);
+                    }
+
+                    // isPassingWait が true の場合は備考に「待避あり」と表示
+                    const note = stop.isPassingWait ? "<span style='color:red; font-weight:bold;'>待避あり</span>" : "";
+                    const track = stop.trackNum || "-";
+
+                    html += `<tr>
+                                <td>${stationName}</td>
+                                <td>${track}</td>
+                                <td>${arrText}</td>
+                                <td>${depText}</td>
+                                <td>${note}</td>
+                             </tr>`;
+                });
+                
+                html += `</table>`;
+                resultArea.innerHTML = html;
+                resultArea.style.display = "block";
+            } else {
+                resultArea.innerHTML = "<p style='color:red; font-weight:bold;'>指定された列車は見つかりませんでした。</p>";
+                resultArea.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
