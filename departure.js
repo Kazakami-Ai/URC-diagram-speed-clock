@@ -562,13 +562,12 @@ function updateClock() {
 }
 
 async function initializeFirebase() {
-  firebaseStatus.textContent = USE_FIREBASE_EMULATOR ? "Firebase Emulator: 接続中…" : "Firebase: 接続中…";
+  firebaseStatus.textContent = "Firebase: 接続中…";
   try {
     const app = initializeApp(firebaseConfig);
     database = getDatabase(app);
-    if (USE_FIREBASE_EMULATOR) connectDatabaseEmulator(database, EMULATOR_HOST, EMULATOR_DATABASE_PORT);
     firebaseReady = true;
-    firebaseStatus.textContent = USE_FIREBASE_EMULATOR ? "Firebase Emulator: 接続済み" : "Firebase: 接続済み";
+    firebaseStatus.textContent = "Firebase: 接続済み";
     firebaseStatus.className = "connection connected";
 
     const systemRef = ref(database, "system");
