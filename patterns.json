@@ -1,0 +1,4930 @@
+{
+  "南栗橋車両管区七光台支所_kudari": [
+    {
+      "time_seconds": 21000,
+      "parts": [
+        {
+          "text": "R7901",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "5:50",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "回送",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#808080"
+          }
+        },
+        {
+          "text": "七光台",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 21960,
+      "parts": [
+        {
+          "text": "R7903",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:06",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "回送",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#808080"
+          }
+        },
+        {
+          "text": "七光台",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "七光台_kudari": [
+    {
+      "time_seconds": 21600,
+      "parts": [
+        {
+          "text": "R401",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:00☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 24000,
+      "parts": [
+        {
+          "text": "R101",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:40",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 26400,
+      "parts": [
+        {
+          "text": "R103",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:20",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 28800,
+      "parts": [
+        {
+          "text": "R105",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:00",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 31200,
+      "parts": [
+        {
+          "text": "R107",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:40",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 33600,
+      "parts": [
+        {
+          "text": "R109",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:20",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 36000,
+      "parts": [
+        {
+          "text": "R111",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:00",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 38400,
+      "parts": [
+        {
+          "text": "R113",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:40",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "野田市_kudari": [
+    {
+      "time_seconds": 22140,
+      "parts": [
+        {
+          "text": "R401",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:09",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 24540,
+      "parts": [
+        {
+          "text": "R101",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:49",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 26940,
+      "parts": [
+        {
+          "text": "R103",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:29",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 29340,
+      "parts": [
+        {
+          "text": "R105",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:09",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 31740,
+      "parts": [
+        {
+          "text": "R107",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:49",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 34140,
+      "parts": [
+        {
+          "text": "R109",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:29",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 36540,
+      "parts": [
+        {
+          "text": "R111",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:09",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 38940,
+      "parts": [
+        {
+          "text": "R113",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:49",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "運河_kudari": [],
+  "大宮_kudari": [
+    {
+      "time_seconds": 21600,
+      "parts": [
+        {
+          "text": "R101",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:00☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 22800,
+      "parts": [
+        {
+          "text": "R801",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:20☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 24000,
+      "parts": [
+        {
+          "text": "R103",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:40☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 25200,
+      "parts": [
+        {
+          "text": "R803",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:00☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 26400,
+      "parts": [
+        {
+          "text": "R105",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:20☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 27600,
+      "parts": [
+        {
+          "text": "R805",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:40☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 28800,
+      "parts": [
+        {
+          "text": "R107",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:00☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 30000,
+      "parts": [
+        {
+          "text": "R807",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:20☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 31200,
+      "parts": [
+        {
+          "text": "R109",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:40☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 32400,
+      "parts": [
+        {
+          "text": "R809",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:00☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 33600,
+      "parts": [
+        {
+          "text": "R111",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:20☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 34800,
+      "parts": [
+        {
+          "text": "R811",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:40☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 36000,
+      "parts": [
+        {
+          "text": "R113",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:00☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 37200,
+      "parts": [
+        {
+          "text": "R813",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:20☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 38400,
+      "parts": [
+        {
+          "text": "R701",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:40☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "七光台",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 39600,
+      "parts": [
+        {
+          "text": "R815",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:00☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "岩槻_kudari": [
+    {
+      "time_seconds": 22380,
+      "parts": [
+        {
+          "text": "R101",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:13",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 23580,
+      "parts": [
+        {
+          "text": "R801",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:33",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 24780,
+      "parts": [
+        {
+          "text": "R103",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:53",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 25980,
+      "parts": [
+        {
+          "text": "R803",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:13",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 27180,
+      "parts": [
+        {
+          "text": "R105",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:33",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 28380,
+      "parts": [
+        {
+          "text": "R805",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:53",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 29580,
+      "parts": [
+        {
+          "text": "R107",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:13",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 30780,
+      "parts": [
+        {
+          "text": "R807",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:33",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 31980,
+      "parts": [
+        {
+          "text": "R109",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:53",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 33180,
+      "parts": [
+        {
+          "text": "R809",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:13",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 34380,
+      "parts": [
+        {
+          "text": "R111",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:33",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 35580,
+      "parts": [
+        {
+          "text": "R811",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:53",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 36780,
+      "parts": [
+        {
+          "text": "R113",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:13",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 37980,
+      "parts": [
+        {
+          "text": "R813",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:33",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 39180,
+      "parts": [
+        {
+          "text": "R701",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:53",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "七光台",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 40380,
+      "parts": [
+        {
+          "text": "R815",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:13",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "春日部_kudari": [
+    {
+      "time_seconds": 23040,
+      "parts": [
+        {
+          "text": "R101",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:24",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 25440,
+      "parts": [
+        {
+          "text": "R103",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:04",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 27840,
+      "parts": [
+        {
+          "text": "R105",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:44",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 30240,
+      "parts": [
+        {
+          "text": "R107",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:24",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 32640,
+      "parts": [
+        {
+          "text": "R109",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:04",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 35040,
+      "parts": [
+        {
+          "text": "R111",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:44",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 37440,
+      "parts": [
+        {
+          "text": "R113",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:24",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 39840,
+      "parts": [
+        {
+          "text": "R701",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:04",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "七光台",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 40740,
+      "parts": [
+        {
+          "text": "R7951",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:19☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "回送",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#808080"
+          }
+        },
+        {
+          "text": "春日部留置線",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 41220,
+      "parts": [
+        {
+          "text": "R7953",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:27☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "回送",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#808080"
+          }
+        },
+        {
+          "text": "春日部留置線",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "南桜井_kudari": [
+    {
+      "time_seconds": 23460,
+      "parts": [
+        {
+          "text": "R101",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:31",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 25860,
+      "parts": [
+        {
+          "text": "R103",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:11",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 28260,
+      "parts": [
+        {
+          "text": "R105",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:51",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 30660,
+      "parts": [
+        {
+          "text": "R107",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:31",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 33060,
+      "parts": [
+        {
+          "text": "R109",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:11",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 35460,
+      "parts": [
+        {
+          "text": "R111",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:51",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 37860,
+      "parts": [
+        {
+          "text": "R113",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:31",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "運河",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 40260,
+      "parts": [
+        {
+          "text": "R701",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:11",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "七光台",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "春日部留置線_kudari": [],
+  "岩槻_nobori": [
+    {
+      "time_seconds": 20820,
+      "parts": [
+        {
+          "text": "R600",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "5:47☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 22020,
+      "parts": [
+        {
+          "text": "R800",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:07",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 23220,
+      "parts": [
+        {
+          "text": "R802",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:27",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 24420,
+      "parts": [
+        {
+          "text": "R700",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:47",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 25620,
+      "parts": [
+        {
+          "text": "R804",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:07",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 26820,
+      "parts": [
+        {
+          "text": "R100",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:27",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 28020,
+      "parts": [
+        {
+          "text": "R806",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:47",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 29220,
+      "parts": [
+        {
+          "text": "R102",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:07",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 30420,
+      "parts": [
+        {
+          "text": "R808",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:27",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 31620,
+      "parts": [
+        {
+          "text": "R104",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:47",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 32820,
+      "parts": [
+        {
+          "text": "R810",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:07",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 34020,
+      "parts": [
+        {
+          "text": "R106",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:27",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 35220,
+      "parts": [
+        {
+          "text": "R812",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:47",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 36420,
+      "parts": [
+        {
+          "text": "R108",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:07",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 37620,
+      "parts": [
+        {
+          "text": "R814",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:27",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 38820,
+      "parts": [
+        {
+          "text": "R110",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:47",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "大宮_nobori": [],
+  "春日部留置線_nobori": [
+    {
+      "time_seconds": 20760,
+      "parts": [
+        {
+          "text": "R7950",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "5:46",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "回送",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#808080"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 21960,
+      "parts": [
+        {
+          "text": "R7952",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:06",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "回送",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#808080"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "春日部_nobori": [
+    {
+      "time_seconds": 21360,
+      "parts": [
+        {
+          "text": "R800",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "5:56☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 22560,
+      "parts": [
+        {
+          "text": "R802",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:16☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 23760,
+      "parts": [
+        {
+          "text": "R700",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:36",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 24960,
+      "parts": [
+        {
+          "text": "R804",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:56☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 26160,
+      "parts": [
+        {
+          "text": "R100",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:16",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 27360,
+      "parts": [
+        {
+          "text": "R806",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:36☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 28560,
+      "parts": [
+        {
+          "text": "R102",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:56",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 29760,
+      "parts": [
+        {
+          "text": "R808",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:16☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 30960,
+      "parts": [
+        {
+          "text": "R104",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:36",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 32160,
+      "parts": [
+        {
+          "text": "R810",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:56☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 33360,
+      "parts": [
+        {
+          "text": "R106",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:16",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 34560,
+      "parts": [
+        {
+          "text": "R812",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:36☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 35760,
+      "parts": [
+        {
+          "text": "R108",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:56",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 36960,
+      "parts": [
+        {
+          "text": "R814",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:16☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 38160,
+      "parts": [
+        {
+          "text": "R110",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:36",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 39360,
+      "parts": [
+        {
+          "text": "R300",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:56☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "岩槻",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "七光台_nobori": [
+    {
+      "time_seconds": 22560,
+      "parts": [
+        {
+          "text": "R700",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:16☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 24960,
+      "parts": [
+        {
+          "text": "R100",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:56",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 27360,
+      "parts": [
+        {
+          "text": "R102",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:36",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 29760,
+      "parts": [
+        {
+          "text": "R104",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:16",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 32160,
+      "parts": [
+        {
+          "text": "R106",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:56",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 34560,
+      "parts": [
+        {
+          "text": "R108",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:36",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 36960,
+      "parts": [
+        {
+          "text": "R110",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:16",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 39360,
+      "parts": [
+        {
+          "text": "R400",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:56",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 40980,
+      "parts": [
+        {
+          "text": "R7900",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:23☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "回送",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#808080"
+          }
+        },
+        {
+          "text": "南栗橋車両管区七光台支所",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 41940,
+      "parts": [
+        {
+          "text": "R7902",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "1",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:39☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "回送",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#808080"
+          }
+        },
+        {
+          "text": "南栗橋車両管区七光台支所",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "南桜井_nobori": [
+    {
+      "time_seconds": 23340,
+      "parts": [
+        {
+          "text": "R700",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:29",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 25740,
+      "parts": [
+        {
+          "text": "R100",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:09",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 28140,
+      "parts": [
+        {
+          "text": "R102",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:49",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 30540,
+      "parts": [
+        {
+          "text": "R104",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:29",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 32940,
+      "parts": [
+        {
+          "text": "R106",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:09",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 35340,
+      "parts": [
+        {
+          "text": "R108",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:49",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 37740,
+      "parts": [
+        {
+          "text": "R110",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:29",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 40140,
+      "parts": [
+        {
+          "text": "R400",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:09",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "運河_nobori": [
+    {
+      "time_seconds": 24000,
+      "parts": [
+        {
+          "text": "R100",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:40☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 26400,
+      "parts": [
+        {
+          "text": "R102",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:20☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 28800,
+      "parts": [
+        {
+          "text": "R104",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:00☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 31200,
+      "parts": [
+        {
+          "text": "R106",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:40☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 33600,
+      "parts": [
+        {
+          "text": "R108",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:20☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 36000,
+      "parts": [
+        {
+          "text": "R110",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:00☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 38400,
+      "parts": [
+        {
+          "text": "R400",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:40☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 40800,
+      "parts": [
+        {
+          "text": "R402",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "3",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:20☆",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "七光台",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "野田市_nobori": [
+    {
+      "time_seconds": 24420,
+      "parts": [
+        {
+          "text": "R100",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "6:47",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 26820,
+      "parts": [
+        {
+          "text": "R102",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "7:27",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 29220,
+      "parts": [
+        {
+          "text": "R104",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:07",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 31620,
+      "parts": [
+        {
+          "text": "R106",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "8:47",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 34020,
+      "parts": [
+        {
+          "text": "R108",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "9:27",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 36420,
+      "parts": [
+        {
+          "text": "R110",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:07",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "大宮",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 38820,
+      "parts": [
+        {
+          "text": "R400",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "10:47",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "春日部",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "time_seconds": 41220,
+      "parts": [
+        {
+          "text": "R402",
+          "style": {
+            "color": "#ff9900"
+          }
+        },
+        {
+          "text": "2",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "11:27",
+          "style": {
+            "color": "#ffffff"
+          }
+        },
+        {
+          "text": "普通",
+          "style": {
+            "color": "#ffffff",
+            "backgroundColor": "#000000"
+          }
+        },
+        {
+          "text": "七光台",
+          "style": {
+            "color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "南栗橋車両管区七光台支所_nobori": []
+}
