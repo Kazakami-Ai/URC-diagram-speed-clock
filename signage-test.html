@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>汎用電光掲示板 テスト | P-System</title>
+  <style>
+    body{margin:0;background:#fff;font-family:Arial,"Yu Gothic",Meiryo,sans-serif}
+    .test-tools{margin:12px clamp(12px,3.1vw,50px) 24px;border:1px solid #ccc;border-radius:8px;padding:12px;color:#333;font-size:14px}
+    .test-tools summary{cursor:pointer}.test-tools p{line-height:1.7}.test-tools .controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:12px 0}
+    .test-tools input,.test-tools select,.test-tools button{font:inherit;padding:6px;max-width:100%;box-sizing:border-box}.test-tools button{cursor:pointer}.test-tools input[type=number]{width:110px}
+    .test-tools fieldset{min-width:0;border:0;padding:0;margin:0}.test-tools select{max-width:100%}.test-tools #test-train{width:440px}
+    #test-result{white-space:pre-wrap;color:#703600}.fatal{padding:30px;color:#b00020}
+  </style>
+</head>
+<body>
+  <main id="signage"></main>
+  <details class="test-tools" open>
+    <summary>表示テスト・接続</summary>
+    <p>「駅選択」で駅・番線を選んでください。初期状態はローカル表示テストです。遅延・見合わせのテスト操作は、この画面内だけに反映します。</p>
+    <div class="controls">
+      <button id="connect" type="button" disabled>開発エミュレータに接続</button>
+      <button id="disconnect" type="button" disabled>ローカル表示に戻る</button>
+    </div>
+    <fieldset id="local-controls" disabled>
+      <legend>ローカル表示テスト</legend>
+      <div class="controls">
+        <label>模型時刻 <input id="test-time" type="text" value="12:34:00" placeholder="HH:MM:SS" size="10" inputmode="numeric" aria-label="模型時刻 HH:MM:SS（00～29時）"></label>
+        <button id="apply-time" type="button">時刻を反映</button>
+        <button id="advance" type="button">1分進める</button>
+      </div>
+      <div class="controls">
+        <label>対象列車 <select id="test-train" aria-label="運行情報テストの対象列車"></select></label>
+        <label>遅延（模型分） <input id="test-delay" type="number" value="5" min="0.02" step="any"></label>
+        <button id="delay" type="button">遅延を表示</button>
+        <button id="suspend" type="button">見合わせを表示</button>
+        <button id="clear-info" type="button">テスト運行情報を全解除</button>
+      </div>
+    </fieldset>
+    <p id="test-result" role="status">JSON読み込み中…</p>
+  </details>
+  <script type="module">
+    import { loadSignageData, mountSignage, connectSignage, selectSignageRows, findNextDeparture } from './signage.js';
+    import { connectDevelopmentDSFirebase, delayMinutesToTicks } from './ds-info.js';
+    import { formatTick, DAY_TICKS } from './tick.js';
+    const $ = id => document.getElementById(id);
+    let view, loaded, connection, binding, connecting = false, disposed = false;
+    let localTick = 12 * 3600 + 34 * 60, records = [], choiceKey = null;
+    const report = message => { $('test-result').textContent = message; };
+    const fail = error => report(error.message ?? String(error));
+    function refreshTrains(choice) {
+      choiceKey = choice.key;
+      const rows = selectSignageRows(loaded.data, choice.stationId, choice.tracks);
+      const unique = [...new Map(rows.map(row => [`${row.direction}/${row.trainId}`, row])).values()];
+      $('test-train').replaceChildren(...unique.map(row => {
+        const option = document.createElement('option'); option.value = `${row.direction}/${row.trainId}`;
+        option.textContent = `${row.direction === 'up' ? '上り' : '下り'} ${row.train.trainNumber || row.trainId} ${row.train.trainType} ${row.train.destination} (${row.stop.trackNum})`;
+        return option;
+      }));
+      const next = findNextDeparture(unique, localTick);
+      if (next >= 0) $('test-train').value = `${unique[next].direction}/${unique[next].trainId}`;
+    }
+    function build() {
+      view?.dispose();
+      view = mountSignage({ root: $('signage'), ...loaded,
+        initialChoice: choiceKey, onSelectionChange: refreshTrains });
+      view.setTick(localTick); view.setInfo(records); view.setStatus('ローカル表示テスト（共有時計未接続）');
+    }
+    function setLocalTick(tick) { localTick = tick; view.setTick(tick); $('test-time').value = formatTick(tick); }
+    function setRecord(mode) {
+      if (connection) return;
+      const choice = view.getSelection();
+      if (!choice || !$('test-train').value) throw new Error('駅・番線と対象列車を選択してください。');
+      const [direction, trainId] = $('test-train').value.split('/');
+      const delayTicks = mode === 'delay' ? delayMinutesToTicks(Number($('test-delay').value)) : 0;
+      records = records.filter(r => r.direction !== direction || r.trainId !== trainId);
+      records.push({ direction, trainId, stationKey: choice.stationId, delayed: mode === 'delay' ? 1 : 0,
+        suspended: mode === 'suspend' ? 1 : 0, delayTicks });
+      view.setInfo(records); report('この画面にテスト運行情報を反映しました。');
+    }
+    const handle = (id, callback) => $(id).addEventListener('click', () => { try { callback(); } catch (error) { fail(error); } });
+    handle('apply-time', () => {
+      const parts = /^(\d{1,2}):([0-5]\d)(?::([0-5]\d))?$/.exec($('test-time').value.trim());
+      if (!parts || Number(parts[1]) >= 30) throw new Error('00:00:00～29:59:59の時刻を入力してください。');
+      setLocalTick(Number(parts[1]) * 3600 + Number(parts[2]) * 60 + Number(parts[3] ?? 0));
+    });
+    handle('advance', () => setLocalTick((localTick + 60) % DAY_TICKS));
+    handle('delay', () => setRecord('delay')); handle('suspend', () => setRecord('suspend'));
+    handle('clear-info', () => { records = []; view.setInfo([]); report('テスト運行情報を解除しました。'); });
+    $('connect').addEventListener('click', async () => {
+      if (connecting || connection) return;
+      connecting = true; $('connect').disabled = true; $('local-controls').disabled = true;
+      report('開発エミュレータへ接続中…');
+      try {
+        const next = await connectDevelopmentDSFirebase();
+        if (disposed) { await next.close(); return; }
+        connection = next; view.setTick(null); view.setInfo([]); view.setError(null);
+        binding = connectSignage({ view, data: loaded.data, connection });
+        $('disconnect').disabled = false;
+        report('開発接続を開始しました。時計設定はadmin.html、運行情報の登録はds-station-test.htmlで行ってください。');
+      } catch (error) {
+        binding?.dispose(); binding = null;
+        if (connection) await connection.close(); connection = null;
+        $('connect').disabled = false; $('local-controls').disabled = false;
+        build(); fail(error);
+      } finally { connecting = false; }
+    });
+    $('disconnect').addEventListener('click', async () => {
+      $('disconnect').disabled = true; binding?.dispose(); binding = null;
+      const previous = connection; connection = null;
+      try { await previous?.close(); } catch (error) { fail(error); }
+      $('connect').disabled = false; $('local-controls').disabled = false;
+      build(); report('ローカル表示テストに戻りました。');
+    });
+    window.addEventListener('pagehide', () => { disposed = true; binding?.dispose(); view?.dispose(); connection?.close(); }, { once: true });
+    try {
+      let warning = '';
+      loaded = await loadSignageData({ onWarning: error => { warning = error.message; } });
+      build(); $('connect').disabled = false; $('local-controls').disabled = false;
+      report(warning || '準備完了。「駅選択」で表示を開始します。');
+    } catch (error) {
+      const message = document.createElement('p'); message.className = 'fatal';
+      message.textContent = `読み込みに失敗しました: ${error.message}。HTTPサーバー経由で開いてください。`;
+      $('signage').append(message); document.querySelector('.test-tools').hidden = true;
+    }
+  </script>
+</body>
+</html>
